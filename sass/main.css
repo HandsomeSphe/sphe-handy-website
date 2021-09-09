@@ -66,7 +66,7 @@ body {
 @media only screen and (max-width: 43.75em) {
   .header__title {
     margin-top: 2rem;
-    padding: 1rem 0 0 2rem;
+    padding: 0.7rem 0 0 2rem;
   }
 }
 
@@ -128,7 +128,7 @@ h1 {
 
 @media only screen and (max-width: 43.75em) {
   h1 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
   }
 }
 
@@ -166,7 +166,7 @@ h1 {
 @media only screen and (max-width: 43.75em) {
   .h1 {
     height: 3.9rem;
-    width: 83%;
+    width: 79%;
     margin-bottom: 0.8rem;
   }
 }
@@ -174,7 +174,7 @@ h1 {
 @media only screen and (max-width: 31.25em) {
   .h1 {
     height: 3.2rem;
-    width: 86%;
+    width: 87%;
     margin-bottom: 0.7rem;
   }
 }
@@ -237,7 +237,7 @@ h1 {
 
 @media only screen and (max-width: 43.75em) {
   .options span {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
   }
 }
 
@@ -325,6 +325,15 @@ h1 {
   font-weight: 400;
 }
 
+@media only screen and (max-width: 43.75em) {
+  .person-description {
+    width: 86%;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .person-description {
     width: 90%;
@@ -372,6 +381,14 @@ h1 {
   transition: all ease-in 0.4s;
 }
 
+@media only screen and (max-width: 43.75em) {
+  .whatsapp__btn {
+    width: 10rem;
+    height: 2.6rem;
+    font-size: 0.9rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .whatsapp__btn {
     width: 10rem;
@@ -408,6 +425,12 @@ h1 {
   position: absolute;
   top: 0;
   left: 6%;
+}
+
+@media only screen and (max-width: 43.75em) {
+  .random-line {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -506,6 +529,13 @@ h1 {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 43.75em) {
+  .logo {
+    width: 2.1rem;
+    height: 2rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .logo {
     width: 2rem;
@@ -542,6 +572,13 @@ h1 {
           align-items: center;
 }
 
+@media only screen and (max-width: 43.75em) {
+  .nav {
+    height: 5rem;
+    padding: 1.4rem 2rem;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .nav {
     height: 3.5rem;
@@ -574,6 +611,12 @@ h1 {
   list-style-type: none;
 }
 
+@media only screen and (max-width: 43.75em) {
+  .nav__links {
+    width: 75%;
+  }
+}
+
 @media only screen and (max-width: 31.25em) {
   .nav__links {
     display: none;
@@ -604,6 +647,12 @@ h1 {
   color: rgba(255, 255, 255, 0.8);
 }
 
+@media only screen and (max-width: 43.75em) {
+  .nav__link {
+    font-size: 0.7rem;
+  }
+}
+
 .nav__item--btn {
   width: 8rem;
   border: 0.15rem solid #adf0d1;
@@ -627,6 +676,12 @@ h1 {
   height: 1.5rem;
   cursor: pointer;
   display: none;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .burger__icon {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 23.4em) {

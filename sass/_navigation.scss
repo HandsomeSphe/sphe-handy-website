@@ -3,10 +3,10 @@
   width: 2rem;
   height: 2.1rem;
   cursor: pointer;
-  // @include respond(tab-port) {
-  //   width: 2.1rem;
-  //   height: 2.2rem;
-  // }
+  @include respond(tab-port) {
+    width: 2.1rem;
+    height: 2rem;
+  }
   @include respond(m-phone) {
     width: 2rem;
     height: 2.1rem;
@@ -27,10 +27,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // @include respond(tab-port) {
-  //   height: 5rem;
-  //   padding: 1.4rem 2rem;
-  // }
+  @include respond(tab-port) {
+    height: 5rem;
+    padding: 1.4rem 2rem;
+  }
   @include respond(m-phone) {
     height: 3.5rem;
     padding: 1.4rem 2rem;
@@ -50,9 +50,9 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    // @include respond(tab-port) {
-    //   display: none;
-    // }
+    @include respond(tab-port) {
+      width: 75%;
+    }
     @include respond(m-phone) {
       display: none;
     }
@@ -72,6 +72,9 @@
     font-size: 1rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.8);
+    @include respond(tab-port) {
+      font-size: 0.7rem;
+    }
   }
 }
 .nav__item--btn {
@@ -94,10 +97,12 @@
   height: 1.5rem;
   cursor: pointer;
   display: none;
-
-  // @include respond(m-phone) {
+  // @include respond(tab-port) {
   //   display: block;
   // }
+  @include respond(m-phone) {
+    display: block;
+  }
   @include respond(s-phone) {
     display: block;
   }
