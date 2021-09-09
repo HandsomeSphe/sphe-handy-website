@@ -1,0 +1,151 @@
+///Navigation
+.logo {
+  width: 2rem;
+  height: 2.1rem;
+  cursor: pointer;
+  @include respond(tab-port) {
+    width: 2.1rem;
+    height: 2.2rem;
+  }
+  @include respond(m-phone) {
+    width: 2rem;
+    height: 2.1rem;
+  }
+  @include respond(s-phone) {
+    width: 1.9rem;
+    height: 2rem;
+  }
+  @include respond(xs-phone) {
+    width: 1.7rem;
+    height: 1.8rem;
+  }
+}
+.nav {
+  width: 100%;
+  height: 5.8rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include respond(tab-port) {
+    height: 5rem;
+    padding: 1.4rem 2rem;
+  }
+  @include respond(m-phone) {
+    height: 3.5rem;
+    padding: 1.4rem 2rem;
+  }
+  @include respond(s-phone) {
+    height: 5.5rem;
+    padding: 1.3rem 1.55rem;
+  }
+  @include respond(xs-phone) {
+    height: 5rem;
+    padding: 1.3rem 1.5rem;
+  }
+
+  //Links
+  &__links {
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    @include respond(tab-port) {
+      display: none;
+    }
+    @include respond(m-phone) {
+      display: none;
+    }
+    @include respond(s-phone) {
+      display: none;
+    }
+    @include respond(xs-phone) {
+      display: none;
+    }
+  }
+  &__item {
+    width: 8.7rem;
+    text-align: center;
+  }
+  &__link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+.nav__item--btn {
+  width: 8rem;
+  border: 0.15rem solid rgba(173, 240, 209, 1);
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all ease-in 0.4s;
+}
+.nav__link--btn {
+  color: rgba(173, 240, 209, 1);
+}
+.nav__item--btn:hover {
+  background-color: rgba(173, 240, 209, 0.45);
+  border: 0.15rem solid rgba(173, 240, 209, 0.45);
+}
+/// Burger icon
+.burger__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  display: none;
+  @include respond(tab-port) {
+    display: block;
+  }
+  @include respond(m-phone) {
+    display: block;
+  }
+  @include respond(s-phone) {
+    display: block;
+  }
+  @include respond(xs-phone) {
+    display: block;
+  }
+}
+
+.burger__icon--line {
+  width: 100%;
+  height: 0.21rem;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.burger__icon--line:not(:last-child) {
+  margin-bottom: 0.15rem;
+}
+.menu {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(1, 31, 60, 0.97);
+  padding: 2rem 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  //Hide
+  display: none;
+  &__links {
+    width: 100%;
+    height: 65vh;
+    margin-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  &__item {
+    width: 30%;
+    text-align: center;
+  }
+  &__link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
