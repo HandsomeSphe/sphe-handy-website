@@ -506,13 +506,6 @@ h1 {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 43.75em) {
-  .logo {
-    width: 2.1rem;
-    height: 2.2rem;
-  }
-}
-
 @media only screen and (max-width: 31.25em) {
   .logo {
     width: 2rem;
@@ -549,13 +542,6 @@ h1 {
           align-items: center;
 }
 
-@media only screen and (max-width: 43.75em) {
-  .nav {
-    height: 5rem;
-    padding: 1.4rem 2rem;
-  }
-}
-
 @media only screen and (max-width: 31.25em) {
   .nav {
     height: 3.5rem;
@@ -586,12 +572,6 @@ h1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style-type: none;
-}
-
-@media only screen and (max-width: 43.75em) {
-  .nav__links {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 31.25em) {
@@ -647,18 +627,6 @@ h1 {
   height: 1.5rem;
   cursor: pointer;
   display: none;
-}
-
-@media only screen and (max-width: 43.75em) {
-  .burger__icon {
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 31.25em) {
-  .burger__icon {
-    display: block;
-  }
 }
 
 @media only screen and (max-width: 23.4em) {
