@@ -46,13 +46,6 @@ body {
   position: relative;
 }
 
-@media only screen and (min-width: 64em) {
-  .header {
-    width: 100%;
-    height: 100vh;
-  }
-}
-
 @media only screen and (max-width: 48em) {
   .header {
     width: 1005;
@@ -83,16 +76,9 @@ body {
 
 .header__title {
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 6rem;
   padding: 2rem 0 0 12rem;
   line-height: 1.5;
-}
-
-@media only screen and (min-width: 64em) {
-  .header__title {
-    width: 100%;
-    padding: 2rem 0 0 12rem;
-  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -124,16 +110,9 @@ body {
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
-}
-
-@media only screen and (min-width: 64em) {
-  h5 {
-    font-size: 1rem;
-    font-weight: 500;
-  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -161,14 +140,8 @@ h5 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: rgba(255, 255, 255, 0.95);
-}
-
-@media only screen and (min-width: 64em) {
-  h1 {
-    font-size: 4rem;
-  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -202,17 +175,10 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 64%;
-  height: 6rem;
+  width: 58%;
+  height: 9rem;
   color: rgba(255, 255, 255, 0.65);
   font-weight: 700;
-}
-
-@media only screen and (min-width: 64em) {
-  .h1 {
-    width: 64%;
-    height: 6rem;
-  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -248,14 +214,8 @@ h1 {
 }
 
 .options {
-  width: 22rem;
+  width: 27rem;
   overflow: hidden;
-}
-
-@media only screen and (min-width: 64em) {
-  .options {
-    width: 22rem;
-  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -287,16 +247,10 @@ h1 {
   height: 100%;
   padding-left: 0.1rem;
   padding-top: 0.35rem;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
   -webkit-animation: spin_words 6s infinite;
           animation: spin_words 6s infinite;
-}
-
-@media only screen and (min-width: 64em) {
-  .options span {
-    font-size: 4rem;
-  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -381,21 +335,13 @@ h1 {
 }
 
 .person-description {
-  font-size: 1rem;
-  width: 58%;
-  line-height: 1.9rem;
+  font-size: 1.6rem;
+  height: 9rem;
+  width: 60%;
+  line-height: 2.7rem;
   margin-bottom: 4rem;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
-}
-
-@media only screen and (min-width: 64em) {
-  .person-description {
-    width: 58%;
-    font-size: 1rem;
-    line-height: 1.9rem;
-    margin-bottom: 4rem;
-  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -440,26 +386,18 @@ h1 {
 }
 
 .whatsapp__btn {
-  width: 14rem;
-  height: 3rem;
+  width: 20rem;
+  height: 4.2rem;
   border: none;
   background-color: transparent;
   border: 0.15rem solid rgba(173, 240, 209, 0.9);
   color: rgba(173, 240, 209, 0.9);
-  font-size: 1rem;
+  font-size: 1.4rem;
   letter-spacing: 3%;
   cursor: pointer;
   border-radius: 0.1rem;
   -webkit-transition: all ease-in 0.4s;
   transition: all ease-in 0.4s;
-}
-
-@media only screen and (min-width: 64em) {
-  .whatsapp__btn {
-    width: 14rem;
-    height: 3rem;
-    font-size: 1rem;
-  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -605,16 +543,9 @@ h1 {
 }
 
 .logo {
-  width: 2rem;
-  height: 2.1rem;
+  width: 3.5rem;
+  height: 3.5rem;
   cursor: pointer;
-}
-
-@media only screen and (min-width: 64em) {
-  .logo {
-    width: 2rem;
-    height: 2.1rem;
-  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -647,8 +578,8 @@ h1 {
 
 .nav {
   width: 100%;
-  height: 5.8rem;
-  padding: 1rem 2rem;
+  height: 8rem;
+  padding: 2rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -658,14 +589,6 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-@media only screen and (min-width: 64em) {
-  .nav {
-    width: 100%;
-    height: 5.8rem;
-    padding: 1rem 2rem;
-  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -697,7 +620,7 @@ h1 {
 }
 
 .nav__links {
-  width: 47%;
+  width: 53%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -705,12 +628,6 @@ h1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style-type: none;
-}
-
-@media only screen and (min-width: 64em) {
-  .nav__links {
-    width: 47%;
-  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -738,13 +655,13 @@ h1 {
 }
 
 .nav__item {
-  width: 8.7rem;
+  width: 13rem;
   text-align: center;
 }
 
 .nav__link {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -756,8 +673,8 @@ h1 {
 }
 
 .nav__item--btn {
-  width: 8rem;
-  border: 0.15rem solid #adf0d1;
+  width: 10rem;
+  border: 0.2rem solid #adf0d1;
   border-radius: 2rem;
   cursor: pointer;
   -webkit-transition: all ease-in 0.4s;
@@ -770,7 +687,7 @@ h1 {
 
 .nav__item--btn:hover {
   background-color: rgba(173, 240, 209, 0.45);
-  border: 0.15rem solid rgba(173, 240, 209, 0.45);
+  border: 0.2rem solid rgba(173, 240, 209, 0.45);
 }
 
 .burger__icon {

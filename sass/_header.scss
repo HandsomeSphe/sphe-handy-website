@@ -13,10 +13,7 @@
     ),
     rgba(1, 31, 60, 0.72);
   position: relative;
-  @include respond(desktop) {
-    width: 100%;
-    height: 100vh;
-  }
+
   @include respond(tab-land) {
     width: 1005;
     height: 100vh;
@@ -38,13 +35,10 @@
 //Header title
 .header__title {
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 6rem;
   padding: 2rem 0 0 12rem;
   line-height: 1.5;
-  @include respond(desktop) {
-    width: 100%;
-    padding: 2rem 0 0 12rem;
-  }
+
   @include respond(tab-land) {
     margin-top: 2rem;
     padding: 0.7rem 0 0 2rem;
@@ -63,13 +57,10 @@
   }
 }
 h5 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
-  @include respond(desktop) {
-    font-size: 1rem;
-    font-weight: 500;
-  }
+
   @include respond(tab-land) {
     font-size: 0.88rem;
   }
@@ -84,11 +75,9 @@ h5 {
   }
 }
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: rgba(255, 255, 255, 0.95);
-  @include respond(desktop) {
-    font-size: 4rem;
-  }
+
   @include respond(tab-land) {
     font-size: 2.4rem;
   }
@@ -106,15 +95,12 @@ h1 {
 .h1 {
   display: flex;
   justify-content: space-between;
-  width: 64%;
-  height: 6rem;
+  width: 58%;
+  height: 9rem;
   color: rgba(255, 255, 255, 0.65);
   // background-color: tomato;
   font-weight: 700;
-  @include respond(desktop) {
-    width: 64%;
-    height: 6rem;
-  }
+
   @include respond(tab-land) {
     height: 3.9rem;
     width: 79%;
@@ -137,11 +123,9 @@ h1 {
   }
 }
 .options {
-  width: 22rem;
+  width: 27rem;
   overflow: hidden;
-  @include respond(desktop) {
-    width: 22rem;
-  }
+
   @include respond(tab-land) {
     width: 14rem;
   }
@@ -160,12 +144,10 @@ h1 {
   height: 100%;
   padding-left: 0.1rem;
   padding-top: 0.35rem;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
   animation: spin_words 6s infinite;
-  @include respond(desktop) {
-    font-size: 4rem;
-  }
+
   @include respond(tab-land) {
     font-size: 2.4rem;
   }
@@ -205,18 +187,15 @@ h1 {
   }
 }
 .person-description {
-  font-size: 1rem;
-  width: 58%;
-  line-height: 1.9rem;
+  font-size: 1.6rem;
+  height: 9rem;
+  width: 60%;
+  line-height: 2.7rem;
   margin-bottom: 4rem;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
-  @include respond(desktop) {
-    width: 58%;
-    font-size: 1rem;
-    line-height: 1.9rem;
-    margin-bottom: 4rem;
-  }
+  // background-color: orchid;
+
   @include respond(tab-land) {
     width: 86%;
     line-height: 1.5rem;
@@ -247,22 +226,18 @@ h1 {
   color: rgba(173, 240, 209, 1);
 }
 .whatsapp__btn {
-  width: 14rem;
-  height: 3rem;
+  width: 20rem;
+  height: 4.2rem;
   border: none;
   background-color: transparent;
   border: 0.15rem solid rgba(173, 240, 209, 0.9);
   color: rgba(173, 240, 209, 0.9);
-  font-size: 1rem;
+  font-size: 1.4rem;
   letter-spacing: 3%;
   cursor: pointer;
   border-radius: 0.1rem;
   transition: all ease-in 0.4s;
-  @include respond(desktop) {
-    width: 14rem;
-    height: 3rem;
-    font-size: 1rem;
-  }
+
   @include respond(tab-land) {
     width: 10rem;
     height: 2.6rem;

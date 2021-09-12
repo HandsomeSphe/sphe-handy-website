@@ -1,13 +1,10 @@
 ///Navigation
 
 .logo {
-  width: 2rem;
-  height: 2.1rem;
+  width: 3.5rem;
+  height: 3.5rem;
   cursor: pointer;
-  @include respond(desktop) {
-    width: 2rem;
-    height: 2.1rem;
-  }
+
   @include respond(tab-land) {
     width: 2.1rem;
     height: 2rem;
@@ -27,16 +24,12 @@
 }
 .nav {
   width: 100%;
-  height: 5.8rem;
-  padding: 1rem 2rem;
+  height: 8rem;
+  padding: 2rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @include respond(desktop) {
-    width: 100%;
-    height: 5.8rem;
-    padding: 1rem 2rem;
-  }
+
   @include respond(tab-land) {
     height: 5rem;
     padding: 1.4rem 2rem;
@@ -56,13 +49,10 @@
 
   //Links
   &__links {
-    width: 47%;
+    width: 53%;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    @include respond(desktop) {
-      width: 47%;
-    }
     @include respond(tab-land) {
       width: 75%;
     }
@@ -77,12 +67,12 @@
     }
   }
   &__item {
-    width: 8.7rem;
+    width: 13rem;
     text-align: center;
   }
   &__link {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.8);
     @include respond(tab-land) {
@@ -91,8 +81,8 @@
   }
 }
 .nav__item--btn {
-  width: 8rem;
-  border: 0.15rem solid rgba(173, 240, 209, 1);
+  width: 10rem;
+  border: 0.2rem solid rgba(173, 240, 209, 1);
   border-radius: 2rem;
   cursor: pointer;
   transition: all ease-in 0.4s;
@@ -102,7 +92,7 @@
 }
 .nav__item--btn:hover {
   background-color: rgba(173, 240, 209, 0.45);
-  border: 0.15rem solid rgba(173, 240, 209, 0.45);
+  border: 0.2rem solid rgba(173, 240, 209, 0.45);
 }
 /// Burger icon
 .burger__icon {
