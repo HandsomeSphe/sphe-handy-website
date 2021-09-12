@@ -18,8 +18,8 @@
     height: 2rem;
   }
   @include respond(xs-phone) {
-    width: 1.7rem;
-    height: 1.8rem;
+    width: 3rem;
+    height: 3rem;
   }
 }
 .nav {
@@ -29,6 +29,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 
   @include respond(tab-land) {
     height: 5rem;
@@ -43,8 +44,9 @@
     padding: 1.3rem 1.55rem;
   }
   @include respond(xs-phone) {
-    height: 5rem;
+    height: 8rem;
     padding: 1.3rem 1.5rem;
+    // background-color: orchid;
   }
 
   //Links
@@ -96,10 +98,13 @@
 }
 /// Burger icon
 .burger__icon {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.4rem;
+  height: 4.4rem;
   cursor: pointer;
   display: none;
+  position: absolute;
+  top: 40%;
+  right: 5%;
   // @include respond(tab-port) {
   //   display: block;
   // }
@@ -116,7 +121,7 @@
 
 .burger__icon--line {
   width: 100%;
-  height: 0.21rem;
+  height: 0.4rem;
   background-color: rgba(255, 255, 255, 0.6);
 }
 .burger__icon--line:not(:last-child) {

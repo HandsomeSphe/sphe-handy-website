@@ -104,8 +104,8 @@ body {
 
 @media only screen and (max-width: 21.33em) {
   .header__title {
-    padding: 1rem 0 0 1.5rem;
-    margin-top: 1rem;
+    padding: 3rem 0 0 1.5rem;
+    margin-top: 2rem;
   }
 }
 
@@ -135,7 +135,7 @@ h5 {
 
 @media only screen and (max-width: 21.33em) {
   h5 {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -164,7 +164,7 @@ h1 {
 
 @media only screen and (max-width: 21.33em) {
   h1 {
-    font-size: 1.3rem;
+    font-size: 2.3rem;
   }
 }
 
@@ -207,8 +207,8 @@ h1 {
 
 @media only screen and (max-width: 21.33em) {
   .h1 {
-    height: 3rem;
-    width: 92%;
+    height: 5rem;
+    width: 91%;
     margin-bottom: 1rem;
   }
 }
@@ -238,7 +238,7 @@ h1 {
 
 @media only screen and (max-width: 21.33em) {
   .options {
-    width: 7rem;
+    width: 13rem;
   }
 }
 
@@ -275,7 +275,7 @@ h1 {
 
 @media only screen and (max-width: 21.33em) {
   .options span {
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     padding-left: 0.1rem;
   }
 }
@@ -373,10 +373,10 @@ h1 {
 
 @media only screen and (max-width: 21.33em) {
   .person-description {
-    font-size: 0.75rem;
-    line-height: 1.5rem;
-    width: 90%;
-    margin-bottom: 2rem;
+    font-size: 1.19rem;
+    line-height: 2rem;
+    width: 91%;
+    margin-bottom: 5rem;
   }
 }
 
@@ -426,9 +426,9 @@ h1 {
 
 @media only screen and (max-width: 21.33em) {
   .whatsapp__btn {
-    width: 10rem;
-    height: 2.7rem;
-    font-size: 0.75rem;
+    width: 15rem;
+    height: 3.6rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -571,8 +571,8 @@ h1 {
 
 @media only screen and (max-width: 21.33em) {
   .logo {
-    width: 1.7rem;
-    height: 1.8rem;
+    width: 3rem;
+    height: 3rem;
   }
 }
 
@@ -589,6 +589,7 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 @media only screen and (max-width: 48em) {
@@ -614,7 +615,7 @@ h1 {
 
 @media only screen and (max-width: 21.33em) {
   .nav {
-    height: 5rem;
+    height: 8rem;
     padding: 1.3rem 1.5rem;
   }
 }
@@ -691,10 +692,13 @@ h1 {
 }
 
 .burger__icon {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.4rem;
+  height: 4.4rem;
   cursor: pointer;
   display: none;
+  position: absolute;
+  top: 40%;
+  right: 5%;
 }
 
 @media only screen and (max-width: 26.5625em) {
@@ -717,7 +721,7 @@ h1 {
 
 .burger__icon--line {
   width: 100%;
-  height: 0.21rem;
+  height: 0.4rem;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
