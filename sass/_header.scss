@@ -13,11 +13,15 @@
     ),
     rgba(1, 31, 60, 0.72);
   position: relative;
-  @include respond(tab-port) {
+  @include respond(desktop) {
+    width: 100%;
+    height: 100vh;
+  }
+  @include respond(tab-land) {
     width: 1005;
     height: 100vh;
   }
-  @include respond(m-phone) {
+  @include respond(tab-port) {
     width: 100%;
     height: 100vh;
   }
@@ -37,11 +41,15 @@
   margin-top: 3rem;
   padding: 2rem 0 0 12rem;
   line-height: 1.5;
-  @include respond(tab-port) {
+  @include respond(desktop) {
+    width: 100%;
+    padding: 2rem 0 0 12rem;
+  }
+  @include respond(tab-land) {
     margin-top: 2rem;
     padding: 0.7rem 0 0 2rem;
   }
-  @include respond(m-phone) {
+  @include respond(tab-port) {
     margin-top: 2rem;
     padding: 1rem 0 0 2rem;
   }
@@ -58,10 +66,14 @@ h5 {
   font-size: 1rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
-  @include respond(tab-port) {
+  @include respond(desktop) {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  @include respond(tab-land) {
     font-size: 0.88rem;
   }
-  @include respond(m-phone) {
+  @include respond(tab-port) {
     font-size: 0.9rem;
   }
   @include respond(s-phone) {
@@ -74,11 +86,14 @@ h5 {
 h1 {
   font-size: 4rem;
   color: rgba(255, 255, 255, 0.95);
-  @include respond(tab-port) {
+  @include respond(desktop) {
+    font-size: 4rem;
+  }
+  @include respond(tab-land) {
     font-size: 2.4rem;
   }
 
-  @include respond(m-phone) {
+  @include respond(tab-port) {
     font-size: 1.8rem;
   }
   @include respond(s-phone) {
@@ -96,12 +111,16 @@ h1 {
   color: rgba(255, 255, 255, 0.65);
   // background-color: tomato;
   font-weight: 700;
-  @include respond(tab-port) {
+  @include respond(desktop) {
+    width: 64%;
+    height: 6rem;
+  }
+  @include respond(tab-land) {
     height: 3.9rem;
     width: 79%;
     margin-bottom: 0.8rem;
   }
-  @include respond(m-phone) {
+  @include respond(tab-port) {
     height: 3.2rem;
     width: 87%;
     margin-bottom: 0.7rem;
@@ -120,10 +139,13 @@ h1 {
 .options {
   width: 22rem;
   overflow: hidden;
-  @include respond(tab-port) {
+  @include respond(desktop) {
+    width: 22rem;
+  }
+  @include respond(tab-land) {
     width: 14rem;
   }
-  @include respond(m-phone) {
+  @include respond(tab-port) {
     width: 11rem;
   }
   @include respond(s-phone) {
@@ -141,10 +163,13 @@ h1 {
   font-size: 4rem;
   font-weight: 700;
   animation: spin_words 6s infinite;
-  @include respond(tab-port) {
+  @include respond(desktop) {
+    font-size: 4rem;
+  }
+  @include respond(tab-land) {
     font-size: 2.4rem;
   }
-  @include respond(m-phone) {
+  @include respond(tab-port) {
     font-size: 1.8rem;
     padding-left: 0.1rem;
   }
@@ -186,13 +211,19 @@ h1 {
   margin-bottom: 4rem;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
-  @include respond(tab-port) {
+  @include respond(desktop) {
+    width: 58%;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    margin-bottom: 4rem;
+  }
+  @include respond(tab-land) {
     width: 86%;
     line-height: 1.5rem;
     font-size: 0.9rem;
     margin-bottom: 2rem;
   }
-  @include respond(m-phone) {
+  @include respond(tab-port) {
     width: 90%;
     line-height: 1.5rem;
     font-size: 0.8rem;
@@ -227,12 +258,17 @@ h1 {
   cursor: pointer;
   border-radius: 0.1rem;
   transition: all ease-in 0.4s;
-  @include respond(tab-port) {
+  @include respond(desktop) {
+    width: 14rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+  @include respond(tab-land) {
     width: 10rem;
     height: 2.6rem;
     font-size: 0.9rem;
   }
-  @include respond(m-phone) {
+  @include respond(tab-port) {
     width: 10rem;
     height: 2.5rem;
     font-size: 0.8rem;
@@ -259,10 +295,11 @@ h1 {
   position: absolute;
   top: 0;
   left: 6%;
-  @include respond(tab-port) {
+
+  @include respond(tab-land) {
     display: none;
   }
-  @include respond(m-phone) {
+  @include respond(tab-port) {
     display: none;
   }
   @include respond(s-phone) {

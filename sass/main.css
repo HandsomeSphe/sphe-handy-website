@@ -11,11 +11,29 @@ html {
   font-family: "Poppins", sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 26.5625em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  html {
+    font-size: 75%;
+  }
 }
 
 body {
   background-color: #3a3737;
-  font-size: 62.5%;
   font-weight: 300;
   color: #ffff;
   line-height: 1.9;
@@ -28,28 +46,35 @@ body {
   position: relative;
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (min-width: 64em) {
+  .header {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 48em) {
   .header {
     width: 1005;
     height: 100vh;
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   .header {
     width: 100%;
     height: 100vh;
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .header {
     width: 100%;
     height: 100vh;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .header {
     width: 100%;
     height: 100vh;
@@ -63,28 +88,35 @@ body {
   line-height: 1.5;
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (min-width: 64em) {
+  .header__title {
+    width: 100%;
+    padding: 2rem 0 0 12rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
   .header__title {
     margin-top: 2rem;
     padding: 0.7rem 0 0 2rem;
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   .header__title {
     margin-top: 2rem;
     padding: 1rem 0 0 2rem;
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .header__title {
     margin-top: 1rem;
     padding: 1rem 0 0 1.5rem;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .header__title {
     padding: 1rem 0 0 1.5rem;
     margin-top: 1rem;
@@ -97,25 +129,32 @@ h5 {
   color: rgba(255, 255, 255, 0.8);
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (min-width: 64em) {
+  h5 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 48em) {
   h5 {
     font-size: 0.88rem;
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   h5 {
     font-size: 0.9rem;
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   h5 {
     font-size: 0.8rem;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   h5 {
     font-size: 0.7rem;
   }
@@ -126,25 +165,31 @@ h1 {
   color: rgba(255, 255, 255, 0.95);
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (min-width: 64em) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
   h1 {
     font-size: 2.4rem;
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   h1 {
     font-size: 1.8rem;
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   h1 {
     font-size: 1.5rem;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   h1 {
     font-size: 1.3rem;
   }
@@ -163,7 +208,14 @@ h1 {
   font-weight: 700;
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (min-width: 64em) {
+  .h1 {
+    width: 64%;
+    height: 6rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
   .h1 {
     height: 3.9rem;
     width: 79%;
@@ -171,7 +223,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   .h1 {
     height: 3.2rem;
     width: 87%;
@@ -179,7 +231,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .h1 {
     height: 3rem;
     width: 88%;
@@ -187,7 +239,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .h1 {
     height: 3rem;
     width: 92%;
@@ -200,25 +252,31 @@ h1 {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (min-width: 64em) {
+  .options {
+    width: 22rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
   .options {
     width: 14rem;
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   .options {
     width: 11rem;
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .options {
     width: 8rem;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .options {
     width: 7rem;
   }
@@ -235,27 +293,33 @@ h1 {
           animation: spin_words 6s infinite;
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (min-width: 64em) {
+  .options span {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
   .options span {
     font-size: 2.4rem;
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   .options span {
     font-size: 1.8rem;
     padding-left: 0.1rem;
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .options span {
     font-size: 1.5rem;
     padding-left: 0.3rem;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .options span {
     font-size: 1.3rem;
     padding-left: 0.1rem;
@@ -325,7 +389,16 @@ h1 {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (min-width: 64em) {
+  .person-description {
+    width: 58%;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
   .person-description {
     width: 86%;
     line-height: 1.5rem;
@@ -334,7 +407,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   .person-description {
     width: 90%;
     line-height: 1.5rem;
@@ -343,7 +416,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .person-description {
     width: 88%;
     line-height: 1.5rem;
@@ -352,7 +425,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .person-description {
     font-size: 0.75rem;
     line-height: 1.5rem;
@@ -381,7 +454,15 @@ h1 {
   transition: all ease-in 0.4s;
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (min-width: 64em) {
+  .whatsapp__btn {
+    width: 14rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
   .whatsapp__btn {
     width: 10rem;
     height: 2.6rem;
@@ -389,7 +470,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   .whatsapp__btn {
     width: 10rem;
     height: 2.5rem;
@@ -397,7 +478,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .whatsapp__btn {
     width: 10rem;
     height: 2.7rem;
@@ -405,7 +486,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .whatsapp__btn {
     width: 10rem;
     height: 2.7rem;
@@ -427,25 +508,25 @@ h1 {
   left: 6%;
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (max-width: 48em) {
   .random-line {
     display: none;
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   .random-line {
     display: none;
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .random-line {
     display: none;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .random-line {
     display: none;
   }
@@ -470,14 +551,14 @@ h1 {
   display: none;
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .popup {
     width: 60%;
     height: 12rem;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .popup {
     width: 60%;
     height: 11rem;
@@ -497,7 +578,7 @@ h1 {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .popup__text {
     font-size: 0.7rem;
   }
@@ -515,7 +596,7 @@ h1 {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .close--popup {
     width: 4rem;
     height: 1.7rem;
@@ -529,28 +610,35 @@ h1 {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 43.75em) {
-  .logo {
-    width: 2.1rem;
-    height: 2rem;
-  }
-}
-
-@media only screen and (max-width: 31.25em) {
+@media only screen and (min-width: 64em) {
   .logo {
     width: 2rem;
     height: 2.1rem;
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 48em) {
+  .logo {
+    width: 2.1rem;
+    height: 2rem;
+  }
+}
+
+@media only screen and (max-width: 26.5625em) {
+  .logo {
+    width: 2rem;
+    height: 2.1rem;
+  }
+}
+
+@media only screen and (max-width: 23.4375em) {
   .logo {
     width: 1.9rem;
     height: 2rem;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .logo {
     width: 1.7rem;
     height: 1.8rem;
@@ -572,28 +660,36 @@ h1 {
           align-items: center;
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (min-width: 64em) {
+  .nav {
+    width: 100%;
+    height: 5.8rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
   .nav {
     height: 5rem;
     padding: 1.4rem 2rem;
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   .nav {
     height: 3.5rem;
     padding: 1.4rem 2rem;
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .nav {
     height: 5.5rem;
     padding: 1.3rem 1.55rem;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .nav {
     height: 5rem;
     padding: 1.3rem 1.5rem;
@@ -611,25 +707,31 @@ h1 {
   list-style-type: none;
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (min-width: 64em) {
+  .nav__links {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 48em) {
   .nav__links {
     width: 75%;
   }
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   .nav__links {
     display: none;
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .nav__links {
     display: none;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .nav__links {
     display: none;
   }
@@ -647,7 +749,7 @@ h1 {
   color: rgba(255, 255, 255, 0.8);
 }
 
-@media only screen and (max-width: 43.75em) {
+@media only screen and (max-width: 48em) {
   .nav__link {
     font-size: 0.7rem;
   }
@@ -678,19 +780,19 @@ h1 {
   display: none;
 }
 
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 26.5625em) {
   .burger__icon {
     display: block;
   }
 }
 
-@media only screen and (max-width: 23.4em) {
+@media only screen and (max-width: 23.4375em) {
   .burger__icon {
     display: block;
   }
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21.33em) {
   .burger__icon {
     display: block;
   }
