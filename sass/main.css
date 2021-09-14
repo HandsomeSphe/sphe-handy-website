@@ -358,7 +358,7 @@ h1 {
 @media only screen and (min-width: 64em) {
   .person-description {
     font-size: 1.27rem;
-    width: 50%;
+    width: 50rem;
   }
 }
 
@@ -420,6 +420,13 @@ h1 {
 
 .whatsapp__btn:active, .whatsapp__btn:focus {
   outline: none;
+}
+
+@media only screen and (min-width: 64em) {
+  .whatsapp__btn {
+    width: 18rem;
+    height: 4rem;
+  }
 }
 
 @media only screen and (max-width: 48em) {
