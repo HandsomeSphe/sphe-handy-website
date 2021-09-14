@@ -10,12 +10,12 @@
     height: 2rem;
   }
   @include respond(tab-port) {
-    width: 2rem;
-    height: 2.1rem;
+    width: 3rem;
+    height: 3.1rem;
   }
   @include respond(s-phone) {
-    width: 1.9rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
   }
   @include respond(xs-phone) {
     width: 3rem;
@@ -40,8 +40,8 @@
     padding: 1.4rem 2rem;
   }
   @include respond(s-phone) {
-    height: 5.5rem;
-    padding: 1.3rem 1.55rem;
+    height: 8.5rem;
+    padding: 1.3rem 1.5rem;
   }
   @include respond(xs-phone) {
     height: 8rem;
@@ -99,15 +99,13 @@
 /// Burger icon
 .burger__icon {
   width: 2.4rem;
-  height: 4.4rem;
+  height: 2.6rem;
   cursor: pointer;
   display: none;
   position: absolute;
   top: 40%;
   right: 5%;
-  // @include respond(tab-port) {
-  //   display: block;
-  // }
+
   @include respond(tab-port) {
     display: block;
   }
