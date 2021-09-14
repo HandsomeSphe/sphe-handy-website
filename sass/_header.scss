@@ -247,8 +247,9 @@ h1 {
     outline: none;
   }
   @include respond(desktop) {
-    width: 18rem;
-    height: 4rem;
+    width: 16rem;
+    height: 3.8rem;
+    font-size: 1.3rem;
   }
   @include respond(tab-land) {
     width: 18rem;
