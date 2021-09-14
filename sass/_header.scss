@@ -13,6 +13,10 @@
     ),
     rgba(1, 31, 60, 0.72);
   position: relative;
+  @include respond(big-desktop) {
+    max-width: 100rem;
+    max-height: 100rem;
+  }
 }
 
 //Header title

@@ -46,6 +46,13 @@ body {
   position: relative;
 }
 
+@media only screen and (min-width: 160em) {
+  .header {
+    max-width: 100rem;
+    max-height: 100rem;
+  }
+}
+
 .header__title {
   width: 100%;
   margin-top: 6rem;
@@ -632,6 +639,7 @@ h1 {
 
 @media only screen and (min-width: 64em) {
   .nav {
+    max-width: 100%;
     height: 6rem;
     padding: 1.1rem 1.5rem;
   }
