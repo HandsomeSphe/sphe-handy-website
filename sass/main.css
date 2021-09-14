@@ -56,7 +56,7 @@ body {
 @media only screen and (max-width: 48em) {
   .header__title {
     margin-top: 2rem;
-    padding: 0.7rem 0 0 2rem;
+    padding: 0.7rem 0 0 4rem;
   }
 }
 
@@ -74,7 +74,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .header__title {
     padding: 3rem 0 0 1.5rem;
     margin-top: 2rem;
@@ -89,13 +89,13 @@ h5 {
 
 @media only screen and (max-width: 48em) {
   h5 {
-    font-size: 0.88rem;
+    font-size: 1.39rem;
   }
 }
 
 @media only screen and (max-width: 26.5625em) {
   h5 {
-    font-size: 0.9rem;
+    font-size: 1.37rem;
   }
 }
 
@@ -105,7 +105,7 @@ h5 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   h5 {
     font-size: 1.2rem;
   }
@@ -118,13 +118,13 @@ h1 {
 
 @media only screen and (max-width: 48em) {
   h1 {
-    font-size: 2.4rem;
+    font-size: 3.5rem;
   }
 }
 
 @media only screen and (max-width: 26.5625em) {
   h1 {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
   }
 }
 
@@ -134,7 +134,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   h1 {
     font-size: 2.3rem;
   }
@@ -155,17 +155,17 @@ h1 {
 
 @media only screen and (max-width: 48em) {
   .h1 {
-    height: 3.9rem;
-    width: 79%;
+    height: 5.5rem;
+    width: 55%;
     margin-bottom: 0.8rem;
   }
 }
 
 @media only screen and (max-width: 26.5625em) {
   .h1 {
-    height: 3.2rem;
-    width: 87%;
-    margin-bottom: 0.7rem;
+    height: 5rem;
+    width: 84%;
+    margin-bottom: 1rem;
   }
 }
 
@@ -177,7 +177,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .h1 {
     height: 5rem;
     width: 91%;
@@ -192,13 +192,13 @@ h1 {
 
 @media only screen and (max-width: 48em) {
   .options {
-    width: 14rem;
+    width: 18rem;
   }
 }
 
 @media only screen and (max-width: 26.5625em) {
   .options {
-    width: 11rem;
+    width: 16rem;
   }
 }
 
@@ -208,7 +208,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .options {
     width: 13rem;
   }
@@ -227,13 +227,13 @@ h1 {
 
 @media only screen and (max-width: 48em) {
   .options span {
-    font-size: 2.4rem;
+    font-size: 3.5rem;
   }
 }
 
 @media only screen and (max-width: 26.5625em) {
   .options span {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     padding-left: 0.1rem;
   }
 }
@@ -245,7 +245,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .options span {
     font-size: 2.3rem;
     padding-left: 0.1rem;
@@ -318,19 +318,19 @@ h1 {
 
 @media only screen and (max-width: 48em) {
   .person-description {
-    width: 86%;
-    line-height: 1.5rem;
-    font-size: 0.9rem;
-    margin-bottom: 2rem;
+    width: 57%;
+    line-height: 2.7rem;
+    font-size: 1.5rem;
+    margin-bottom: 8rem;
   }
 }
 
 @media only screen and (max-width: 26.5625em) {
   .person-description {
     width: 90%;
-    line-height: 1.5rem;
-    font-size: 0.8rem;
-    margin-bottom: 2.1rem;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 9rem;
   }
 }
 
@@ -343,7 +343,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .person-description {
     font-size: 1.19rem;
     line-height: 2rem;
@@ -378,17 +378,17 @@ h1 {
 
 @media only screen and (max-width: 48em) {
   .whatsapp__btn {
-    width: 10rem;
-    height: 2.6rem;
-    font-size: 0.9rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 1.33rem;
   }
 }
 
 @media only screen and (max-width: 26.5625em) {
   .whatsapp__btn {
-    width: 10rem;
-    height: 2.5rem;
-    font-size: 0.8rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 1.29rem;
   }
 }
 
@@ -400,7 +400,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .whatsapp__btn {
     width: 15rem;
     height: 3.6rem;
@@ -440,7 +440,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .random-line {
     display: none;
   }
@@ -472,7 +472,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .popup {
     width: 60%;
     height: 11rem;
@@ -492,7 +492,7 @@ h1 {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .popup__text {
     font-size: 0.7rem;
   }
@@ -510,7 +510,7 @@ h1 {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .close--popup {
     width: 4rem;
     height: 1.7rem;
@@ -524,17 +524,24 @@ h1 {
   cursor: pointer;
 }
 
+@media only screen and (min-width: 64em) {
+  .logo {
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .logo {
-    width: 2.1rem;
-    height: 2rem;
+    width: 3.2rem;
+    height: 3.2rem;
   }
 }
 
 @media only screen and (max-width: 26.5625em) {
   .logo {
-    width: 3rem;
-    height: 3.1rem;
+    width: 3.4rem;
+    height: 3.4rem;
   }
 }
 
@@ -545,7 +552,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .logo {
     width: 3rem;
     height: 3rem;
@@ -568,16 +575,24 @@ h1 {
   position: relative;
 }
 
+@media only screen and (min-width: 64em) {
+  .nav {
+    height: 6rem;
+    background-color: tomato;
+    padding: 1.1rem 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .nav {
-    height: 5rem;
-    padding: 1.4rem 2rem;
+    height: 7rem;
+    padding: 1.4rem 3rem;
   }
 }
 
 @media only screen and (max-width: 26.5625em) {
   .nav {
-    height: 3.5rem;
+    height: 8rem;
     padding: 1.4rem 2rem;
   }
 }
@@ -589,7 +604,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .nav {
     height: 8rem;
     padding: 1.3rem 1.5rem;
@@ -607,9 +622,15 @@ h1 {
   list-style-type: none;
 }
 
+@media only screen and (min-width: 64em) {
+  .nav__links {
+    width: 55%;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .nav__links {
-    width: 75%;
+    width: 56%;
   }
 }
 
@@ -625,7 +646,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .nav__links {
     display: none;
   }
@@ -643,9 +664,15 @@ h1 {
   color: rgba(255, 255, 255, 0.8);
 }
 
+@media only screen and (min-width: 64em) {
+  .nav__link {
+    font-size: 1.1rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .nav__link {
-    font-size: 0.7rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -656,6 +683,12 @@ h1 {
   cursor: pointer;
   -webkit-transition: all ease-in 0.4s;
   transition: all ease-in 0.4s;
+}
+
+@media only screen and (max-width: 48em) {
+  .nav__item--btn {
+    border: 0.23rem solid #adf0d1;
+  }
 }
 
 .nav__link--btn {
@@ -669,7 +702,7 @@ h1 {
 
 .burger__icon {
   width: 2.4rem;
-  height: 2.6rem;
+  height: 2.7rem;
   cursor: pointer;
   display: none;
   position: absolute;
@@ -689,7 +722,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 21.33em) {
+@media only screen and (max-width: 20em) {
   .burger__icon {
     display: block;
   }
@@ -702,7 +735,7 @@ h1 {
 }
 
 .burger__icon--line:not(:last-child) {
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.16rem;
 }
 
 .menu {

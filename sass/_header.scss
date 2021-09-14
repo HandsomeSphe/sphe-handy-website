@@ -24,7 +24,7 @@
 
   @include respond(tab-land) {
     margin-top: 2rem;
-    padding: 0.7rem 0 0 2rem;
+    padding: 0.7rem 0 0 4rem;
   }
   @include respond(tab-port) {
     margin-top: 2rem;
@@ -45,10 +45,10 @@ h5 {
   color: rgba(255, 255, 255, 0.8);
 
   @include respond(tab-land) {
-    font-size: 0.88rem;
+    font-size: 1.39rem;
   }
   @include respond(tab-port) {
-    font-size: 0.9rem;
+    font-size: 1.37rem;
   }
   @include respond(s-phone) {
     font-size: 1.3rem;
@@ -62,11 +62,11 @@ h1 {
   color: rgba(255, 255, 255, 0.95);
 
   @include respond(tab-land) {
-    font-size: 2.4rem;
+    font-size: 3.5rem;
   }
 
   @include respond(tab-port) {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
   }
   @include respond(s-phone) {
     font-size: 2.5rem;
@@ -85,14 +85,14 @@ h1 {
   font-weight: 700;
 
   @include respond(tab-land) {
-    height: 3.9rem;
-    width: 79%;
+    height: 5.5rem;
+    width: 55%;
     margin-bottom: 0.8rem;
   }
   @include respond(tab-port) {
-    height: 3.2rem;
-    width: 87%;
-    margin-bottom: 0.7rem;
+    height: 5rem;
+    width: 84%;
+    margin-bottom: 1rem;
   }
   @include respond(s-phone) {
     height: 5rem;
@@ -110,10 +110,10 @@ h1 {
   overflow: hidden;
 
   @include respond(tab-land) {
-    width: 14rem;
+    width: 18rem;
   }
   @include respond(tab-port) {
-    width: 11rem;
+    width: 16rem;
   }
   @include respond(s-phone) {
     width: 14rem;
@@ -132,10 +132,10 @@ h1 {
   animation: spin_words 6s infinite;
 
   @include respond(tab-land) {
-    font-size: 2.4rem;
+    font-size: 3.5rem;
   }
   @include respond(tab-port) {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     padding-left: 0.1rem;
   }
   @include respond(s-phone) {
@@ -180,16 +180,16 @@ h1 {
   // background-color: orchid;
 
   @include respond(tab-land) {
-    width: 86%;
-    line-height: 1.5rem;
-    font-size: 0.9rem;
-    margin-bottom: 2rem;
+    width: 57%;
+    line-height: 2.7rem;
+    font-size: 1.5rem;
+    margin-bottom: 8rem;
   }
   @include respond(tab-port) {
     width: 90%;
-    line-height: 1.5rem;
-    font-size: 0.8rem;
-    margin-bottom: 2.1rem;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 9rem;
   }
   @include respond(s-phone) {
     width: 84%;
@@ -226,14 +226,14 @@ h1 {
   }
 
   @include respond(tab-land) {
-    width: 10rem;
-    height: 2.6rem;
-    font-size: 0.9rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 1.33rem;
   }
   @include respond(tab-port) {
-    width: 10rem;
-    height: 2.5rem;
-    font-size: 0.8rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 1.29rem;
   }
   @include respond(s-phone) {
     width: 16rem;

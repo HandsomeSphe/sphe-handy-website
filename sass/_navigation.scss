@@ -4,14 +4,17 @@
   width: 3.5rem;
   height: 3.5rem;
   cursor: pointer;
-
+  @include respond(desktop) {
+    width: 2.7rem;
+    height: 2.7rem;
+  }
   @include respond(tab-land) {
-    width: 2.1rem;
-    height: 2rem;
+    width: 3.2rem;
+    height: 3.2rem;
   }
   @include respond(tab-port) {
-    width: 3rem;
-    height: 3.1rem;
+    width: 3.4rem;
+    height: 3.4rem;
   }
   @include respond(s-phone) {
     width: 3rem;
@@ -30,13 +33,17 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-
+  @include respond(desktop) {
+    height: 6rem;
+    background-color: tomato;
+    padding: 1.1rem 1.5rem;
+  }
   @include respond(tab-land) {
-    height: 5rem;
-    padding: 1.4rem 2rem;
+    height: 7rem;
+    padding: 1.4rem 3rem;
   }
   @include respond(tab-port) {
-    height: 3.5rem;
+    height: 8rem;
     padding: 1.4rem 2rem;
   }
   @include respond(s-phone) {
@@ -55,8 +62,11 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    @include respond(desktop) {
+      width: 55%;
+    }
     @include respond(tab-land) {
-      width: 75%;
+      width: 56%;
     }
     @include respond(tab-port) {
       display: none;
@@ -77,8 +87,11 @@
     font-size: 1.5rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.8);
+    @include respond(desktop) {
+      font-size: 1.1rem;
+    }
     @include respond(tab-land) {
-      font-size: 0.7rem;
+      font-size: 1.1rem;
     }
   }
 }
@@ -88,6 +101,9 @@
   border-radius: 2rem;
   cursor: pointer;
   transition: all ease-in 0.4s;
+  @include respond(tab-land) {
+    border: 0.23rem solid rgba(173, 240, 209, 1);
+  }
 }
 .nav__link--btn {
   color: rgba(173, 240, 209, 1);
@@ -99,7 +115,7 @@
 /// Burger icon
 .burger__icon {
   width: 2.4rem;
-  height: 2.6rem;
+  height: 2.7rem;
   cursor: pointer;
   display: none;
   position: absolute;
@@ -123,7 +139,7 @@
   background-color: rgba(255, 255, 255, 0.6);
 }
 .burger__icon--line:not(:last-child) {
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.16rem;
 }
 .menu {
   width: 100%;
