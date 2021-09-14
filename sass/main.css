@@ -358,7 +358,7 @@ h1 {
 @media only screen and (min-width: 64em) {
   .person-description {
     font-size: 1.27rem;
-    width: 60%;
+    width: 54%;
   }
 }
 
