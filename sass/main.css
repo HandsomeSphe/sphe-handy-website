@@ -678,7 +678,7 @@ h1 {
 
 @media only screen and (min-width: 64em) {
   .nav__links {
-    width: 60%;
+    width: 50rem;
   }
 }
 
