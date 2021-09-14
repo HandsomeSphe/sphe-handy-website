@@ -35,7 +35,6 @@
   position: relative;
   @include respond(desktop) {
     height: 6rem;
-    background-color: tomato;
     padding: 1.1rem 1.5rem;
   }
   @include respond(tab-land) {
@@ -63,7 +62,7 @@
     justify-content: space-between;
     list-style-type: none;
     @include respond(desktop) {
-      width: 59%;
+      width: 60%;
     }
     @include respond(tab-land) {
       width: 56%;
@@ -81,6 +80,9 @@
   &__item {
     width: 13rem;
     text-align: center;
+    @include respond(desktop) {
+      width: 11rem;
+    }
   }
   &__link {
     text-decoration: none;

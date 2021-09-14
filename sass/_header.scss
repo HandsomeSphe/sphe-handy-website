@@ -21,7 +21,9 @@
   margin-top: 6rem;
   padding: 2rem 0 0 12rem;
   line-height: 1.5;
-
+  @include respond(desktop) {
+    margin-top: 6rem;
+  }
   @include respond(tab-land) {
     margin-top: 2rem;
     padding: 0.7rem 0 0 4rem;
@@ -43,7 +45,9 @@ h5 {
   font-size: 1.5rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
-
+  @include respond(desktop) {
+    font-size: 1.27rem;
+  }
   @include respond(tab-land) {
     font-size: 1.39rem;
   }
@@ -60,6 +64,9 @@ h5 {
 h1 {
   font-size: 5rem;
   color: rgba(255, 255, 255, 0.95);
+  @include respond(desktop) {
+    font-size: 3.6rem;
+  }
 
   @include respond(tab-land) {
     font-size: 3.5rem;
@@ -81,9 +88,12 @@ h1 {
   width: 58%;
   height: 9rem;
   color: rgba(255, 255, 255, 0.65);
-  // background-color: tomato;
   font-weight: 700;
-
+  @include respond(desktop) {
+    height: 5.5rem;
+    width: 65%;
+    margin-bottom: 1rem;
+  }
   @include respond(tab-land) {
     height: 5.5rem;
     width: 55%;
@@ -108,6 +118,9 @@ h1 {
 .options {
   width: 27rem;
   overflow: hidden;
+  @include respond(desktop) {
+    width: 19.5rem;
+  }
 
   @include respond(tab-land) {
     width: 18rem;
@@ -130,6 +143,10 @@ h1 {
   font-size: 5rem;
   font-weight: 700;
   animation: spin_words 6s infinite;
+  @include respond(desktop) {
+    font-size: 3.6rem;
+    padding-left: 0.05rem;
+  }
 
   @include respond(tab-land) {
     font-size: 3.5rem;
@@ -178,7 +195,10 @@ h1 {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   // background-color: orchid;
-
+  @include respond(desktop) {
+    font-size: 1.27rem;
+    width: 60%;
+  }
   @include respond(tab-land) {
     width: 57%;
     line-height: 2.7rem;

@@ -53,6 +53,12 @@ body {
   line-height: 1.5;
 }
 
+@media only screen and (min-width: 64em) {
+  .header__title {
+    margin-top: 6rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .header__title {
     margin-top: 2rem;
@@ -87,6 +93,12 @@ h5 {
   color: rgba(255, 255, 255, 0.8);
 }
 
+@media only screen and (min-width: 64em) {
+  h5 {
+    font-size: 1.27rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   h5 {
     font-size: 1.39rem;
@@ -114,6 +126,12 @@ h5 {
 h1 {
   font-size: 5rem;
   color: rgba(255, 255, 255, 0.95);
+}
+
+@media only screen and (min-width: 64em) {
+  h1 {
+    font-size: 3.6rem;
+  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -153,6 +171,14 @@ h1 {
   font-weight: 700;
 }
 
+@media only screen and (min-width: 64em) {
+  .h1 {
+    height: 5.5rem;
+    width: 65%;
+    margin-bottom: 1rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .h1 {
     height: 5.5rem;
@@ -190,6 +216,12 @@ h1 {
   overflow: hidden;
 }
 
+@media only screen and (min-width: 64em) {
+  .options {
+    width: 19.5rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .options {
     width: 18rem;
@@ -223,6 +255,13 @@ h1 {
   font-weight: 700;
   -webkit-animation: spin_words 6s infinite;
           animation: spin_words 6s infinite;
+}
+
+@media only screen and (min-width: 64em) {
+  .options span {
+    font-size: 3.6rem;
+    padding-left: 0.05rem;
+  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -314,6 +353,13 @@ h1 {
   margin-bottom: 4rem;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
+}
+
+@media only screen and (min-width: 64em) {
+  .person-description {
+    font-size: 1.27rem;
+    width: 60%;
+  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -578,7 +624,6 @@ h1 {
 @media only screen and (min-width: 64em) {
   .nav {
     height: 6rem;
-    background-color: tomato;
     padding: 1.1rem 1.5rem;
   }
 }
@@ -624,7 +669,7 @@ h1 {
 
 @media only screen and (min-width: 64em) {
   .nav__links {
-    width: 59%;
+    width: 60%;
   }
 }
 
@@ -655,6 +700,12 @@ h1 {
 .nav__item {
   width: 13rem;
   text-align: center;
+}
+
+@media only screen and (min-width: 64em) {
+  .nav__item {
+    width: 11rem;
+  }
 }
 
 .nav__link {
