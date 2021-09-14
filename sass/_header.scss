@@ -93,6 +93,7 @@ h1 {
     height: 5.5rem;
     width: 65%;
     margin-bottom: 1rem;
+    background-color: tomato;
   }
   @include respond(tab-land) {
     height: 5.5rem;
@@ -120,6 +121,7 @@ h1 {
   overflow: hidden;
   @include respond(desktop) {
     width: 19.5rem;
+    background-color: red;
   }
 
   @include respond(tab-land) {

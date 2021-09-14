@@ -176,6 +176,7 @@ h1 {
     height: 5.5rem;
     width: 65%;
     margin-bottom: 1rem;
+    background-color: tomato;
   }
 }
 
@@ -219,6 +220,7 @@ h1 {
 @media only screen and (min-width: 64em) {
   .options {
     width: 19.5rem;
+    background-color: red;
   }
 }
 
