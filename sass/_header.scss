@@ -199,7 +199,7 @@ h1 {
   // background-color: orchid;
   @include respond(desktop) {
     font-size: 1.27rem;
-    width: 54%;
+    width: 50%;
   }
   @include respond(tab-land) {
     width: 57%;
