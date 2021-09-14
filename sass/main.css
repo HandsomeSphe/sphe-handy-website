@@ -130,7 +130,7 @@ h1 {
 
 @media only screen and (min-width: 64em) {
   h1 {
-    font-size: 3.6rem;
+    font-size: 3.8rem;
   }
 }
 
@@ -174,9 +174,8 @@ h1 {
 @media only screen and (min-width: 64em) {
   .h1 {
     height: 5.5rem;
-    width: 47rem;
+    width: 50rem;
     margin-bottom: 1rem;
-    background-color: tomato;
   }
 }
 
@@ -219,8 +218,7 @@ h1 {
 
 @media only screen and (min-width: 64em) {
   .options {
-    width: 19.5rem;
-    background-color: red;
+    width: 21rem;
   }
 }
 
@@ -261,7 +259,7 @@ h1 {
 
 @media only screen and (min-width: 64em) {
   .options span {
-    font-size: 3.6rem;
+    font-size: 3.8rem;
     padding-left: 0.05rem;
   }
 }
