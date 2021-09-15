@@ -355,7 +355,7 @@ h1 {
 .person-description {
   font-size: 1.6rem;
   height: 9rem;
-  width: 60%;
+  width: 52rem;
   line-height: 2.7rem;
   margin-bottom: 4rem;
   color: rgba(255, 255, 255, 0.6);
@@ -365,7 +365,7 @@ h1 {
 @media only screen and (min-width: 64em) {
   .person-description {
     font-size: 1.27rem;
-    width: 50rem;
+    width: 52rem;
     margin-bottom: 8rem;
   }
 }
@@ -847,5 +847,321 @@ h1 {
   font-size: 1rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.section__about {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(1, 31, 60, 0.72);
+}
+
+@media only screen and (max-width: 20em) {
+  .section__about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 130vh;
+  }
+}
+
+.section__about--pic {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding: 10rem 13rem;
+}
+
+@media only screen and (max-width: 20em) {
+  .section__about--pic {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 1%;
+            flex: 0 0 1%;
+    padding: 1rem 0;
+  }
+}
+
+.section__about--details {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 8rem 5rem;
+}
+
+@media only screen and (max-width: 20em) {
+  .section__about--details {
+    padding: 2rem 1.6rem;
+  }
+}
+
+.pic {
+  width: 45rem;
+  height: auto;
+  position: absolute;
+  top: 55%;
+  left: 49%;
+  -webkit-transform: translate(-51%, -45%);
+          transform: translate(-51%, -45%);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+@media only screen and (max-width: 20em) {
+  .pic {
+    width: 23rem;
+  }
+}
+
+.pic:hover {
+  width: 40rem;
+}
+
+@media only screen and (max-width: 20em) {
+  .pic:hover {
+    width: 23rem;
+  }
+}
+
+.pic--outline {
+  width: 24rem;
+  height: 24rem;
+  border-radius: 20rem;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+@media only screen and (max-width: 20em) {
+  .pic--outline {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 30rem;
+    margin: 0 auto;
+  }
+}
+
+.my-name {
+  width: 27rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+@media only screen and (max-width: 20em) {
+  .my-name {
+    width: 17rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.my-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 8.5rem;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 20em) {
+  .my-location {
+    width: 10rem;
+    margin: 0.5rem auto;
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.location-pin {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.social__media--handles {
+  width: 16rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 20em) {
+  .social__media--handles {
+    width: 18rem;
+    margin-bottom: 3rem;
+    margin-left: 7rem;
+  }
+}
+
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+@media only screen and (max-width: 20em) {
+  .icon {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+.icon:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.personal-description {
+  width: 38rem;
+  height: 15rem;
+}
+
+@media only screen and (max-width: 20em) {
+  .personal-description {
+    width: 32rem;
+    height: 16rem;
+  }
+}
+
+.personal-description-1 {
+  font-size: 1.15rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 20em) {
+  .personal-description-1 {
+    font-size: 1.18rem;
+  }
+}
+
+.personal-description-2 {
+  font-size: 1.15rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 20em) {
+  .personal-description-2 {
+    font-size: 1.18rem;
+  }
+}
+
+.devMille {
+  color: #adf0d1;
+  margin-left: 0.1rem;
+  text-decoration: none;
+}
+
+.tools {
+  width: 38rem;
+  height: 15rem;
+}
+
+@media only screen and (max-width: 20em) {
+  .tools {
+    width: 32rem;
+    height: 9rem;
+  }
+}
+
+.tools__programming--title {
+  height: 3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+}
+
+@media only screen and (max-width: 20em) {
+  .tools__programming--title {
+    font-size: 1.3rem;
+  }
+}
+
+.tools__programming--items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 3rem 3rem 3rem;
+      grid-template-rows: 3rem 3rem 3rem;
+  -ms-grid-columns: 10rem 10rem;
+      grid-template-columns: 10rem 10rem;
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 20em) {
+  .tools__programming--items {
+    -ms-grid-columns: 8.5rem 8.5rem 8.5rem;
+        grid-template-columns: 8.5rem 8.5rem 8.5rem;
+    -ms-grid-rows: 2rem 2rem;
+        grid-template-rows: 2rem 2rem;
+    font-size: 1.15rem;
+  }
+}
+
+.circle {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 20rem;
+  margin-right: 0.6rem;
+}
+
+@media only screen and (max-width: 20em) {
+  .circle {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: tomato;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pink {
+  background-color: palevioletred;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

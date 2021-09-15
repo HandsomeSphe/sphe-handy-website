@@ -1,0 +1,216 @@
+.section__about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: rgba(1, 31, 60, 0.72);
+
+  @include respond(xs-phone) {
+    flex-direction: column;
+    width: 100%;
+    height: 130vh;
+  }
+  &--pic {
+    flex: 0 0 50%;
+    padding: 10rem 13rem;
+    @include respond(xs-phone) {
+      flex: 0 0 1%;
+      padding: 1rem 0;
+      // background-color: tomato;
+    }
+  }
+  &--details {
+    flex: 1;
+    padding: 8rem 5rem;
+    @include respond(xs-phone) {
+      padding: 2rem 1.6rem;
+    }
+  }
+}
+.pic {
+  width: 45rem;
+  height: auto;
+  position: absolute;
+  top: 55%;
+  left: 49%;
+  transform: translate(-51%, -45%);
+  transition: all 0.4s;
+  @include respond(xs-phone) {
+    width: 23rem;
+  }
+}
+.pic:hover {
+  width: 40rem;
+  @include respond(xs-phone) {
+    width: 23rem;
+  }
+}
+.pic--outline {
+  width: 24rem;
+  height: 24rem;
+  border-radius: 20rem;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  z-index: 1000;
+  @include respond(xs-phone) {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 30rem;
+    margin: 0 auto;
+    // background-color: salmon;
+  }
+}
+.my-name {
+  width: 27rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+  @include respond(xs-phone) {
+    width: 17rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+  }
+}
+.my-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 8.5rem;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  @include respond(xs-phone) {
+    width: 10rem;
+    margin: 0.5rem auto;
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+.location-pin {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.social__media--handles {
+  width: 16rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  @include respond(xs-phone) {
+    width: 18rem;
+    margin-bottom: 3rem;
+    margin-left: 7rem;
+    // background-color: sienna;
+  }
+}
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  transition: all 0.2s;
+  @include respond(xs-phone) {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+.personal-description {
+  // background-color: tomato;
+  width: 38rem;
+  height: 15rem;
+  @include respond(xs-phone) {
+    width: 32rem;
+    height: 16rem;
+    // background-color: royalblue;
+  }
+  &-1 {
+    font-size: 1.15rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    @include respond(xs-phone) {
+      font-size: 1.18rem;
+    }
+  }
+  &-2 {
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    @include respond(xs-phone) {
+      font-size: 1.18rem;
+    }
+  }
+}
+.devMille {
+  color: rgba(173, 240, 209, 1);
+  margin-left: 0.1rem;
+  text-decoration: none;
+}
+.tools {
+  // background-color: tomato;
+  width: 38rem;
+  height: 15rem;
+  @include respond(xs-phone) {
+    width: 32rem;
+    height: 9rem;
+    // background-color: springgreen;
+  }
+
+  &__programming--title {
+    // background-color: pink;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+    @include respond(xs-phone) {
+      font-size: 1.3rem;
+    }
+  }
+  &__programming--items {
+    display: grid;
+    grid-template-rows: 3rem 3rem 3rem;
+    grid-template-columns: 10rem 10rem;
+    column-gap: 0.5rem;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    @include respond(xs-phone) {
+      grid-template-columns: 8.5rem 8.5rem 8.5rem;
+      grid-template-rows: 2rem 2rem;
+      font-size: 1.15rem;
+    }
+  }
+}
+.circle {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 20rem;
+  margin-right: 0.6rem;
+  @include respond(xs-phone) {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+}
+.yellow {
+  background-color: yellow;
+}
+.orange {
+  background-color: tomato;
+}
+.blue {
+  background-color: blue;
+}
+.pink {
+  background-color: palevioletred;
+}
+.purple {
+  background-color: purple;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
