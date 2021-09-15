@@ -3,7 +3,14 @@
   height: 100vh;
   display: flex;
   background-color: rgba(1, 31, 60, 0.72);
-
+  @include respond(tab-port) {
+    flex-direction: column;
+    height: 170vh;
+  }
+  @include respond(s-phone) {
+    flex-direction: column;
+    height: 150vh;
+  }
   @include respond(xs-phone) {
     flex-direction: column;
     width: 100%;
@@ -12,8 +19,16 @@
   &--pic {
     flex: 0 0 50%;
     padding: 10rem 13rem;
+    @include respond(tab-port) {
+      flex: 0 0 20%;
+      padding: 3rem 0;
+    }
+    @include respond(s-phone) {
+      flex: 0 0 15%;
+      padding: 2rem 0;
+    }
     @include respond(xs-phone) {
-      flex: 0 0 1%;
+      flex: 0 0 15%;
       padding: 1rem 0;
       // background-color: tomato;
     }
@@ -21,6 +36,12 @@
   &--details {
     flex: 1;
     padding: 8rem 5rem;
+    @include respond(tab-port) {
+      padding: 2rem 1.9rem;
+    }
+    @include respond(s-phone) {
+      padding: 2rem 1.9rem;
+    }
     @include respond(xs-phone) {
       padding: 2rem 1.6rem;
     }
@@ -34,12 +55,24 @@
   left: 49%;
   transform: translate(-51%, -45%);
   transition: all 0.4s;
+  @include respond(tab-port) {
+    width: 32rem;
+  }
+  @include respond(s-phone) {
+    width: 25rem;
+  }
   @include respond(xs-phone) {
     width: 23rem;
   }
 }
 .pic:hover {
   width: 40rem;
+  @include respond(tab-port) {
+    width: 32rem;
+  }
+  @include respond(s-phone) {
+    width: 25rem;
+  }
   @include respond(xs-phone) {
     width: 23rem;
   }
@@ -52,6 +85,18 @@
   overflow: hidden;
   background-color: transparent;
   z-index: 1000;
+  @include respond(tab-port) {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20rem;
+    margin: 0 auto;
+  }
+  @include respond(s-phone) {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 20rem;
+    margin: 0 auto;
+  }
   @include respond(xs-phone) {
     width: 14rem;
     height: 14rem;
@@ -65,6 +110,20 @@
   font-size: 2.8rem;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.95);
+  @include respond(tab-port) {
+    width: 20rem;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+  }
+  @include respond(s-phone) {
+    width: 18rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+  }
   @include respond(xs-phone) {
     width: 17rem;
     font-size: 1.6rem;
@@ -81,6 +140,20 @@
   height: 2.5rem;
   font-size: 1.1rem;
   margin-bottom: 2rem;
+  @include respond(tab-port) {
+    width: 9.5rem;
+    margin: 0.5rem auto;
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  @include respond(s-phone) {
+    width: 11rem;
+    margin: 0.5rem auto;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
   @include respond(xs-phone) {
     width: 10rem;
     margin: 0.5rem auto;
@@ -99,6 +172,16 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
+  @include respond(tab-port) {
+    width: 22rem;
+    margin-bottom: 4rem;
+    margin-left: 11rem;
+  }
+  @include respond(s-phone) {
+    width: 20rem;
+    margin-bottom: 4rem;
+    margin-left: 9rem;
+  }
   @include respond(xs-phone) {
     width: 18rem;
     margin-bottom: 3rem;
@@ -110,6 +193,14 @@
   width: 2.4rem;
   height: 2.4rem;
   transition: all 0.2s;
+  @include respond(tab-port) {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+  @include respond(s-phone) {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
   @include respond(xs-phone) {
     width: 3rem;
     height: 3rem;
@@ -123,16 +214,33 @@
   // background-color: tomato;
   width: 38rem;
   height: 15rem;
+  @include respond(tab-port) {
+    width: 38rem;
+    height: 22rem;
+    // background-color: royalblue;
+    margin: 0 auto;
+  }
+  @include respond(s-phone) {
+    width: 36rem;
+    height: 18rem;
+    margin: 0 auto;
+  }
   @include respond(xs-phone) {
     width: 32rem;
     height: 16rem;
-    // background-color: royalblue;
+    margin: 0 auto;
   }
   &-1 {
     font-size: 1.15rem;
     font-weight: 300;
     margin-bottom: 1rem;
     color: rgba(255, 255, 255, 0.7);
+    @include respond(tab-port) {
+      font-size: 1.4rem;
+    }
+    @include respond(s-phone) {
+      font-size: 1.25rem;
+    }
     @include respond(xs-phone) {
       font-size: 1.18rem;
     }
@@ -141,6 +249,12 @@
     font-size: 1.15rem;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.7);
+    @include respond(tab-port) {
+      font-size: 1.4rem;
+    }
+    @include respond(s-phone) {
+      font-size: 1.25rem;
+    }
     @include respond(xs-phone) {
       font-size: 1.18rem;
     }
@@ -155,10 +269,20 @@
   // background-color: tomato;
   width: 38rem;
   height: 15rem;
+  @include respond(tab-port) {
+    width: 36rem;
+    height: 15rem;
+    // background-color: springgreen;
+    margin: 0 auto;
+  }
+  @include respond(s-phone) {
+    width: 38rem;
+    height: 12rem;
+    margin: 0 auto;
+  }
   @include respond(xs-phone) {
     width: 32rem;
     height: 9rem;
-    // background-color: springgreen;
   }
 
   &__programming--title {
@@ -167,6 +291,12 @@
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 0.7rem;
+    @include respond(tab-port) {
+      font-size: 1.7rem;
+    }
+    @include respond(s-phone) {
+      font-size: 1.4rem;
+    }
     @include respond(xs-phone) {
       font-size: 1.3rem;
     }
@@ -178,6 +308,16 @@
     column-gap: 0.5rem;
     font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.7);
+    @include respond(tab-port) {
+      grid-template-columns: 10rem 10rem 10rem 10rem;
+      grid-template-rows: 3rem 3rem;
+      font-size: 1.25rem;
+    }
+    @include respond(s-phone) {
+      grid-template-columns: 9rem 9rem 9rem 9rem;
+      grid-template-rows: 3rem 3rem;
+      font-size: 1.25rem;
+    }
     @include respond(xs-phone) {
       grid-template-columns: 8.5rem 8.5rem 8.5rem;
       grid-template-rows: 2rem 2rem;
