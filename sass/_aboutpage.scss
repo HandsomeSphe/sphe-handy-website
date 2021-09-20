@@ -400,19 +400,19 @@
   }
 }
 .yellow {
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.7);
 }
 .orange {
-  background-color: tomato;
+  background-color: rgba(255, 99, 71, 0.7);
 }
 .blue {
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.7);
 }
 .pink {
-  background-color: palevioletred;
+  background-color: rgba(216, 112, 147, 0.7);
 }
 .purple {
-  background-color: purple;
+  background-color: rgba(128, 0, 128, 0.7);
 }
 .item {
   display: flex;

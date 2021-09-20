@@ -291,7 +291,7 @@ h1 {
   background-color: rgba(196, 196, 196, 0.7);
   position: absolute;
   top: 0;
-  left: 6%;
+  left: 5%;
 
   @include respond(tab-land) {
     display: none;

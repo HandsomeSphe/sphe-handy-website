@@ -33,6 +33,12 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  @include respond(lan-desktop) {
+    max-width: 100%;
+    height: 8rem;
+    padding: 2rem 4rem;
+  }
+
   @include respond(desktop) {
     max-width: 100%;
     height: 6rem;
@@ -62,6 +68,9 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    @include respond(lan-desktop) {
+      width: 80rem;
+    }
     @include respond(desktop) {
       width: 50rem;
     }
