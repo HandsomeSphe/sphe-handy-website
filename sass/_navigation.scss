@@ -64,15 +64,16 @@
 
   //Links
   &__links {
-    width: 53%;
+    width: 45rem;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    // background-color: tomato;
     @include respond(lan-desktop) {
       width: 80rem;
     }
     @include respond(desktop) {
-      width: 50rem;
+      width: 58rem;
     }
     @include respond(tab-land) {
       width: 56%;

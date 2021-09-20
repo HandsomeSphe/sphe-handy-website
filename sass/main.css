@@ -682,7 +682,7 @@ h1 {
 }
 
 .nav__links {
-  width: 53%;
+  width: 45rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -700,7 +700,7 @@ h1 {
 
 @media only screen and (min-width: 64em) {
   .nav__links {
-    width: 50rem;
+    width: 58rem;
   }
 }
 
