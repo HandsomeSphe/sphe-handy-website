@@ -53,11 +53,24 @@ body {
   }
 }
 
+@media only screen and (min-width: 87.5em) {
+  .header {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
 .header__title {
   width: 100%;
   margin-top: 6rem;
   padding: 2rem 0 0 12rem;
   line-height: 1.5;
+}
+
+@media only screen and (min-width: 87.5em) {
+  .header__title {
+    margin-top: 15rem;
+  }
 }
 
 @media only screen and (min-width: 64em) {
@@ -98,6 +111,12 @@ h5 {
   font-size: 1.5rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (min-width: 87.5em) {
+  h5 {
+    font-size: 5rem;
+  }
 }
 
 @media only screen and (min-width: 64em) {
@@ -586,6 +605,13 @@ h1 {
   cursor: pointer;
 }
 
+@media only screen and (min-width: 87.5em) {
+  .logo {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
+}
+
 @media only screen and (min-width: 64em) {
   .logo {
     width: 2.7rem;
@@ -637,10 +663,11 @@ h1 {
   position: relative;
 }
 
-@media only screen and (min-width: 0.875em) {
+@media only screen and (min-width: 87.5em) {
   .nav {
-    max-width: 100%;
-    height: 8rem;
+    width: 100%;
+    height: 10rem;
+    background-color: tomato;
     padding: 2rem 4rem;
   }
 }
@@ -682,7 +709,7 @@ h1 {
 }
 
 .nav__links {
-  width: 45rem;
+  width: 58rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -692,7 +719,7 @@ h1 {
   list-style-type: none;
 }
 
-@media only screen and (min-width: 0.875em) {
+@media only screen and (min-width: 87.5em) {
   .nav__links {
     width: 80rem;
   }
@@ -875,7 +902,7 @@ h1 {
 @media only screen and (max-width: 48em) {
   .section__about {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
   }
 }
 
@@ -1095,8 +1122,8 @@ h1 {
 }
 
 .my-name {
-  width: 27rem;
-  font-size: 2.8rem;
+  width: 35rem;
+  font-size: 3.2rem;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.95);
 }
@@ -1110,11 +1137,11 @@ h1 {
 
 @media only screen and (max-width: 26.5625em) {
   .my-name {
-    width: 20rem;
+    width: 19rem;
     font-size: 2rem;
     font-weight: 600;
     margin: 0 auto;
-    padding: 0.5rem 1rem;
+    padding: 0;
   }
 }
 
@@ -1152,11 +1179,12 @@ h1 {
   height: 2.5rem;
   font-size: 1.1rem;
   margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media only screen and (max-width: 48em) {
   .my-location {
-    width: 9.5rem;
+    width: 10rem;
     margin: 0.5 auto;
     font-size: 1.4rem;
     margin-bottom: 2.5rem;
@@ -1166,7 +1194,7 @@ h1 {
 
 @media only screen and (max-width: 26.5625em) {
   .my-location {
-    width: 9.5rem;
+    width: 10rem;
     margin: 0.5rem auto;
     font-size: 1.4rem;
     margin-bottom: 4rem;
@@ -1197,6 +1225,7 @@ h1 {
 .location-pin {
   width: 1.3rem;
   height: 1.3rem;
+  fill: rgba(255, 255, 255, 0.7);
 }
 
 .social__media--handles {
@@ -1212,7 +1241,7 @@ h1 {
 
 @media only screen and (max-width: 48em) {
   .social__media--handles {
-    width: 22rem;
+    width: 19rem;
     margin-bottom: 2.5rem;
   }
 }
@@ -1250,8 +1279,8 @@ h1 {
 
 @media only screen and (max-width: 48em) {
   .icon {
-    width: 3.6rem;
-    height: 3.6rem;
+    width: 3rem;
+    height: 3rem;
   }
 }
 
@@ -1282,14 +1311,14 @@ h1 {
 }
 
 .personal-description {
-  width: 38rem;
+  width: 45rem;
   height: 15rem;
 }
 
 @media only screen and (max-width: 48em) {
   .personal-description {
     width: 35rem;
-    height: 18rem;
+    height: 21rem;
   }
 }
 
@@ -1312,16 +1341,17 @@ h1 {
 @media only screen and (max-width: 20em) {
   .personal-description {
     width: 32rem;
-    height: 16rem;
+    height: 20rem;
     margin: 0 auto;
   }
 }
 
 .personal-description-1 {
   font-size: 1.15rem;
-  font-weight: 300;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  margin-bottom: 2rem;
+  letter-spacing: 0.04rem;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @media only screen and (max-width: 48em) {
@@ -1350,8 +1380,9 @@ h1 {
 
 .personal-description-2 {
   font-size: 1.15rem;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.04rem;
 }
 
 @media only screen and (max-width: 48em) {
@@ -1424,12 +1455,12 @@ h1 {
   height: 3rem;
   font-size: 1.2rem;
   font-weight: 500;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 48em) {
   .tools__programming--title {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -1454,10 +1485,10 @@ h1 {
 .tools__programming--items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 3rem 3rem 3rem;
-      grid-template-rows: 3rem 3rem 3rem;
-  -ms-grid-columns: 10rem 10rem;
-      grid-template-columns: 10rem 10rem;
+  -ms-grid-rows: 3rem 3rem;
+      grid-template-rows: 3rem 3rem;
+  -ms-grid-columns: 13rem 13rem 13rem;
+      grid-template-columns: 13rem 13rem 13rem;
   -webkit-column-gap: 0.5rem;
           column-gap: 0.5rem;
   font-size: 1.1rem;
@@ -1468,8 +1499,8 @@ h1 {
   .tools__programming--items {
     -ms-grid-columns: 9.5rem 9.5rem 9.5rem;
         grid-template-columns: 9.5rem 9.5rem 9.5rem;
-    -ms-grid-rows: 2rem 2rem 2rem;
-        grid-template-rows: 2rem 2rem 2rem;
+    -ms-grid-rows: 3.2rem 3.2rem 3.2rem;
+        grid-template-rows: 3.2rem 3.2rem 3.2rem;
     font-size: 1.25rem;
   }
 }
@@ -1505,10 +1536,11 @@ h1 {
 }
 
 .circle {
-  width: 0.8rem;
-  height: 0.8rem;
+  width: 0.5rem;
+  height: 0.5rem;
   border-radius: 20rem;
   margin-right: 0.6rem;
+  background-color: #050533;
 }
 
 @media only screen and (max-width: 20em) {
@@ -1516,26 +1548,6 @@ h1 {
     width: 0.7rem;
     height: 0.7rem;
   }
-}
-
-.yellow {
-  background-color: rgba(255, 255, 0, 0.7);
-}
-
-.orange {
-  background-color: rgba(255, 99, 71, 0.7);
-}
-
-.blue {
-  background-color: rgba(0, 0, 255, 0.7);
-}
-
-.pink {
-  background-color: rgba(216, 112, 147, 0.7);
-}
-
-.purple {
-  background-color: rgba(128, 0, 128, 0.7);
 }
 
 .item {

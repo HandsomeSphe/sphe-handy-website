@@ -17,6 +17,10 @@
     max-width: 100rem;
     max-height: 100rem;
   }
+  @include respond(lan-desktop) {
+    width: 100%;
+    height: 100vh;
+  }
   // @include respond(xs-phone) {
   //   width: 100%;
   //   height: 100vh;
@@ -29,6 +33,9 @@
   margin-top: 6rem;
   padding: 2rem 0 0 12rem;
   line-height: 1.5;
+  @include respond(lan-desktop) {
+    margin-top: 15rem;
+  }
   @include respond(desktop) {
     margin-top: 6rem;
   }
@@ -53,6 +60,9 @@ h5 {
   font-size: 1.5rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
+  @include respond(lan-desktop) {
+    font-size: 5rem;
+  }
   @include respond(desktop) {
     font-size: 1.27rem;
   }
