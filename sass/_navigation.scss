@@ -4,8 +4,8 @@
   height: 3.5rem;
   cursor: pointer;
   @include respond(lan-desktop) {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3rem;
+    height: 3rem;
   }
   @include respond(desktop) {
     width: 2.7rem;
@@ -37,13 +37,6 @@
   align-items: center;
   position: relative;
 
-  @include respond(lan-desktop) {
-    width: 100%;
-    height: 20rem;
-    background-color: tomato;
-    padding: 2rem 4rem;
-  }
-
   @include respond(desktop) {
     max-width: 100%;
     height: 6rem;
@@ -73,12 +66,9 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    // background-color: tomato;
-    @include respond(lan-desktop) {
-      width: 63rem;
-    }
+
     @include respond(desktop) {
-      width: 58rem;
+      width: 55rem;
     }
     @include respond(tab-land) {
       width: 56%;
@@ -105,8 +95,9 @@
     font-size: 1.5rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.8);
+
     @include respond(desktop) {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
     }
     @include respond(tab-land) {
       font-size: 1.1rem;

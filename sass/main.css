@@ -32,6 +32,18 @@ html {
   }
 }
 
+@media only screen and (min-width: 90em) {
+  html {
+    font-size: 94%;
+  }
+}
+
+@media only screen and (min-width: 160em) {
+  html {
+    font-size: 99%;
+  }
+}
+
 body {
   background-color: #3a3737;
   font-weight: 300;
@@ -48,15 +60,8 @@ body {
 
 @media only screen and (min-width: 160em) {
   .header {
-    max-width: 100rem;
-    max-height: 100rem;
-  }
-}
-
-@media only screen and (min-width: 90em) {
-  .header {
-    width: 100%;
-    height: 100vh;
+    max-width: 150rem;
+    max-height: 120rem;
   }
 }
 
@@ -65,12 +70,6 @@ body {
   margin-top: 6rem;
   padding: 2rem 0 0 12rem;
   line-height: 1.5;
-}
-
-@media only screen and (min-width: 90em) {
-  .header__title {
-    margin-top: 15rem;
-  }
 }
 
 @media only screen and (min-width: 64em) {
@@ -95,7 +94,7 @@ body {
 
 @media only screen and (max-width: 23.4375em) {
   .header__title {
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding: 1rem 0 0 1.5rem;
   }
 }
@@ -111,13 +110,6 @@ h5 {
   font-size: 1.5rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
-}
-
-@media only screen and (min-width: 90em) {
-  h5 {
-    font-size: 2rem;
-    background-color: tomato;
-  }
 }
 
 @media only screen and (min-width: 64em) {
@@ -153,13 +145,6 @@ h5 {
 h1 {
   font-size: 5rem;
   color: rgba(255, 255, 255, 0.95);
-}
-
-@media only screen and (min-width: 90em) {
-  h1 {
-    font-size: 9rem;
-    background-color: royalblue;
-  }
 }
 
 @media only screen and (min-width: 64em) {
@@ -200,22 +185,14 @@ h1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 50rem;
-  height: 9rem;
+  height: 6rem;
   color: rgba(255, 255, 255, 0.65);
   font-weight: 700;
 }
 
-@media only screen and (min-width: 90em) {
-  .h1 {
-    width: 60rem;
-    height: 8rem;
-    margin-bottom: 1.5rem;
-  }
-}
-
 @media only screen and (min-width: 64em) {
   .h1 {
-    height: 5.5rem;
+    height: 6rem;
     width: 50rem;
     margin-bottom: 1rem;
   }
@@ -241,7 +218,7 @@ h1 {
   .h1 {
     height: 5rem;
     width: 33rem;
-    margin-bottom: 1.7rem;
+    margin-bottom: 0.7rem;
   }
 }
 
@@ -399,7 +376,7 @@ h1 {
 
 @media only screen and (min-width: 64em) {
   .person-description {
-    font-size: 1.27rem;
+    font-size: 1.29rem;
     width: 52rem;
     margin-bottom: 8rem;
   }
@@ -623,8 +600,8 @@ h1 {
 
 @media only screen and (min-width: 90em) {
   .logo {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3rem;
+    height: 3rem;
   }
 }
 
@@ -679,15 +656,6 @@ h1 {
   position: relative;
 }
 
-@media only screen and (min-width: 90em) {
-  .nav {
-    width: 100%;
-    height: 20rem;
-    background-color: tomato;
-    padding: 2rem 4rem;
-  }
-}
-
 @media only screen and (min-width: 64em) {
   .nav {
     max-width: 100%;
@@ -735,15 +703,9 @@ h1 {
   list-style-type: none;
 }
 
-@media only screen and (min-width: 90em) {
-  .nav__links {
-    width: 63rem;
-  }
-}
-
 @media only screen and (min-width: 64em) {
   .nav__links {
-    width: 58rem;
+    width: 55rem;
   }
 }
 
@@ -791,7 +753,7 @@ h1 {
 
 @media only screen and (min-width: 64em) {
   .nav__link {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -938,7 +900,7 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 140vh;
+    height: 143vh;
   }
 }
 
@@ -1349,7 +1311,7 @@ h1 {
 @media only screen and (max-width: 23.4375em) {
   .personal-description {
     width: 36rem;
-    height: 18rem;
+    height: 20rem;
     margin: 0 auto;
   }
 }

@@ -13,7 +13,7 @@
   }
   @include respond(s-phone) {
     flex-direction: column;
-    height: 140vh;
+    height: 143vh;
   }
   @include respond(xs-phone) {
     flex-direction: column;
@@ -273,7 +273,7 @@
   }
   @include respond(s-phone) {
     width: 36rem;
-    height: 18rem;
+    height: 20rem;
     margin: 0 auto;
   }
   @include respond(xs-phone) {
@@ -335,7 +335,6 @@
   @include respond(tab-port) {
     width: 36rem;
     height: 15rem;
-    // background-color: springgreen;
     margin: 0 auto;
   }
   @include respond(s-phone) {

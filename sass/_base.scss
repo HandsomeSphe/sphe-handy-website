@@ -57,6 +57,12 @@ html {
   @include respond(desktop) {
     font-size: 75%;
   }
+  @include respond(lan-desktop) {
+    font-size: 94%;
+  }
+  @include respond(big-desktop) {
+    font-size: 99%;
+  }
 }
 body {
   background-color: #3a3737;

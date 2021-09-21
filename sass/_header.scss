@@ -14,17 +14,9 @@
     rgba(1, 31, 60, 0.72);
   position: relative;
   @include respond(big-desktop) {
-    max-width: 100rem;
-    max-height: 100rem;
+    max-width: 150rem;
+    max-height: 120rem;
   }
-  @include respond(lan-desktop) {
-    width: 100%;
-    height: 100vh;
-  }
-  // @include respond(xs-phone) {
-  //   width: 100%;
-  //   height: 100vh;
-  // }
 }
 
 //Header title
@@ -33,9 +25,7 @@
   margin-top: 6rem;
   padding: 2rem 0 0 12rem;
   line-height: 1.5;
-  @include respond(lan-desktop) {
-    margin-top: 15rem;
-  }
+
   @include respond(desktop) {
     margin-top: 6rem;
   }
@@ -48,7 +38,7 @@
     padding: 1rem 0 0 2rem;
   }
   @include respond(s-phone) {
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding: 1rem 0 0 1.5rem;
   }
   @include respond(xs-phone) {
@@ -60,10 +50,7 @@ h5 {
   font-size: 1.5rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
-  @include respond(lan-desktop) {
-    font-size: 2rem;
-    background-color: tomato;
-  }
+
   @include respond(desktop) {
     font-size: 1.27rem;
   }
@@ -83,10 +70,7 @@ h5 {
 h1 {
   font-size: 5rem;
   color: rgba(255, 255, 255, 0.95);
-  @include respond(lan-desktop) {
-    font-size: 9rem;
-    background-color: royalblue;
-  }
+
   @include respond(desktop) {
     font-size: 3.8rem;
   }
@@ -109,19 +93,14 @@ h1 {
   display: flex;
   justify-content: space-between;
   width: 50rem;
-  height: 9rem;
+  height: 6rem;
   color: rgba(255, 255, 255, 0.65);
   font-weight: 700;
-  @include respond(lan-desktop) {
-    width: 60rem;
-    height: 8rem;
-    margin-bottom: 1.5rem;
-  }
+
   @include respond(desktop) {
-    height: 5.5rem;
+    height: 6rem;
     width: 50rem;
     margin-bottom: 1rem;
-    // background-color: tomato;
   }
   @include respond(tab-land) {
     height: 5.5rem;
@@ -136,7 +115,7 @@ h1 {
   @include respond(s-phone) {
     height: 5rem;
     width: 33rem;
-    margin-bottom: 1.7rem;
+    margin-bottom: 0.7rem;
   }
   @include respond(xs-phone) {
     height: 5rem;
@@ -149,7 +128,6 @@ h1 {
   overflow: hidden;
   @include respond(desktop) {
     width: 21rem;
-    // background-color: red;
   }
 
   @include respond(tab-land) {
@@ -224,9 +202,9 @@ h1 {
   margin-bottom: 4rem;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
-  // background-color: orchid;
+
   @include respond(desktop) {
-    font-size: 1.27rem;
+    font-size: 1.29rem;
     width: 52rem;
     margin-bottom: 8rem;
   }
