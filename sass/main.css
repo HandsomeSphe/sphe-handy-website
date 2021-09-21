@@ -224,7 +224,7 @@ h1 {
 @media only screen and (max-width: 48em) {
   .h1 {
     height: 5.5rem;
-    width: 55%;
+    width: 45rem;
     margin-bottom: 0.8rem;
   }
 }
@@ -232,7 +232,7 @@ h1 {
 @media only screen and (max-width: 26.5625em) {
   .h1 {
     height: 5rem;
-    width: 84%;
+    width: 38rem;
     margin-bottom: 1rem;
   }
 }
@@ -240,7 +240,7 @@ h1 {
 @media only screen and (max-width: 23.4375em) {
   .h1 {
     height: 5rem;
-    width: 83%;
+    width: 33rem;
     margin-bottom: 0.7rem;
   }
 }
@@ -248,7 +248,7 @@ h1 {
 @media only screen and (max-width: 20em) {
   .h1 {
     height: 5rem;
-    width: 91%;
+    width: 31rem;
     margin-bottom: 1rem;
   }
 }

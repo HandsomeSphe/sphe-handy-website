@@ -125,22 +125,22 @@ h1 {
   }
   @include respond(tab-land) {
     height: 5.5rem;
-    width: 55%;
+    width: 45rem;
     margin-bottom: 0.8rem;
   }
   @include respond(tab-port) {
     height: 5rem;
-    width: 84%;
+    width: 38rem;
     margin-bottom: 1rem;
   }
   @include respond(s-phone) {
     height: 5rem;
-    width: 83%;
+    width: 33rem;
     margin-bottom: 0.7rem;
   }
   @include respond(xs-phone) {
     height: 5rem;
-    width: 91%;
+    width: 31rem;
     margin-bottom: 1rem;
   }
 }
