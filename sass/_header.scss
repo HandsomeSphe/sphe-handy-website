@@ -136,7 +136,7 @@ h1 {
   @include respond(s-phone) {
     height: 5rem;
     width: 33rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 5rem;
   }
   @include respond(xs-phone) {
     height: 5rem;
