@@ -61,7 +61,8 @@ h5 {
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
   @include respond(lan-desktop) {
-    font-size: 5rem;
+    font-size: 2rem;
+    background-color: tomato;
   }
   @include respond(desktop) {
     font-size: 1.27rem;
@@ -82,6 +83,10 @@ h5 {
 h1 {
   font-size: 5rem;
   color: rgba(255, 255, 255, 0.95);
+  @include respond(lan-desktop) {
+    font-size: 9rem;
+    background-color: royalblue;
+  }
   @include respond(desktop) {
     font-size: 3.8rem;
   }
@@ -103,10 +108,15 @@ h1 {
 .h1 {
   display: flex;
   justify-content: space-between;
-  width: 58%;
+  width: 50rem;
   height: 9rem;
   color: rgba(255, 255, 255, 0.65);
   font-weight: 700;
+  @include respond(lan-desktop) {
+    width: 60rem;
+    height: 8rem;
+    margin-bottom: 1.5rem;
+  }
   @include respond(desktop) {
     height: 5.5rem;
     width: 50rem;

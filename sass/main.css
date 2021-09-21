@@ -115,7 +115,8 @@ h5 {
 
 @media only screen and (min-width: 87.5em) {
   h5 {
-    font-size: 5rem;
+    font-size: 2rem;
+    background-color: tomato;
   }
 }
 
@@ -152,6 +153,13 @@ h5 {
 h1 {
   font-size: 5rem;
   color: rgba(255, 255, 255, 0.95);
+}
+
+@media only screen and (min-width: 87.5em) {
+  h1 {
+    font-size: 9rem;
+    background-color: royalblue;
+  }
 }
 
 @media only screen and (min-width: 64em) {
@@ -191,10 +199,18 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 58%;
+  width: 50rem;
   height: 9rem;
   color: rgba(255, 255, 255, 0.65);
   font-weight: 700;
+}
+
+@media only screen and (min-width: 87.5em) {
+  .h1 {
+    width: 60rem;
+    height: 8rem;
+    margin-bottom: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 64em) {
