@@ -3,6 +3,10 @@
   height: 100vh;
   display: flex;
   background-color: rgba(1, 31, 60, 0.72);
+  @include respond(desktop) {
+    width: 100%;
+    height: 100vh;
+  }
   @include respond(tab-land) {
     width: 100%;
     height: 110vh;
@@ -23,6 +27,10 @@
   &--pic {
     flex: 0 0 50%;
     padding: 10rem 13rem;
+    @include respond(desktop) {
+      flex: 0 0 40%;
+      padding: 10rem 13rem;
+    }
     @include respond(tab-land) {
       padding: 5rem 0;
       flex: 0 0 50%;
@@ -43,7 +51,10 @@
   }
   &--details {
     flex: 1;
-    padding: 8rem 5rem;
+    padding: 9rem 4rem;
+    @include respond(desktop) {
+      padding: 9rem 4rem;
+    }
     @include respond(tab-land) {
       padding: 5rem 2rem;
     }
@@ -66,6 +77,10 @@
   left: 49%;
   transform: translate(-51%, -45%);
   transition: all 0.4s;
+  @include respond(desktop) {
+    width: 45rem;
+    height: auto;
+  }
   @include respond(tab-land) {
     width: 27rem;
   }
@@ -102,6 +117,11 @@
   overflow: hidden;
   background-color: transparent;
   z-index: 1000;
+  @include respond(desktop) {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 20rem;
+  }
   @include respond(tab-land) {
     width: 17rem;
     height: 17rem;
@@ -133,7 +153,12 @@
   font-size: 3.2rem;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.95);
-  // background-color: tomato;
+
+  @include respond(desktop) {
+    width: 35rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+  }
 
   @include respond(tab-land) {
     width: 25rem;
@@ -171,6 +196,16 @@
   font-size: 1.1rem;
   margin-bottom: 2rem;
   color: rgba(255, 255, 255, 0.7);
+  @include respond(desktop) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8.5rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
   @include respond(tab-land) {
     width: 10rem;
     margin: 0.5 auto;
@@ -211,6 +246,12 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
+  @include respond(desktop) {
+    width: 16rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
   @include respond(tab-land) {
     width: 19rem;
     margin-bottom: 2.5rem;
@@ -236,6 +277,11 @@
   width: 2.4rem;
   height: 2.4rem;
   transition: all 0.2s;
+  @include respond(desktop) {
+    width: 2.4rem;
+    height: 2.4rem;
+    transition: all 0.2s;
+  }
   @include respond(tab-land) {
     width: 3rem;
     height: 3rem;
@@ -258,10 +304,12 @@
   transform: scale(1.1);
 }
 .personal-description {
-  // background-color: tomato;
   width: 45rem;
-  height: 15rem;
-
+  height: 16rem;
+  @include respond(desktop) {
+    width: 45rem;
+    height: 16rem;
+  }
   @include respond(tab-land) {
     width: 35rem;
     height: 21rem;
@@ -287,6 +335,9 @@
     margin-bottom: 2rem;
     letter-spacing: 0.04rem;
     color: rgba(255, 255, 255, 0.5);
+    @include respond(desktop) {
+      font-size: 1.15rem;
+    }
     @include respond(tab-land) {
       font-size: 1.3rem;
     }
@@ -305,6 +356,9 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     letter-spacing: 0.04rem;
+    @include respond(desktop) {
+      font-size: 1.15rem;
+    }
     @include respond(tab-land) {
       font-size: 1.3rem;
     }
@@ -325,9 +379,12 @@
   text-decoration: none;
 }
 .tools {
-  // background-color: tomato;
   width: 38rem;
-  height: 15rem;
+  height: 13rem;
+  @include respond(desktop) {
+    width: 38rem;
+    height: 13rem;
+  }
   @include respond(tab-land) {
     width: 36rem;
     height: 15rem;
@@ -354,6 +411,12 @@
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 1rem;
+    @include respond(desktop) {
+      height: 3rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
     @include respond(tab-land) {
       font-size: 1.3rem;
     }
@@ -374,6 +437,14 @@
     column-gap: 0.5rem;
     font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.7);
+    @include respond(desktop) {
+      display: grid;
+      grid-template-rows: 3rem 3rem;
+      grid-template-columns: 13rem 13rem 13rem;
+      column-gap: 0.5rem;
+      font-size: 1.1rem;
+      color: rgba(255, 255, 255, 0.7);
+    }
     @include respond(tab-land) {
       grid-template-columns: 9.5rem 9.5rem 9.5rem;
       grid-template-rows: 3.2rem 3.2rem 3.2rem;
@@ -402,6 +473,13 @@
   border-radius: 20rem;
   margin-right: 0.6rem;
   background-color: rgb(5, 5, 51);
+  @include respond(desktop) {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 20rem;
+    margin-right: 0.6rem;
+    background-color: rgb(5, 5, 51);
+  }
   @include respond(xs-phone) {
     width: 0.7rem;
     height: 0.7rem;
