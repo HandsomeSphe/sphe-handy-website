@@ -13,7 +13,7 @@
   }
   @include respond(s-phone) {
     flex-direction: column;
-    height: 150vh;
+    height: 130vh;
   }
   @include respond(xs-phone) {
     flex-direction: column;
