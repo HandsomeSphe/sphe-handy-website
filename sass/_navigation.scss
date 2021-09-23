@@ -84,10 +84,10 @@
     }
   }
   &__item {
-    width: 13rem;
+    width: 9rem;
     text-align: center;
     @include respond(desktop) {
-      width: 11rem;
+      width: 9rem;
     }
   }
   &__link {

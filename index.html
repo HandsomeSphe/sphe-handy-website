@@ -35,10 +35,10 @@
             <a href="#" class="nav__link">About</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Need a website?</a>
+            <a href="#" class="nav__link">Build website?</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Portfolio</a>
+            <a href="#" class="nav__link">Portofolio</a>
           </li>
           <li class="nav__item nav__item--btn">
             <a href="#" class="nav__link nav__link--btn btn--show-popup"
@@ -111,10 +111,6 @@
           <div class="pic--outline">
             <img src="./images/IMG-20201102-WA0010.jpg" alt="" class="pic" />
           </div>
-        </div>
-        <!----//////////////////////ABOUT ME////////////////-->
-        <div class="section__about--details wrapper">
-          <div class="my-name">Siphelele Muthwa</div>
           <div class="my-location">
             <svg class="location-pin">
               <use xlink:href="Icons2/SVG/sprite.svg#icon-map-pin"></use>
@@ -169,17 +165,18 @@
               </svg>
             </a>
           </div>
+        </div>
+        <!----//////////////////////ABOUT ME////////////////-->
+        <div class="section__about--details wrapper">
+          <div class="my-name">Siphelele Muthwa</div>
+
           <div class="personal-description">
             <div class="personal-description-1">
               Years back I fell in love with the web, elegant designs. Basically
-              I was interest in how they build websites and apps. I came across
-              <a
-                href="https://www.w3schools.com/"
-                target="_blank"
-                class="devMille"
-                >w3schools</a
-              >, I was hooked. Fast forward 3 years later, I am a self-taught
-              JavaScript programmer and a UI/UX designer
+              I was interest in how they build websites and apps. See my
+              <a href="#" target="_blank" class="devMille">resume</a>, I was
+              hooked. Fast forward 3 years later, I am a self-taught JavaScript
+              programmer and a UI/UX designer
             </div>
 
             <div class="personal-description-2">
@@ -225,18 +222,41 @@
         <!---//////////First Project //////////////////////-->
         <div class="section__portfolio--contanier">
           <div class="project__photo">
-            <img src="./images/Project 1.jpg" alt="budgety" />
+            <img class="firstPic" src="./images/Project 1.jpg" alt="budgety" />
           </div>
           <div class="project__description">
             <div class="project__description--heading">Budgety web app</div>
-            <div class="project__descrition--text">
+            <div class="project__description--text">
               Budgety web app is a income-expense calculator which shows you how
               much income you make and how much money is lost through expenses.
-              Built on a coure under Jonas guidance
+              On each expense it shows the proportion in percentage of how much
+              it's takes from your income. You can add and remove incomes and
+              expenses. It uses keyboard keys like enter and tab as well.
+              <br />
+              <br />
+              Built on a course under Jonas guidance
             </div>
             <div class="project__description--buttons">
-              <div class="view-btn"></div>
-              <div class="code-btn"></div>
+              <div class="view-btn">
+                <a href="#" class="view">
+                  <svg class="share">
+                    <use
+                      xlink:href="Icons2/SVG/sprite.svg#icon-launch_open_share_icon"
+                    ></use>
+                  </svg>
+                  view</a
+                >
+              </div>
+              <div class="code-btn">
+                <a href="#" class="code">
+                  <svg class="git">
+                    <use
+                      xlink:href="Icons2/SVG/sprite.svg#icon-github_logo_social-network_social_icon"
+                    ></use>
+                  </svg>
+                  code</a
+                >
+              </div>
               <div class="vscode-text">Vscode</div>
             </div>
             <div class="project__tools">
@@ -246,18 +266,18 @@
                   <div class="bullet yellow"></div>
                   <div class="javascript-text">JavaScript</div>
                 </div>
-                <div class="HTML green">
-                  <div class="bullet"></div>
+                <div class="HTML">
+                  <div class="bullet green"></div>
                   <div class="javascript-text">HTML</div>
                 </div>
-                <div class="CSS blue">
-                  <div class="bullet"></div>
+                <div class="CSS">
+                  <div class="bullet blue"></div>
                   <div class="javascript-text">CSS</div>
                 </div>
-                <div class="SASS pink">
-                  <div class="bullet"></div>
+                <!---div class="SASS">
+                  <div class="bullet pink"></div>
                   <div class="javascript-text">Sass</div>
-                </div>
+                </div---->
               </div>
             </div>
           </div>
@@ -265,18 +285,46 @@
         <!----//////////////END OF PROJECT 1 ///////////-->
         <!---//////////Second Project //////////////////////-->
         <div class="section__portfolio--contanier">
-          <div class="project__photo">
-            <img src="./images/Screenshot.png" alt="bankist website" />
+          <div class="project__photo project__photo-second">
+            <img
+              class="secondPic"
+              src="./images/Screenshot.png"
+              alt="bankist website"
+            />
           </div>
           <div class="project__description">
             <div class="project__description--heading">Bankist website</div>
-            <div class="project__descrition--text">
+            <div class="project__descrition--text projec--2">
               Bankist website follows the Bankist web app, It simple focuses on
-              modern websites fearures. DOM manupilation. Built on JS course
+              modern websites fearures. DOM manupilation. First feature that is
+              stunning is the sticky navigation bar that uses
+              intersectionObserver API, lazy loading images, tabbed component
+              and lastly the is a slider for testimonals
+              <br />
+              <br />
+              Built on JavaScript course
             </div>
             <div class="project__description--buttons">
-              <div class="view-btn"></div>
-              <div class="code-btn"></div>
+              <div class="view-btn">
+                <a href="#" class="view">
+                  <svg class="share">
+                    <use
+                      xlink:href="Icons2/SVG/sprite.svg#icon-launch_open_share_icon"
+                    ></use>
+                  </svg>
+                  view</a
+                >
+              </div>
+              <div class="code-btn">
+                <a href="#" class="code">
+                  <svg class="git">
+                    <use
+                      xlink:href="Icons2/SVG/sprite.svg#icon-github_logo_social-network_social_icon"
+                    ></use>
+                  </svg>
+                  code</a
+                >
+              </div>
               <div class="vscode-text">Vscode</div>
             </div>
             <div class="project__tools">
@@ -294,29 +342,59 @@
                   <div class="bullet"></div>
                   <div class="javascript-text">CSS</div>
                 </div>
-                <div class="SASS pink">
+                <!---div class="SASS pink">
                   <div class="bullet"></div>
                   <div class="javascript-text">Sass</div>
-                </div>
+                </div---->
               </div>
             </div>
           </div>
         </div>
         <!----//////////////END OF PROJECT 2 ///////////-->
+        <!--img
+              class="thirdPic"
+              src="./images/bankist web app.png"
+              alt="bankist-web-app"
+            /--->
         <!---//////////Third Project //////////////////////-->
         <div class="section__portfolio--contanier">
           <div class="project__photo">
-            <img src="./images/Screenshot.png" alt="budgety" />
+            <video
+              src="../images/Bankist (1).mp4"
+              class="thirdPic"
+              autoplay
+            ></video>
           </div>
           <div class="project__description">
-            <div class="project__description--heading">Bankist website</div>
-            <div class="project__descrition--text">
-              Bankist website follows the Bankist web app, It simple focuses on
-              modern websites fearures. DOM manupilation. Built on JS course
+            <div class="project__description--heading">Bankist web app</div>
+            <div class="project__descrition--text project--3">
+              Bankist web app is the modern way of banking remotely. It's have a
+              login feature, There is a transfer money,borrow money and close
+              account tab.
+              <br />
+              Built on JavaScript course
             </div>
             <div class="project__description--buttons">
-              <div class="view-btn"></div>
-              <div class="code-btn"></div>
+              <div class="view-btn">
+                <a href="#" class="view">
+                  <svg class="share">
+                    <use
+                      xlink:href="Icons2/SVG/sprite.svg#icon-launch_open_share_icon"
+                    ></use>
+                  </svg>
+                  view</a
+                >
+              </div>
+              <div class="code-btn">
+                <a href="#" class="code">
+                  <svg class="git">
+                    <use
+                      xlink:href="Icons2/SVG/sprite.svg#icon-github_logo_social-network_social_icon"
+                    ></use>
+                  </svg>
+                  code</a
+                >
+              </div>
               <div class="vscode-text">Vscode</div>
             </div>
             <div class="project__tools">

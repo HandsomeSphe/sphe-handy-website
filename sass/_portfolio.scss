@@ -1,0 +1,126 @@
+.section__portfolio {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)),
+    #011f3c;
+  padding: 2rem 3rem;
+  &--heading {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+  &--contanier {
+    display: flex;
+    height: 85vh;
+    margin-bottom: 0.3rem;
+  }
+}
+.project {
+  &__photo {
+    flex: 0 0 50%;
+    height: 32rem;
+    padding-bottom: 2rem;
+  }
+  &__description {
+    height: 32rem;
+    padding: 0 1rem 0 3rem;
+    &--heading {
+      color: rgba(173, 240, 209, 1);
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+    &--text {
+      padding: 1rem 0 0 0;
+      height: 17rem;
+      font-size: 1.1rem;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    &--buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 21rem;
+    }
+  }
+  &__tools {
+    height: 13rem;
+    padding: 3rem 0;
+    color: rgba(255, 255, 255, 0.747);
+    &--heading {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+    }
+    &--programming {
+      display: grid;
+      grid-template-rows: 2.2rem 2.2rem;
+      grid-template-columns: 9rem 9rem 9rem;
+    }
+  }
+}
+.firstPic,
+.secondPic,
+.thirdPic {
+  width: 55rem;
+  height: 32rem;
+}
+.thirdPic {
+  width: 55rem;
+  height: auto;
+}
+.project__photo-second {
+  order: 2;
+}
+.share {
+  width: 2rem;
+  height: 2rem;
+}
+.projec--2,
+.project--3 {
+  padding: 1rem 0 0 0;
+  height: 17rem;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.project--3 {
+  height: 10rem;
+}
+.view-btn a,
+.code-btn a {
+  width: 7rem;
+  height: 2.7rem;
+  padding: 0.3rem 0.8rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(1, 31, 60, 0.72);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all ease-in 0.5s;
+}
+.view-btn a:hover,
+.code-btn a:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.git {
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: rgba(40, 80, 117, 0.72);
+}
+.javascript,
+.HTML,
+.CSS,
+.SASS {
+  display: flex;
+  align-items: center;
+}
+.bullet {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 5rem;
+  background-color: #040f4d;
+  margin-right: 0.7rem;
+}
