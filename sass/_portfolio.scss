@@ -44,7 +44,7 @@
   }
   &__tools {
     height: 13rem;
-    padding: 3rem 0;
+    padding: 2rem 0;
     color: rgba(255, 255, 255, 0.747);
     &--heading {
       font-size: 1.1rem;
@@ -53,8 +53,8 @@
     }
     &--programming {
       display: grid;
-      grid-template-rows: 2.2rem 2.2rem;
-      grid-template-columns: 9rem 9rem 9rem;
+      grid-template-rows: 2.2rem 2.2rem 2.2rem;
+      grid-template-columns: 9rem;
     }
   }
 }
@@ -116,11 +116,4 @@
 .SASS {
   display: flex;
   align-items: center;
-}
-.bullet {
-  width: 0.6rem;
-  height: 0.6rem;
-  border-radius: 5rem;
-  background-color: #040f4d;
-  margin-right: 0.7rem;
 }
