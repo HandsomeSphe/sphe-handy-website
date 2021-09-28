@@ -1715,6 +1715,12 @@ h1 {
   padding: 2rem 3rem;
 }
 
+@media only screen and (max-width: 26.5625em) {
+  #section__portfolio {
+    padding: 8rem 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 23.4375em) {
   #section__portfolio {
     padding: 8rem 1.5rem;
@@ -1731,6 +1737,14 @@ h1 {
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 26.5625em) {
+  #section__portfolio--heading {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.6rem;
+  }
 }
 
 @media only screen and (max-width: 23.4375em) {
@@ -1755,6 +1769,16 @@ h1 {
   display: flex;
   height: 85vh;
   margin-bottom: 0.3rem;
+}
+
+@media only screen and (max-width: 26.5625em) {
+  #section__portfolio--contanier {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 23.4375em) {
@@ -1785,6 +1809,15 @@ h1 {
   padding-bottom: 2rem;
 }
 
+@media only screen and (max-width: 26.5625em) {
+  .project__photo {
+    padding: 0;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+  }
+}
+
 @media only screen and (max-width: 23.4375em) {
   .project__photo {
     -webkit-box-flex: 0;
@@ -1808,6 +1841,12 @@ h1 {
   padding: 0 1rem 0 3rem;
 }
 
+@media only screen and (max-width: 26.5625em) {
+  .project__description {
+    padding: 0;
+  }
+}
+
 @media only screen and (max-width: 23.4375em) {
   .project__description {
     padding: 0;
@@ -1826,6 +1865,12 @@ h1 {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 26.5625em) {
+  .project__description--heading {
+    font-size: 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 23.4375em) {
   .project__description--heading {
     font-size: 1.4rem;
@@ -1837,6 +1882,13 @@ h1 {
   height: 17rem;
   font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (max-width: 26.5625em) {
+  .project__description--text {
+    font-size: 1.18rem;
+    height: 19rem;
+  }
 }
 
 @media only screen and (max-width: 23.4375em) {
@@ -1865,6 +1917,12 @@ h1 {
   width: 21rem;
 }
 
+@media only screen and (max-width: 26.5625em) {
+  .project__description--buttons {
+    width: 27rem;
+  }
+}
+
 @media only screen and (max-width: 23.4375em) {
   .project__description--buttons {
     width: 27rem;
@@ -1882,6 +1940,12 @@ h1 {
   height: 13rem;
   padding: 2rem 0;
   color: rgba(255, 255, 255, 0.747);
+}
+
+@media only screen and (max-width: 26.5625em) {
+  .project__tools {
+    padding: 1rem 0;
+  }
 }
 
 @media only screen and (max-width: 23.4375em) {
@@ -1918,6 +1982,16 @@ h1 {
       grid-template-columns: 9rem;
 }
 
+@media only screen and (max-width: 26.5625em) {
+  .project__tools--programming {
+    -ms-grid-columns: 10rem 10rem 10rem;
+        grid-template-columns: 10rem 10rem 10rem;
+    -ms-grid-rows: 2.4rem;
+        grid-template-rows: 2.4rem;
+    font-size: 1.13rem;
+  }
+}
+
 @media only screen and (max-width: 23.4375em) {
   .project__tools--programming {
     -ms-grid-columns: 9rem 9rem 9rem;
@@ -1944,6 +2018,15 @@ h1 {
   height: 32rem;
 }
 
+@media only screen and (max-width: 26.5625em) {
+  .firstPic,
+  .secondPic,
+  .thirdPic {
+    width: 35rem;
+    height: 23rem;
+  }
+}
+
 @media only screen and (max-width: 23.4375em) {
   .firstPic,
   .secondPic,
@@ -1967,6 +2050,12 @@ h1 {
   height: auto;
 }
 
+@media only screen and (max-width: 26.5625em) {
+  .thirdPic {
+    width: 35rem;
+  }
+}
+
 @media only screen and (max-width: 23.4375em) {
   .thirdPic {
     width: 33rem;
@@ -1983,6 +2072,14 @@ h1 {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+}
+
+@media only screen and (max-width: 26.5625em) {
+  .project__photo-second {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
 }
 
 @media only screen and (max-width: 23.4375em) {
@@ -2018,6 +2115,13 @@ h1 {
   height: 10rem;
 }
 
+@media only screen and (max-width: 26.5625em) {
+  .project--3 {
+    font-size: 1.18rem;
+    height: 17rem;
+  }
+}
+
 @media only screen and (max-width: 23.4375em) {
   .project--3 {
     font-size: 1.16rem;
@@ -2037,6 +2141,9 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #183047;
   color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
@@ -2045,14 +2152,23 @@ h1 {
   transition: all ease-in 0.5s;
 }
 
+@media only screen and (max-width: 26.5625em) {
+  .view-btn a,
+  .code-btn a {
+    width: 10rem;
+    height: 3.1rem;
+    font-size: 1.3rem;
+    padding: 0.4rem 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 23.4375em) {
   .view-btn a,
   .code-btn a {
-    background-color: coral;
     width: 9rem;
     height: 3rem;
     font-size: 1.29rem;
-    padding: 0.2rem 1.4rem;
+    padding: 0.4rem 1.4rem;
   }
 }
 
@@ -2063,7 +2179,6 @@ h1 {
     height: 3rem;
     font-size: 1.2rem;
     padding: 0.3rem 1.5rem;
-    background-color: coral;
   }
 }
 
