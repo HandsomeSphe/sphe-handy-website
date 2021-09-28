@@ -106,8 +106,8 @@
     </header>
 
     <main class="main">
-      <section class="section__about">
-        <div class="section__about--pic">
+      <section class="section" id="section__about">
+        <div id="section__about--pic">
           <div class="pic--outline">
             <img src="./images/IMG-20201102-WA0010.jpg" alt="" class="pic" />
           </div>
@@ -167,16 +167,20 @@
           </div>
         </div>
         <!----//////////////////////ABOUT ME////////////////-->
-        <div class="section__about--details wrapper">
+        <div id="section__about--details">
           <div class="my-name">Siphelele Muthwa</div>
 
           <div class="personal-description">
             <div class="personal-description-1">
               Years back I fell in love with the web, elegant designs. Basically
               I was interest in how they build websites and apps. See my
-              <a href="#" target="_blank" class="devMille">resume</a>, I was
-              hooked. Fast forward 3 years later, I am a self-taught JavaScript
-              programmer and a UI/UX designer
+              <a
+                href="./images/Siphelele_Muthwa_-_Front_end_Developer,_UIUX_Designer.pdf"
+                target="_blank"
+                class="devMille"
+                >resume</a
+              >, I was hooked. Fast forward 3 years later, I am a self-taught
+              JavaScript programmer and a UI/UX designer
             </div>
 
             <div class="personal-description-2">
@@ -190,24 +194,32 @@
             </div>
             <div class="tools__programming--items">
               <div class="item item1">
-                <div class="circle yellow"></div>
+                <!--div class="circle yellow"></div--->
                 JavaScripts
               </div>
               <div class="item item2">
-                <div class="circle orange"></div>
+                <!--div class="circle orange"></div-->
                 HTML5
               </div>
               <div class="item item3">
-                <div class="circle blue"></div>
+                <!--div class="circle blue"></div-->
                 CSS3
               </div>
               <div class="item item4">
-                <div class="circle pink"></div>
+                <!--div class="circle pink"></div-->
                 Sass
               </div>
               <div class="item item5">
-                <div class="circle purple"></div>
+                <!--div class="circle purple"></div-->
                 Figma
+              </div>
+              <div class="item item6">
+                <!--div class="circle purple"></div-->
+                Shopify
+              </div>
+              <div class="item item7">
+                <!--div class="circle purple"></div-->
+                GIMP
               </div>
             </div>
           </div>
@@ -215,12 +227,10 @@
       </section>
 
       <!---///My work-->
-      <section class="section__portfolio">
-        <div class="section__portfolio--heading">
-          Portfolio, What I have built
-        </div>
+      <section class="project" id="section__portfolio">
+        <div id="section__portfolio--heading">Portfolio, What I have built</div>
         <!---//////////First Project //////////////////////-->
-        <div class="section__portfolio--contanier">
+        <div id="section__portfolio--contanier">
           <div class="project__photo">
             <img class="firstPic" src="./images/Project 1.jpg" alt="budgety" />
           </div>
@@ -284,7 +294,7 @@
         </div>
         <!----//////////////END OF PROJECT 1 ///////////-->
         <!---//////////Second Project //////////////////////-->
-        <div class="section__portfolio--contanier">
+        <div class="project" id="section__portfolio--contanier">
           <div class="project__photo project__photo-second">
             <img
               class="secondPic"
@@ -351,13 +361,9 @@
           </div>
         </div>
         <!----//////////////END OF PROJECT 2 ///////////-->
-        <!--img
-              class="thirdPic"
-              src="./images/bankist web app.png"
-              alt="bankist-web-app"
-            /--->
+
         <!---//////////Third Project //////////////////////-->
-        <div class="section__portfolio--contanier">
+        <div class="project" id="section__portfolio--contanier">
           <div class="project__photo">
             <video
               src="../images/Bankist.mp4"
@@ -423,6 +429,100 @@
         </div>
         <!----//////////////END OF PROJECT 3 ///////////-->
       </section>
+      <!----//////////////section 3 ///////////-->
+      <!--section class="section" id="section--4">
+        <div class="operations">
+          <div class="operations--buttons">
+            <button class="button--1">01.Design website</button
+            ><button class="button--2">02.Code website</button
+            ><button class="button--3">03.Design and code</button>
+          </div>
+          <//////////////content///////////>
+          <div class="operations--content">
+            <div class="operations--content-1">
+              <div class="content-icon1">
+                <svg class="Media-query iconm">
+                  <use
+                    xlink:href="Icons2/SVG/sprite.svg#icon-adaptive_design_responsive_responsive-design_icon"
+                  ></use>
+                </svg>
+              </div>
+              <div class="content-content">
+                <div class="content--heading">
+                  You need me to only design a website for you
+                </div>
+                <div class="content--explained">
+                  I can design a website from scratch for your business or brand
+                  or just for you. This is how it works, I will design a
+                  website, prototype then send you all your necessary files.
+                  Files include images, icons,text etc. Prices
+                  <span class="prices"
+                    >1 page max: R449,99 5 page max: R1 749,90 10 page max: R3
+                    749,95</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <//////////////content2 ///////////>
+          <div class="operations--content">
+            <div class="operations--content-2">
+              <div class="content-icon2">
+                <svg class="Code iconm">
+                  <use xlink:href="Icons2/SVG/sprite.svg#icon-code_icon"></use>
+                </svg>
+              </div>
+              <div class="content-content">
+                <div class="content--heading">
+                  You need me to code an exist website design
+                </div>
+                <div class="content--explained">
+                  I can code any type of static website, from brand websites to
+                  blogs. I will look at your design, discuss it with you, give
+                  you advice if I have to and code it. After I am done I will
+                  send you a netlify link and process the payement then send you
+                  all the necessary files and deploy your website.
+                </div>
+              </div>
+            </div>
+          </div>
+          <//////////////content3 ///////////>
+          <div class="operations--content">
+            <div class="operations--content-3">
+              <div class="content-icon3">
+                <svg class="Visual-studio iconm">
+                  <use
+                    xlink:href="Icons2/SVG/sprite.svg#icon-visualstudio_visual_developer_code_icon"
+                  ></use>
+                </svg>
+              </div>
+              <div class="content-content">
+                <div class="content--heading">
+                  You need both design and code for your website
+                </div>
+                <div class="content--explained">
+                  I am best man for the job. I can design and code your website.
+                  I design modern, minimal website but I can adapt to any style
+                  to represent any brand. my code is super clean and I use
+                  recent programming tools and languages.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section--->
+      <footer class="section" id="footer">
+        <div id="footer__heading">
+          Every website I ever built or design was out of love
+        </div>
+        <button id="footer__btn">Contact me via email</button>
+        <div id="footer__logo">
+          <svg id="mySelfLogo">
+            <use xlink:href="LogoIconn/SVG/sprite.svg#icon-new-logo-1"></use>
+          </svg>
+        </div>
+        <div id="copyright">@copywrite.All right reserved</div>
+      </footer>
     </main>
     <script src="script.js"></script>
   </body>

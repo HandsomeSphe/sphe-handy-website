@@ -1,0 +1,36 @@
+#footer {
+  height: 40rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #3b5999;
+  text-align: center;
+  padding: 4rem 0 0 0;
+
+  &__heading {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    color: rgb(189, 189, 189);
+  }
+  &__btn {
+    width: 17rem;
+    height: 4rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 20rem;
+    font: 0.8rem;
+    font-weight: 500;
+    color: #666;
+    font-family: inherit;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    transition: all ease-in 0.4s;
+    &:hover {
+      width: 19rem;
+      background-color: #666;
+      color: #fff;
+    }
+  }
+}
+#mySelfLogo {
+  margin-bottom: 6rem;
+}
