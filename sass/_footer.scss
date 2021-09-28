@@ -4,8 +4,12 @@
     #3b5999;
   text-align: center;
   padding: 4rem 0 0 0;
+  @include respond(s-phone) {
+    padding: 4rem 1.5rem 0 1.5rem;
+    height: auto;
+  }
   @include respond(xs-phone) {
-    height: 50rem;
+    height: auto;
     padding: 4rem 1.5rem 0 1.5rem;
   }
 
