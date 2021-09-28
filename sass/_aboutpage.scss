@@ -473,8 +473,8 @@
       font-size: 1.25rem;
     }
     @include respond(xs-phone) {
-      grid-template-columns: 8.5rem 8.5rem 8.5rem;
-      grid-template-rows: 2rem 2rem;
+      grid-template-columns: 10rem 10rem 10rem;
+      grid-template-rows: 2.4rem 2.4rem;
       font-size: 1.15rem;
     }
   }

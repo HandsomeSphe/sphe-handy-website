@@ -4,6 +4,9 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     #011f3c;
   padding: 2rem 3rem;
+  @include respond(s-phone) {
+    padding: 8rem 1.5rem;
+  }
   @include respond(xs-phone) {
     padding: 8rem 1.5rem;
   }
@@ -11,6 +14,11 @@
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 3rem;
+    @include respond(s-phone) {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
     @include respond(xs-phone) {
       font-size: 1.4rem;
       font-weight: 500;
@@ -21,10 +29,13 @@
     display: flex;
     height: 85vh;
     margin-bottom: 0.3rem;
+    @include respond(s-phone) {
+      flex-direction: column;
+      height: auto;
+    }
     @include respond(xs-phone) {
       flex-direction: column;
-      height: 95vh;
-      background-color: coral;
+      height: auto;
     }
   }
 }
@@ -33,15 +44,21 @@
     flex: 0 0 50%;
     height: 32rem;
     padding-bottom: 2rem;
+    @include respond(s-phone) {
+      flex: 0 0 40%;
+      padding: 0;
+    }
     @include respond(xs-phone) {
       flex: 0 0 40%;
-      background-color: royalblue;
       padding: 0;
     }
   }
   &__description {
     height: 32rem;
     padding: 0 1rem 0 3rem;
+    @include respond(s-phone) {
+      padding: 0;
+    }
     @include respond(xs-phone) {
       padding: 0;
     }
@@ -49,15 +66,15 @@
       color: rgba(173, 240, 209, 1);
       font-size: 1.3rem;
       font-weight: 500;
-      @include respond(xs-phone) {
-        font-size: 1.3rem;
-      }
     }
     &--text {
       padding: 1rem 0 0 0;
       height: 17rem;
       font-size: 1.1rem;
       color: rgba(255, 255, 255, 0.5);
+      @include respond(xs-phone) {
+        margin-bottom: 1rem;
+      }
     }
     &--buttons {
       display: flex;
@@ -65,9 +82,8 @@
       align-items: center;
       width: 21rem;
       @include respond(xs-phone) {
-        background-color: chartreuse;
         width: 25rem;
-        margin-top: 1rem;
+        margin-top: 1.8rem;
       }
     }
   }
@@ -75,6 +91,10 @@
     height: 13rem;
     padding: 2rem 0;
     color: rgba(255, 255, 255, 0.747);
+    @include respond(xs-phone) {
+      height: 8rem;
+      padding: 0.8rem 0;
+    }
     &--heading {
       font-size: 1.1rem;
       font-weight: 500;
@@ -96,6 +116,10 @@
 .thirdPic {
   width: 55rem;
   height: 32rem;
+  @include respond(s-phone) {
+    width: 33rem;
+    height: 20rem;
+  }
   @include respond(xs-phone) {
     width: 32.5rem;
     height: 19rem;
@@ -104,12 +128,18 @@
 .thirdPic {
   width: 55rem;
   height: auto;
+  @include respond(s-phone) {
+    width: 33rem;
+  }
   @include respond(xs-phone) {
     width: 32.5rem;
   }
 }
 .project__photo-second {
   order: 2;
+  @include respond(s-phone) {
+    order: 0;
+  }
   @include respond(xs-phone) {
     order: 0;
   }
@@ -143,6 +173,13 @@
   cursor: pointer;
   text-decoration: none;
   transition: all ease-in 0.5s;
+  @include respond(xs-phone) {
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    padding: 0.3rem 1.5rem;
+    background-color: coral;
+  }
 }
 .view-btn a:hover,
 .code-btn a:hover {
