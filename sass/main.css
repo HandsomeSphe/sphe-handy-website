@@ -94,7 +94,7 @@ body {
 
 @media only screen and (max-width: 23.4375em) {
   .header__title {
-    margin-top: 2rem;
+    margin-top: 8rem;
     padding: 1rem 0 0 1.5rem;
   }
 }
@@ -1433,7 +1433,6 @@ h1 {
   .personal-description {
     width: 32rem;
     height: 20rem;
-    margin: 0 auto;
   }
 }
 
