@@ -80,7 +80,7 @@ body {
 
 @media only screen and (max-width: 48em) {
   .header__title {
-    margin-top: 2rem;
+    margin-top: 8rem;
     padding: 0.7rem 0 0 4rem;
   }
 }
@@ -768,7 +768,7 @@ h1 {
 
 @media only screen and (max-width: 48em) {
   .nav__link {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -1715,6 +1715,12 @@ h1 {
   padding: 2rem 3rem;
 }
 
+@media only screen and (max-width: 48em) {
+  #section__portfolio {
+    padding: 2rem 3rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   #section__portfolio {
     padding: 8rem 1.5rem;
@@ -1737,6 +1743,12 @@ h1 {
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 48em) {
+  #section__portfolio--heading {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-width: 26.5625em) {
@@ -1809,6 +1821,15 @@ h1 {
   padding-bottom: 2rem;
 }
 
+@media only screen and (max-width: 48em) {
+  .project__photo {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    padding: 0;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .project__photo {
     padding: 0;
@@ -1841,6 +1862,12 @@ h1 {
   padding: 0 1rem 0 3rem;
 }
 
+@media only screen and (max-width: 48em) {
+  .project__description {
+    padding: 0 1.2rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .project__description {
     padding: 0;
@@ -1865,6 +1892,12 @@ h1 {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 48em) {
+  .project__description--heading {
+    font-size: 1.3rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .project__description--heading {
     font-size: 1.5rem;
@@ -1882,6 +1915,13 @@ h1 {
   height: 17rem;
   font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (max-width: 48em) {
+  .project__description--text {
+    font-size: 1.1rem;
+    height: 17rem;
+  }
 }
 
 @media only screen and (max-width: 26.5625em) {
@@ -1917,6 +1957,12 @@ h1 {
   width: 21rem;
 }
 
+@media only screen and (max-width: 48em) {
+  .project__description--buttons {
+    width: 22rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .project__description--buttons {
     width: 27rem;
@@ -1940,6 +1986,12 @@ h1 {
   height: 13rem;
   padding: 2rem 0;
   color: rgba(255, 255, 255, 0.747);
+}
+
+@media only screen and (max-width: 48em) {
+  .project__tools {
+    padding: 2rem 0;
+  }
 }
 
 @media only screen and (max-width: 26.5625em) {
@@ -1982,6 +2034,15 @@ h1 {
       grid-template-columns: 9rem;
 }
 
+@media only screen and (max-width: 48em) {
+  .project__tools--programming {
+    -ms-grid-rows: 2.2rem;
+        grid-template-rows: 2.2rem;
+    -ms-grid-columns: 9rem 9rem 9rem;
+        grid-template-columns: 9rem 9rem 9rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .project__tools--programming {
     -ms-grid-columns: 10rem 10rem 10rem;
@@ -2018,6 +2079,15 @@ h1 {
   height: 32rem;
 }
 
+@media only screen and (max-width: 48em) {
+  .firstPic,
+  .secondPic,
+  .thirdPic {
+    width: 40rem;
+    height: 25rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .firstPic,
   .secondPic,
@@ -2048,6 +2118,12 @@ h1 {
 .thirdPic {
   width: 55rem;
   height: auto;
+}
+
+@media only screen and (max-width: 48em) {
+  .thirdPic {
+    width: 40rem;
+  }
 }
 
 @media only screen and (max-width: 26.5625em) {
@@ -2349,6 +2425,18 @@ h1 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3b5999;
   text-align: center;
   padding: 4rem 0 0 0;
+}
+
+@media only screen and (max-width: 48em) {
+  #footer {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 26.5625em) {
+  #footer {
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 23.4375em) {
