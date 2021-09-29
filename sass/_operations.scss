@@ -4,11 +4,20 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     #011f3c;
   padding: 1rem 25rem;
+  @include respond(xs-phone) {
+    width: 100%;
+    height: auto;
+    padding: 2rem 1.5rem;
+  }
 }
 .operations {
   width: 60rem;
   height: 30rem;
   position: relative;
+  @include respond(xs-phone) {
+    width: 20rem;
+    height: 15rem;
+  }
 
   &--buttons {
     width: 60rem;
@@ -17,6 +26,10 @@
     padding: 0 9rem;
     position: absolute;
     z-index: 200;
+    @include respond(xs-phone) {
+      display: none;
+      padding: 0 1.5rem;
+    }
   }
   &--content {
     width: 60rem;
@@ -24,6 +37,11 @@
     margin-top: 1rem;
     background-color: #fff;
     position: absolute;
+    @include respond(xs-phone) {
+      position: initial;
+      width: 30rem;
+      height: 25rem;
+    }
   }
 }
 .button--1,
@@ -37,6 +55,9 @@
   color: #fff;
   font-weight: 400;
   cursor: pointer;
+  @include respond(xs-phone) {
+    display: none;
+  }
 }
 .button--1 {
   background-color: #bc2a8d;
@@ -53,21 +74,71 @@
 }
 [class^="operations--content"] {
   display: flex;
+  @include respond(xs-phone) {
+    flex-direction: column;
+  }
 }
 [class^="content-icon"] {
-  height: 14rem;
+  height: 100%;
   width: 30rem;
-  padding: 4rem;
-  position: relative;
+  padding: 5rem 4rem 0;
 
-  flex: 0 0 20%;
+  flex: 0 0 15%;
+  @include respond(xs-phone) {
+    flex: 0 0 7%;
+  }
 }
-
+.iconm-contaneir {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 20rem;
+  position: relative;
+  @include respond(xs-phone) {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+#iconm-cont-1 {
+  background-color: #bc2a8d;
+}
+#iconm-cont-2 {
+  background-color: #3b5999;
+}
+#iconm-cont-3 {
+  background-color: #007bb5;
+}
+.operations--content-3 {
+  z-index: 150;
+}
 .iconm {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 7rem;
-  height: 7rem;
+  width: 4rem;
+  height: 4rem;
+  @include respond(xs-phone) {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+.content-content {
+  padding: 5rem 3rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.content--heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  flex: 0 0 4rem;
+}
+.content--explained {
+  font-size: 1.1rem;
+  color: black;
+  flex: 0 0 9rem;
+}
+.charges {
+  color: black;
+  font-size: 1.1rem;
 }
