@@ -13,10 +13,10 @@
     ),
     rgba(1, 31, 60, 0.72);
   position: relative;
-  @include respond(big-desktop) {
-    max-width: 150rem;
-    max-height: 120rem;
-  }
+  // @include respond(big-desktop) {
+  //   width: 100%;
+  //   height: auto;
+  // }
 }
 
 //Header title
@@ -257,6 +257,13 @@ h1 {
   &:active,
   &:focus {
     outline: none;
+  }
+  .btn--link {
+    text-decoration: none;
+    color: rgba(173, 240, 209, 0.9);
+    font-size: 1.2rem;
+    letter-spacing: 3%;
+    cursor: pointer;
   }
   @include respond(desktop) {
     width: 15rem;
