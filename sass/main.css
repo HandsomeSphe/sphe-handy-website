@@ -1540,7 +1540,6 @@ h1 {
   .tools {
     width: 36rem;
     height: 15rem;
-    margin: 0 auto;
   }
 }
 
@@ -1548,7 +1547,6 @@ h1 {
   .tools {
     width: 38rem;
     height: 12rem;
-    margin: 0 auto;
   }
 }
 
@@ -1556,7 +1554,6 @@ h1 {
   .tools {
     width: 32rem;
     height: 9rem;
-    margin: 0 auto;
   }
 }
 
@@ -1715,6 +1712,14 @@ h1 {
   padding: 2rem 3rem;
 }
 
+@media only screen and (min-width: 64em) {
+  #section__portfolio {
+    width: 100%;
+    height: auto;
+    padding: 2rem 3rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   #section__portfolio {
     padding: 2rem 3rem;
@@ -1743,6 +1748,14 @@ h1 {
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 64em) {
+  #section__portfolio--heading {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -1783,6 +1796,13 @@ h1 {
   margin-bottom: 0.3rem;
 }
 
+@media only screen and (min-width: 64em) {
+  #section__portfolio--contanier {
+    height: 85vh;
+    margin-bottom: 0.3rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   #section__portfolio--contanier {
     -webkit-box-orient: vertical;
@@ -1819,6 +1839,16 @@ h1 {
           flex: 0 0 50%;
   height: 32rem;
   padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 64em) {
+  .project__photo {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    height: 32rem;
+    padding-bottom: 2rem;
+  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -1862,6 +1892,13 @@ h1 {
   padding: 0 1rem 0 3rem;
 }
 
+@media only screen and (min-width: 64em) {
+  .project__description {
+    height: 32rem;
+    padding: 0 1rem 0 3rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .project__description {
     padding: 0 1.2rem;
@@ -1892,6 +1929,13 @@ h1 {
   font-weight: 500;
 }
 
+@media only screen and (min-width: 64em) {
+  .project__description--heading {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .project__description--heading {
     font-size: 1.3rem;
@@ -1915,6 +1959,14 @@ h1 {
   height: 17rem;
   font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (min-width: 64em) {
+  .project__description--text {
+    padding: 1rem 0 0 0;
+    height: 17rem;
+    font-size: 1.1rem;
+  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -1957,6 +2009,12 @@ h1 {
   width: 21rem;
 }
 
+@media only screen and (min-width: 64em) {
+  .project__description--buttons {
+    width: 21rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .project__description--buttons {
     width: 22rem;
@@ -1986,6 +2044,13 @@ h1 {
   height: 13rem;
   padding: 2rem 0;
   color: rgba(255, 255, 255, 0.747);
+}
+
+@media only screen and (min-width: 64em) {
+  .project__tools {
+    height: 13rem;
+    padding: 2rem 0;
+  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -2019,6 +2084,13 @@ h1 {
   color: white;
 }
 
+@media only screen and (min-width: 64em) {
+  .project__tools--heading {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
+
 @media only screen and (max-width: 23.4375em) {
   .project__tools--heading {
     font-size: 1.16rem;
@@ -2032,6 +2104,15 @@ h1 {
       grid-template-rows: 2.2rem 2.2rem 2.2rem;
   -ms-grid-columns: 9rem;
       grid-template-columns: 9rem;
+}
+
+@media only screen and (min-width: 64em) {
+  .project__tools--programming {
+    -ms-grid-rows: 2.2rem 2.2rem 2.2rem;
+        grid-template-rows: 2.2rem 2.2rem 2.2rem;
+    -ms-grid-columns: 9rem;
+        grid-template-columns: 9rem;
+  }
 }
 
 @media only screen and (max-width: 48em) {
@@ -2079,6 +2160,15 @@ h1 {
   height: 32rem;
 }
 
+@media only screen and (min-width: 64em) {
+  .firstPic,
+  .secondPic,
+  .thirdPic {
+    width: 55rem;
+    height: 32rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .firstPic,
   .secondPic,
@@ -2120,6 +2210,12 @@ h1 {
   height: auto;
 }
 
+@media only screen and (min-width: 64em) {
+  .thirdPic {
+    width: 55rem;
+  }
+}
+
 @media only screen and (max-width: 48em) {
   .thirdPic {
     width: 40rem;
@@ -2148,6 +2244,14 @@ h1 {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+}
+
+@media only screen and (min-width: 64em) {
+  .project__photo-second {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
 }
 
 @media only screen and (max-width: 26.5625em) {
@@ -2191,6 +2295,12 @@ h1 {
   height: 10rem;
 }
 
+@media only screen and (min-width: 64em) {
+  .project--3 {
+    height: 10rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .project--3 {
     font-size: 1.18rem;
@@ -2226,6 +2336,15 @@ h1 {
   text-decoration: none;
   -webkit-transition: all ease-in 0.5s;
   transition: all ease-in 0.5s;
+}
+
+@media only screen and (min-width: 64em) {
+  .view-btn a,
+  .code-btn a {
+    width: 7rem;
+    height: 2.7rem;
+    padding: 0.3rem 0.95rem;
+  }
 }
 
 @media only screen and (max-width: 26.5625em) {

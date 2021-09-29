@@ -399,17 +399,16 @@
   @include respond(tab-port) {
     width: 36rem;
     height: 15rem;
-    margin: 0 auto;
   }
   @include respond(s-phone) {
     width: 38rem;
     height: 12rem;
-    margin: 0 auto;
+    // margin: 0 auto;
   }
   @include respond(xs-phone) {
     width: 32rem;
     height: 9rem;
-    margin: 0 auto;
+    // margin: 0 auto;
   }
 
   &__programming--title {
