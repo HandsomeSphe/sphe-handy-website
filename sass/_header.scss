@@ -320,57 +320,7 @@ h1 {
     display: none;
   }
 }
-.popup {
-  width: 25rem;
-  height: 9rem;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-  @include respond(s-phone) {
-    width: 60%;
-    height: 12rem;
-  }
-  @include respond(xs-phone) {
-    width: 60%;
-    height: 11rem;
-  }
 
-  &__line {
-    width: 100%;
-    height: 0.5rem;
-    background-color: rgb(163, 230, 132);
-  }
-  &__text {
-    color: black;
-    padding: 1rem;
-    font-size: 0.9rem;
-    font-weight: 400;
-    @include respond(xs-phone) {
-      font-size: 0.7rem;
-    }
-  }
-}
-.close--popup {
-  display: block;
-  margin-top: 1rem;
-  width: 5rem;
-  height: 1.7rem;
-  text-align: center;
-  font-weight: 500;
-  border: none;
-  background-color: rgb(221, 221, 221);
-  cursor: pointer;
-  @include respond(xs-phone) {
-    width: 4rem;
-    height: 1.7rem;
-    font-size: 0.7rem;
-  }
-}
 .Whatsapp {
   width: 1.5rem;
   height: 1.5rem;
