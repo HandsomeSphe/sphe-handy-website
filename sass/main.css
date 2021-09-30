@@ -1805,7 +1805,7 @@ h1 {
 
 @media only screen and (max-width: 23.4375em) {
   .project__description {
-    padding: 0;
+    padding: 0 0 3rem 0;
   }
 }
 
