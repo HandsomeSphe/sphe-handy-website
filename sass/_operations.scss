@@ -5,6 +5,9 @@
     #011f3c;
   padding: 1rem 25rem;
   @include respond(tab-land) {
+    padding: 3rem 20rem;
+  }
+  @include respond(tab-land) {
     width: 100%;
     height: 160vh;
     padding: 2rem 1.5rem;
@@ -105,6 +108,9 @@
   color: #fff;
   font-weight: 400;
   cursor: pointer;
+  @include respond(tab-port) {
+    width: 13rem;
+  }
   @include respond(tab-port) {
     display: none;
   }
