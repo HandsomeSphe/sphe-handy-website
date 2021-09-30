@@ -67,6 +67,8 @@
     @include respond(s-phone) {
       flex-direction: column;
       height: auto;
+
+      margin-bottom: 3rem;
     }
     @include respond(xs-phone) {
       flex-direction: column;
