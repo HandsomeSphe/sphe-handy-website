@@ -2360,7 +2360,7 @@ h1 {
 @media only screen and (max-width: 23.4375em) {
   #section--4 {
     width: 100%;
-    height: 200vh;
+    height: 210vh;
     padding: 2rem 3.3rem;
   }
 }
@@ -2396,6 +2396,12 @@ h1 {
 .operations__heading {
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 23.4375em) {
+  .operations__heading {
+    font-size: 1.6rem;
+  }
 }
 
 @media only screen and (max-width: 20em) {
@@ -2439,7 +2445,7 @@ h1 {
   .operations--content {
     position: initial;
     width: 35rem;
-    height: 30rem;
+    height: 30.7rem;
   }
 }
 
@@ -2560,6 +2566,13 @@ h1 {
   position: relative;
 }
 
+@media only screen and (max-width: 23.4375em) {
+  .iconm-contaneir {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+
 @media only screen and (max-width: 20em) {
   .iconm-contaneir {
     width: 5rem;
@@ -2639,12 +2652,36 @@ h1 {
           flex: 0 0 4rem;
 }
 
+@media only screen and (max-width: 23.4375em) {
+  .content--heading {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .content--heading {
+    font-size: 1.2rem;
+  }
+}
+
 .content--explained {
   font-size: 1.1rem;
   color: black;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 9rem;
           flex: 0 0 9rem;
+}
+
+@media only screen and (max-width: 23.4375em) {
+  .content--explained {
+    font-size: 1.17rem;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .content--explained {
+    font-size: 1.1rem;
+  }
 }
 
 .prices a {
