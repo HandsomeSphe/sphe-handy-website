@@ -6,7 +6,7 @@
   padding: 1rem 25rem;
   @include respond(xs-phone) {
     width: 100%;
-    height: auto;
+    height: 105rem;
     padding: 2rem 1.5rem;
   }
 }
@@ -17,6 +17,13 @@
   @include respond(xs-phone) {
     width: 20rem;
     height: 15rem;
+  }
+  &__heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    @include respond(xs-phone) {
+      font-size: 1.4rem;
+    }
   }
 
   &--buttons {
@@ -39,8 +46,8 @@
     position: absolute;
     @include respond(xs-phone) {
       position: initial;
-      width: 30rem;
-      height: 25rem;
+      width: 33rem;
+      height: 28rem;
     }
   }
 }
@@ -76,16 +83,17 @@
   display: flex;
   @include respond(xs-phone) {
     flex-direction: column;
+    align-items: center;
   }
 }
 [class^="content-icon"] {
   height: 100%;
   width: 30rem;
   padding: 5rem 4rem 0;
-
   flex: 0 0 15%;
   @include respond(xs-phone) {
-    flex: 0 0 7%;
+    flex: 0 0 5%;
+    padding: 1rem 12rem;
   }
 }
 .iconm-contaneir {
@@ -126,6 +134,9 @@
   padding: 5rem 3rem 0;
   display: flex;
   flex-direction: column;
+  @include respond(xs-phone) {
+    padding: 1rem 3rem 0;
+  }
 }
 .content--heading {
   font-size: 1.2rem;
@@ -138,7 +149,8 @@
   color: black;
   flex: 0 0 9rem;
 }
-.charges {
-  color: black;
-  font-size: 1.1rem;
+
+.prices a {
+  text-decoration: none;
+  color: rgba(173, 240, 209, 1);
 }

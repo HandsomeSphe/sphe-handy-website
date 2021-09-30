@@ -2360,7 +2360,7 @@ h1 {
 @media only screen and (max-width: 20em) {
   #section--4 {
     width: 100%;
-    height: auto;
+    height: 105rem;
     padding: 2rem 1.5rem;
   }
 }
@@ -2375,6 +2375,17 @@ h1 {
   .operations {
     width: 20rem;
     height: 15rem;
+  }
+}
+
+.operations__heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 20em) {
+  .operations__heading {
+    font-size: 1.4rem;
   }
 }
 
@@ -2405,8 +2416,8 @@ h1 {
 @media only screen and (max-width: 20em) {
   .operations--content {
     position: initial;
-    width: 30rem;
-    height: 25rem;
+    width: 33rem;
+    height: 28rem;
   }
 }
 
@@ -2459,6 +2470,9 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -2474,8 +2488,9 @@ h1 {
 @media only screen and (max-width: 20em) {
   [class^="content-icon"] {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 7%;
-            flex: 0 0 7%;
+        -ms-flex: 0 0 5%;
+            flex: 0 0 5%;
+    padding: 1rem 12rem;
   }
 }
 
@@ -2537,6 +2552,12 @@ h1 {
           flex-direction: column;
 }
 
+@media only screen and (max-width: 20em) {
+  .content-content {
+    padding: 1rem 3rem 0;
+  }
+}
+
 .content--heading {
   font-size: 1.2rem;
   font-weight: 500;
@@ -2554,9 +2575,9 @@ h1 {
           flex: 0 0 9rem;
 }
 
-.charges {
-  color: black;
-  font-size: 1.1rem;
+.prices a {
+  text-decoration: none;
+  color: #adf0d1;
 }
 
 #footer {
