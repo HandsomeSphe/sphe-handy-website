@@ -2576,8 +2576,9 @@ h1 {
 }
 
 .prices a {
-  text-decoration: none;
-  color: #adf0d1;
+  text-decoration: underline;
+  color: #011f3c;
+  font-weight: 500;
 }
 
 #footer {
