@@ -7,7 +7,12 @@
   @include respond(tab-land) {
     padding: 3rem 20rem;
   }
-  @include respond(tab-land) {
+  @include respond(tablet) {
+    width: 100%;
+    height: 100vh;
+    padding: 2rem 1.5rem;
+  }
+  @include respond(tab-port) {
     width: 100%;
     height: 160vh;
     padding: 2rem 1.5rem;
@@ -27,6 +32,10 @@
   width: 60rem;
   height: 30rem;
   position: relative;
+  @include respond(tablet) {
+    width: 20rem;
+    height: 15rem;
+  }
   @include respond(tab-port) {
     width: 20rem;
     height: 15rem;
@@ -43,6 +52,9 @@
     font-size: 1.6rem;
     margin-bottom: 7rem;
     font-weight: 500;
+    @include respond(tablet) {
+      font-size: 1.6rem;
+    }
     @include respond(tab-port) {
       font-size: 1.8rem;
     }
@@ -61,6 +73,10 @@
     padding: 0 9rem;
     position: absolute;
     z-index: 200;
+    @include respond(tablet) {
+      padding: 0 3rem;
+      width: 51rem;
+    }
     @include respond(tab-port) {
       display: none;
       padding: 0 1.5rem;
@@ -80,6 +96,9 @@
     margin-top: 1rem;
     background-color: #fff;
     position: absolute;
+    @include respond(tablet) {
+      width: 51rem;
+    }
     @include respond(tab-port) {
       position: initial;
       width: 41rem;
@@ -108,8 +127,12 @@
   color: #fff;
   font-weight: 400;
   cursor: pointer;
-  @include respond(tab-port) {
+  @include respond(tab-land) {
     width: 13rem;
+  }
+  @include respond(tablet) {
+    width: 14rem;
+    font-size: 1.19rem;
   }
   @include respond(tab-port) {
     display: none;
@@ -154,6 +177,11 @@
   width: 30rem;
   padding: 5rem 4rem 0;
   flex: 0 0 15%;
+  @include respond(tablet) {
+    flex: 0 0 6%;
+    width: 20rem;
+    padding: 5rem 1.6rem 0;
+  }
   @include respond(tab-port) {
     flex: 0 0 10%;
     padding: 1rem 12rem;
@@ -219,6 +247,9 @@
   padding: 5rem 3rem 0;
   display: flex;
   flex-direction: column;
+  @include respond(tablet) {
+    padding: 5rem 2rem 0;
+  }
   @include respond(tab-port) {
     padding: 1rem 3rem 0;
   }
@@ -244,6 +275,9 @@
   font-weight: 500;
   color: black;
   flex: 0 0 4rem;
+  @include respond(tablet) {
+    font-size: 1.33rem;
+  }
   @include respond(tab-port) {
     font-size: 1.5rem;
   }
@@ -258,6 +292,9 @@
   font-size: 1.1rem;
   color: black;
   flex: 0 0 9rem;
+  @include respond(tablet) {
+    font-size: 1.15rem;
+  }
   @include respond(tab-port) {
     font-size: 1.25rem;
   }

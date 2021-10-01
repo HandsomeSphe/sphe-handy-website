@@ -280,12 +280,12 @@ h1 {
     font-size: 1.33rem;
   }
   @include respond(tab-port) {
-    width: 18rem;
+    width: 15.5rem;
     height: 4rem;
     font-size: 1.29rem;
   }
   @include respond(s-phone) {
-    width: 16rem;
+    width: 15rem;
     height: 3.7rem;
     font-size: 1.25rem;
   }

@@ -13,6 +13,9 @@
   @include respond(tab-land) {
     padding: 2rem 3rem;
   }
+  @include respond(tablet) {
+    padding: 2rem 3rem;
+  }
   @include respond(tab-port) {
     padding: 8rem 1.5rem;
   }
@@ -33,6 +36,9 @@
     //   margin-bottom: 3rem;
     // }
     @include respond(tab-land) {
+      font-size: 2rem;
+    }
+    @include respond(tablet) {
       font-size: 2rem;
     }
     @include respond(tab-port) {
@@ -60,6 +66,10 @@
     //   height: 85vh;
     //   margin-bottom: 0.3rem;
     // }
+    @include respond(tablet) {
+      flex-direction: column;
+      height: auto;
+    }
     @include respond(tab-port) {
       flex-direction: column;
       height: auto;

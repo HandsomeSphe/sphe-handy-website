@@ -9,8 +9,14 @@
       @content;
     }
   }
+
   @if $breakpoint == tab-port {
     @media only screen and (max-width: 26.5625em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media only screen and (max-width: 31em) {
       @content;
     }
   }
@@ -49,6 +55,9 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   @include respond(tab-port) {
+    font-size: 50%;
+  }
+  @include respond(tablet) {
     font-size: 50%;
   }
   @include respond(tab-land) {
