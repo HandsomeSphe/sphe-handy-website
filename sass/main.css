@@ -84,6 +84,13 @@ body {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  .header__title {
+    margin-top: 7rem;
+    padding: 0.7rem 0 0 3rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .header__title {
     margin-top: 2rem;
@@ -125,6 +132,12 @@ h5 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  h5 {
+    font-size: 1.37rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   h5 {
     font-size: 1.37rem;
@@ -159,6 +172,12 @@ h1 {
 @media only screen and (max-width: 48em) {
   h1 {
     font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 31em) {
+  h1 {
+    font-size: 2.8rem;
   }
 }
 
@@ -209,6 +228,13 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  .h1 {
+    height: 5rem;
+    width: 37rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .h1 {
     height: 5rem;
@@ -247,6 +273,12 @@ h1 {
 @media only screen and (max-width: 48em) {
   .options {
     width: 18rem;
+  }
+}
+
+@media only screen and (max-width: 31em) {
+  .options {
+    width: 15rem;
   }
 }
 
@@ -289,6 +321,13 @@ h1 {
 @media only screen and (max-width: 48em) {
   .options span {
     font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 31em) {
+  .options span {
+    font-size: 2.8rem;
+    padding-left: 0.1rem;
   }
 }
 
@@ -571,6 +610,13 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  .logo {
+    width: 3.3rem;
+    height: 3.3rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .logo {
     width: 3.4rem;
@@ -623,6 +669,13 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  .nav {
+    height: 7.5rem;
+    padding: 1.4rem 3rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .nav {
     height: 8rem;
@@ -664,6 +717,12 @@ h1 {
 @media only screen and (max-width: 48em) {
   .nav__links {
     width: 56%;
+  }
+}
+
+@media only screen and (max-width: 31em) {
+  .nav__links {
+    display: none;
   }
 }
 
@@ -743,6 +802,12 @@ h1 {
   position: absolute;
   top: 40%;
   right: 5%;
+}
+
+@media only screen and (max-width: 31em) {
+  .burger__icon {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 26.5625em) {

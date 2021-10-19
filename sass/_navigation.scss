@@ -12,6 +12,10 @@
     width: 3.2rem;
     height: 3.2rem;
   }
+  @include respond(tablet) {
+    width: 3.3rem;
+    height: 3.3rem;
+  }
   @include respond(tab-port) {
     width: 3.4rem;
     height: 3.4rem;
@@ -43,6 +47,10 @@
     height: 7rem;
     padding: 1.4rem 3rem;
   }
+  @include respond(tablet) {
+    height: 7.5rem;
+    padding: 1.4rem 3rem;
+  }
   @include respond(tab-port) {
     height: 8rem;
     padding: 1.4rem 2rem;
@@ -69,6 +77,9 @@
     }
     @include respond(tab-land) {
       width: 56%;
+    }
+    @include respond(tablet) {
+      display: none;
     }
     @include respond(tab-port) {
       display: none;
@@ -129,6 +140,9 @@
   position: absolute;
   top: 40%;
   right: 5%;
+  @include respond(tablet) {
+    display: block;
+  }
 
   @include respond(tab-port) {
     display: block;
