@@ -184,15 +184,15 @@
   }
   @include respond(tab-port) {
     flex: 0 0 10%;
-    padding: 1rem 12rem;
+    padding: 1rem 7rem;
   }
   @include respond(s-phone) {
     flex: 0 0 7%;
-    padding: 1rem 12rem;
+    padding: 1rem 7rem;
   }
   @include respond(xs-phone) {
     flex: 0 0 5%;
-    padding: 1rem 12rem;
+    padding: 1rem 7rem;
   }
 }
 .iconm-contaneir {

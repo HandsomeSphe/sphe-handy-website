@@ -2890,7 +2890,7 @@ h1 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 10%;
             flex: 0 0 10%;
-    padding: 1rem 12rem;
+    padding: 1rem 7rem;
   }
 }
 
@@ -2899,7 +2899,7 @@ h1 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 7%;
             flex: 0 0 7%;
-    padding: 1rem 12rem;
+    padding: 1rem 7rem;
   }
 }
 
@@ -2908,7 +2908,7 @@ h1 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 5%;
             flex: 0 0 5%;
-    padding: 1rem 12rem;
+    padding: 1rem 7rem;
   }
 }
 
