@@ -436,6 +436,15 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  .person-description {
+    width: 70%;
+    margin-bottom: 8rem;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .person-description {
     width: 90%;
@@ -523,6 +532,14 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  .whatsapp__btn {
+    width: 16rem;
+    height: 4rem;
+    font-size: 1.33rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .whatsapp__btn {
     width: 15.5rem;
@@ -562,6 +579,12 @@ h1 {
 }
 
 @media only screen and (max-width: 48em) {
+  .random-line {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 31em) {
   .random-line {
     display: none;
   }

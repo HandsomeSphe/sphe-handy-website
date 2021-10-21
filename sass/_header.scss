@@ -238,6 +238,12 @@ h1 {
     font-size: 1.5rem;
     margin-bottom: 8rem;
   }
+  @include respond(tablet) {
+    width: 70%;
+    margin-bottom: 8rem;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+  }
   @include respond(tab-port) {
     width: 90%;
     line-height: 2.5rem;
@@ -299,6 +305,11 @@ h1 {
     height: 4rem;
     font-size: 1.33rem;
   }
+  @include respond(tablet) {
+    width: 16rem;
+    height: 4rem;
+    font-size: 1.33rem;
+  }
   @include respond(tab-port) {
     width: 15.5rem;
     height: 4rem;
@@ -328,6 +339,9 @@ h1 {
   left: 5%;
 
   @include respond(tab-land) {
+    display: none;
+  }
+  @include respond(tablet) {
     display: none;
   }
   @include respond(tab-port) {
