@@ -1004,6 +1004,15 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  #section__about--pic {
+    padding: 5rem 0;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   #section__about--pic {
     -webkit-box-flex: 0;
@@ -1050,6 +1059,12 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  #section__about--details {
+    padding: 1rem 2rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   #section__about--details {
     padding: 2rem 1.9rem;
@@ -1093,6 +1108,12 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  .pic {
+    width: 32rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .pic {
     width: 32rem;
@@ -1118,6 +1139,12 @@ h1 {
 @media only screen and (max-width: 48em) {
   .pic:hover {
     width: 29rem;
+  }
+}
+
+@media only screen and (max-width: 31em) {
+  .pic:hover {
+    width: 32rem;
   }
 }
 
@@ -1170,6 +1197,15 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  .pic--outline {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20rem;
+    margin: 0 auto;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .pic--outline {
     width: 20rem;
@@ -1217,6 +1253,14 @@ h1 {
   .my-name {
     width: 25rem;
     font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 31em) {
+  .my-name {
+    width: 100%;
+    font-size: 2.4rem;
+    text-align: center;
   }
 }
 
@@ -1296,10 +1340,19 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 26.5625em) {
+@media only screen and (max-width: 31em) {
   .my-location {
     width: 10rem;
     margin: 0.5rem auto;
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 26.5625em) {
+  .my-location {
+    width: 10rem;
+    margin: 0.8rem auto;
     font-size: 1.4rem;
     margin-bottom: 4rem;
     color: rgba(255, 255, 255, 0.7);
@@ -1452,6 +1505,15 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  .personal-description {
+    width: 100%;
+    text-align: center;
+    padding: 0 6rem;
+    height: 22rem;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .personal-description {
     width: 38rem;
@@ -1573,6 +1635,12 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 31em) {
+  .tools {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .tools {
     width: 36rem;
@@ -1613,6 +1681,13 @@ h1 {
 @media only screen and (max-width: 48em) {
   .tools__programming--title {
     font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 31em) {
+  .tools__programming--title {
+    font-size: 1.3rem;
+    text-align: center;
   }
 }
 
@@ -1670,6 +1745,17 @@ h1 {
     -ms-grid-rows: 3.2rem 3.2rem 3.2rem;
         grid-template-rows: 3.2rem 3.2rem 3.2rem;
     font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 31em) {
+  .tools__programming--items {
+    -ms-grid-columns: 9.5rem 9.5rem 9.5rem;
+        grid-template-columns: 9.5rem 9.5rem 9.5rem;
+    -ms-grid-rows: 3.2rem 3.2rem 3.2rem;
+        grid-template-rows: 3.2rem 3.2rem 3.2rem;
+    font-size: 1.25rem;
+    padding: 0 15rem;
   }
 }
 
