@@ -14,7 +14,7 @@
     padding: 2rem 3rem;
   }
   @include respond(tablet) {
-    padding: 2rem 3rem;
+    padding: 2rem 1.5rem;
   }
   @include respond(tab-port) {
     padding: 8rem 1.5rem;
@@ -313,6 +313,9 @@
   // @include respond(desktop) {
   //   order: 2;
   // }
+  @include respond(tablet) {
+    order: 0;
+  }
   @include respond(tab-port) {
     order: 0;
   }
