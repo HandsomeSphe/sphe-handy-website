@@ -36,8 +36,8 @@
   height: 9rem;
   width: 100%;
   padding: 0 6rem;
-  z-index: 100;
-  backface-visibility: hidden;
+  z-index: 200;
+  // backface-visibility: hidden;
 
   @include respond(desktop) {
     max-width: 100%;
@@ -61,7 +61,7 @@
     padding: 1.3rem 1.5rem;
   }
   @include respond(xs-phone) {
-    height: 8rem;
+    height: 6.5rem;
     padding: 1.3rem 1.5rem;
     // background-color: orchid;
   }
