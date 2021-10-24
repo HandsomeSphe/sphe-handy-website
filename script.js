@@ -27,12 +27,11 @@ smallScreenRemove_btn.addEventListener("click", function () {
   website.style.display = "";
 });
 
-///----------Method 2----------------//////////
+///----------Method 2 for smooth scroll----------------//////////
 document.querySelector(".nav__links").addEventListener("click", function (e) {
   e.preventDefault();
 
   if (e.target.classList.contains("nav__link")) {
-    console.log("LINK");
     const id = e.target.getAttribute("href");
     document.querySelector(id).scrollIntoView({
       behavior: "smooth",
@@ -43,6 +42,11 @@ document.querySelector(".nav__links").addEventListener("click", function (e) {
 ///----------Clicking on the Logo----------------//////////
 const logo = document.querySelector(".logo");
 const home_page = document.querySelector("#home");
+logo.addEventListener("click", function () {
+  home_page.scrollIntoView({
+    behavior: "smooth",
+  });
+});
 
 ///----------Navigation sliding in----------------//////////
 const header = document.querySelector(".header");
@@ -64,9 +68,3 @@ const observer = new IntersectionObserver(obsCallBack, {
   rootMargin: `-${navHeight}px`,
 });
 observer.observe(header);
-
-logo.addEventListener("click", function () {
-  home_page.scrollIntoView({
-    behavior: "smooth",
-  });
-});

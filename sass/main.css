@@ -1798,44 +1798,6 @@ h1 {
   }
 }
 
-.item1:hover {
-  background-color: rgba(255, 255, 0, 0.7);
-  padding: 0;
-}
-
-.item2:hover {
-  background-color: rgba(255, 99, 71, 0.7);
-}
-
-.item3:hover {
-  background-color: rgba(16, 16, 83, 0.7);
-}
-
-.item4:hover {
-  background-color: rgba(216, 112, 147, 0.7);
-}
-
-.item5:hover {
-  background-color: rgba(128, 0, 128, 0.7);
-}
-
-.item6:hover {
-  background-color: rgba(29, 107, 42, 0.7);
-}
-
-.item7:hover {
-  background-color: rgba(197, 195, 197, 0.7);
-}
-
-.item:hover {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 #section__portfolio {
   width: 100%;
   height: auto;
