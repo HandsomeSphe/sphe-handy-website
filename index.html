@@ -20,7 +20,7 @@
     <title>Sphe_handy</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <nav class="nav">
         <img
           class="logo"
@@ -29,16 +29,16 @@
         />
         <ul class="nav__links">
           <li class="nav__item">
-            <a href="#" class="nav__link">Home</a>
+            <a href="#home" class="nav__link">Home</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">About</a>
+            <a href="#section__about" class="nav__link">About</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Build website?</a>
+            <a href="#section--4" class="nav__link">Build website?</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Portofolio</a>
+            <a href="#section__portfolio" class="nav__link">Portofolio</a>
           </li>
           <li class="nav__item nav__item--btn">
             <a href="#" class="nav__link nav__link--btn btn--show-popup"
@@ -94,7 +94,7 @@
           <li class="menu__items"><a href="#" class="menu__link">Home</a></li>
           <li class="menu__items"><a href="#" class="menu__link">About</a></li>
           <li class="menu__items">
-            <a href="#" class="menu__link">Need a website?</a>
+            <a href="#home" class="menu__link">Need a website?</a>
           </li>
           <li class="menu__items">
             <a href="#" class="menu__link">Portfolio</a>
@@ -104,8 +104,6 @@
           </li>
         </ul>
       </div>
-      <!-----Contact Page Popup-->
-      <div class="contact-popup"></div>
     </header>
 
     <main class="main">
@@ -547,6 +545,23 @@
           </div>
         </div>
       </section>
+      <!-----Contact Page Popup-->
+      <!-- <section class="contactpage">
+        <div class="contact-popup">
+          <div class="popup__contact">Contact me</div>
+          <form action="#" class="input__contact">
+            <input type="text" class="username" placeholder="FirstName" />
+            <input type="email" class="username" placeholder="email" />
+            <textarea
+              name="message"
+              id="mssg"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </form>
+        </div>
+      </section> -->
       <footer class="section" id="footer">
         <div id="footer__heading">
           Every website I ever built or design was out of love
