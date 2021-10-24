@@ -1,4 +1,4 @@
-//Menu from burger icon
+//All of my Selectors
 const burger_icon = document.querySelector(".burger__icon");
 const smallscreens_menu = document.querySelector(".menu");
 const smallScreenRemove_btn = document.querySelector(".remove");
@@ -38,3 +38,32 @@ document.querySelector(".nav__links").addEventListener("click", function (e) {
     });
   }
 });
+///----------Clicking on the Logo----------------//////////
+const logo = document.querySelector(".logo");
+const home_page = document.querySelector("#home");
+
+logo.addEventListener("click", function () {
+  home_page.scrollIntoView({
+    behavior: "smooth",
+  });
+});
+
+///----------Content sliding in----------------//////////
+const header = document.querySelector(".header");
+const nav = document.querySelector(".nav");
+const obsCallBack = function (entries) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      nav.classList.add("sticky");
+    } else {
+      nav.classList.remove("sticky");
+    }
+  });
+};
+
+const observer = new IntersectionObserver(obsCallBack, {
+  root: null,
+  threshold: 0,
+  rootMargin: "-128px",
+});
+observer.observe(header);
