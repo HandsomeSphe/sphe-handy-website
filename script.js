@@ -14,18 +14,7 @@ smallScreenRemove_btn.addEventListener("click", function () {
   smallscreens_menu.style.display = "none";
   website.style.display = "";
 });
-//Implementing the smooth scroll
-///----------Method 1 -------------/////////
-// document.querySelectorAll(".nav__link").forEach(function (el) {
-//   el.addEventListener("click", function (e) {
-//     e.preventDefault();
-//     const id = this.getAttribute("href");
-//     console.log(id);
-//     document.querySelector(id).scrollIntoView({
-//       behavior: "smooth",
-//     });
-//   });
-// });
+
 ///----------Method 2----------------//////////
 document.querySelector(".nav__links").addEventListener("click", function (e) {
   e.preventDefault();
@@ -42,28 +31,29 @@ document.querySelector(".nav__links").addEventListener("click", function (e) {
 const logo = document.querySelector(".logo");
 const home_page = document.querySelector("#home");
 
-logo.addEventListener("click", function () {
-  home_page.scrollIntoView({
-    behavior: "smooth",
-  });
-});
-
 ///----------Content sliding in----------------//////////
 const header = document.querySelector(".header");
 const nav = document.querySelector(".nav");
+const navHeight = nav.getBoundingClientRect().height;
 const obsCallBack = function (entries) {
-  entries.forEach((entry) => {
-    if (!entry.isIntersecting) {
-      nav.classList.add("sticky");
-    } else {
-      nav.classList.remove("sticky");
-    }
-  });
+  const [entry] = entries;
+
+  if (!entry.isIntersecting) {
+    nav.classList.add("sticky");
+  } else {
+    nav.classList.remove("sticky");
+  }
 };
 
 const observer = new IntersectionObserver(obsCallBack, {
   root: null,
   threshold: 0,
-  rootMargin: "-128px",
+  rootMargin: `-${navHeight}px`,
 });
 observer.observe(header);
+
+logo.addEventListener("click", function () {
+  home_page.scrollIntoView({
+    behavior: "smooth",
+  });
+});

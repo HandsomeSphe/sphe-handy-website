@@ -1,7 +1,7 @@
 ///Navigation
 .logo {
-  width: 3.5rem;
-  height: 3.5rem;
+  height: 4.5rem;
+  transition: all 0.3s;
   cursor: pointer;
 
   @include respond(desktop) {
@@ -30,15 +30,13 @@
   }
 }
 .nav {
-  width: 100%;
-  height: 8rem;
-  // padding: 1.1rem 3rem 0 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  transition: all ease-in 0.4s;
-  z-index: 999;
+  height: 9rem;
+  width: 100%;
+  padding: 0 6rem;
+  z-index: 100;
   backface-visibility: hidden;
 
   @include respond(desktop) {
@@ -70,10 +68,9 @@
 
   //Links
   &__links {
-    width: 52rem;
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+    align-items: center;
+    list-style: none;
 
     @include respond(desktop) {
       width: 50rem;
@@ -95,17 +92,18 @@
     }
   }
   &__item {
-    width: 9rem;
-    text-align: center;
+    margin-left: 4rem;
     @include respond(desktop) {
       width: 9rem;
     }
   }
   &__link {
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.7rem;
+    font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s;
 
     @include respond(desktop) {
       font-size: 1.25rem;
@@ -116,16 +114,10 @@
   }
 }
 .nav__item--btn {
-  width: 9rem;
-  border: none;
-  background-color: #fff;
-  border-radius: 2rem;
-  cursor: pointer;
-  transition: all ease-in 0.4s;
-  padding: 0.4rem 0;
-  // @include respond(tab-land) {
-  //   border: 0.23rem solid rgba(173, 240, 209, 1);
-  // }
+  padding: 0.4rem 2rem;
+  border-radius: 3rem;
+  background-color: #ffff;
+  color: #222;
 }
 .nav__link--btn {
   color: #000;
@@ -139,10 +131,8 @@
   width: 2.4rem;
   height: 2.7rem;
   cursor: pointer;
+
   display: none;
-  position: absolute;
-  top: 40%;
-  right: 5%;
   @include respond(tablet) {
     display: block;
   }
@@ -207,7 +197,7 @@
   border: none;
   border-radius: 5px;
 }
-.sticky {
+.nav.sticky {
   background-color: rgba(1, 31, 60, 0.97);
   position: fixed;
   top: 0;
