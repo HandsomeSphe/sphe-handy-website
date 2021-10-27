@@ -68,6 +68,21 @@
   transform: translate(-50%, -50%);
   padding: 1rem 3rem;
   visibility: hidden;
+  @include respond(tab-land) {
+    width: 37rem;
+    height: 30rem;
+    padding: 2rem 3rem;
+  }
+  @include respond(tab-port) {
+    width: 35rem;
+    height: 30rem;
+    padding: 1rem 2rem;
+  }
+  @include respond(s-phone) {
+    width: 32rem;
+    height: 30rem;
+    padding: 1rem 2rem;
+  }
   @include respond(xs-phone) {
     width: 30rem;
     height: 30rem;
