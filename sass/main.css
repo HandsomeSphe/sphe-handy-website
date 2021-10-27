@@ -62,8 +62,6 @@ body {
   height: 100vh;
   background: linear-gradient(13.22deg, rgba(0, 0, 0, 0.33) 9.37%, rgba(0, 0, 0, 0) 45.79%), linear-gradient(184.27deg, rgba(173, 240, 209, 0.43) 3.47%, rgba(173, 240, 209, 0.0645) 49.01%), rgba(1, 31, 60, 0.72);
   position: relative;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
 }
 
 .header__title {
@@ -3070,6 +3068,7 @@ h1 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3b5999;
   text-align: center;
   padding: 4rem 0 0 0;
+  position: relative;
 }
 
 @media only screen and (max-width: 48em) {
@@ -3147,5 +3146,97 @@ h1 {
   #mySelfLogo {
     width: 9rem;
   }
+}
+
+.contactpage {
+  width: 37rem;
+  height: 30rem;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 1rem 3rem;
+  visibility: hidden;
+}
+
+.contact-popup--heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.contact-popup--title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+}
+
+.contact-popup--remove {
+  width: 1.7rem;
+  height: 1.7rem;
+  border: 1px solid red;
+  color: red;
+  background-color: transparent;
+  border-radius: 3rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+label {
+  margin: 0;
+  padding: 0;
+  width: 25rem;
+}
+
+.username,
+.email {
+  width: 25rem;
+  height: 3rem;
+  margin-bottom: 0.5rem;
+  padding: 0 1rem;
+}
+
+#mssg {
+  width: 25rem;
+  height: 10rem;
+  resize: none;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+#mssg:active,
+#mssg:focus {
+  outline: none;
+}
+
+.username:focus,
+.username:active,
+.email:focus,
+.email:active {
+  outline: none;
+}
+
+.submit {
+  background-color: #adf0d1;
+  width: 25rem;
+  height: 3rem;
+  border: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

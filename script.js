@@ -68,3 +68,29 @@ const observer = new IntersectionObserver(obsCallBack, {
   rootMargin: `-${navHeight}px`,
 });
 observer.observe(header);
+/////--------------------Contact form---------------/////////
+const contact_btn = document.querySelector("#footer__btn");
+const contact_popup = document.querySelector(".contactpage");
+const contact_remove = document.querySelector(".contact-popup--remove");
+const submit_btn = document.querySelector("#submitpopup");
+const firstname_input = document.querySelector(".username");
+const email_input = document.querySelector(".email");
+const message_area = document.querySelector("#mssg");
+
+//Display the popup form
+contact_btn.addEventListener("click", function () {
+  contact_popup.style.visibility = "visible";
+});
+//Remove the popup form
+contact_remove.addEventListener("click", function () {
+  contact_popup.style.visibility = "hidden";
+});
+//clear the input fields after 1 minute
+submit_btn.addEventListener("click", function (e) {
+  // e.preventDefault();
+  setTimeout(function () {
+    firstname_input.value = "";
+    email_input.value = "";
+    message_area.value = "";
+  }, 1500);
+});

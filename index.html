@@ -528,13 +528,41 @@
           </div>
         </div>
       </section>
-      <!-----Contact Page Popup-->
-      <!-- <section class="contactpage">
-        <div class="contact-popup">
-          <div class="popup__contact">Contact me</div>
-          <form action="#" class="input__contact">
-            <input type="text" class="username" placeholder="FirstName" />
-            <input type="email" class="username" placeholder="email" />
+
+      <footer class="section" id="footer">
+        <!-----Contact Page Popup-->
+
+        <div class="contactpage">
+          <div class="contact-popup--heading">
+            <div class="contact-popup--title">Contact me</div>
+            <button class="contact-popup--remove">X</button>
+          </div>
+
+          <form
+            action="https://formspree.io/f/xbjqebya"
+            method="POST"
+            class="contact-input"
+            target="_blank"
+          >
+            <label for="firstname"
+              ><input
+                type="text"
+                class="username"
+                placeholder="FirstName"
+                id="firstname"
+                name="firstname"
+                required
+            /></label>
+            <label for="email">
+              <input
+                type="email"
+                class="email"
+                placeholder="Email"
+                id="email"
+                name="email"
+                required
+            /></label>
+
             <textarea
               name="message"
               id="mssg"
@@ -542,10 +570,12 @@
               rows="10"
               placeholder="Message"
             ></textarea>
+            <button type="submit" class="submit" id="submitpopup">
+              submit
+            </button>
           </form>
         </div>
-      </section> -->
-      <footer class="section" id="footer">
+
         <div id="footer__heading">
           Every website I ever built or design was out of love
         </div>
