@@ -68,6 +68,11 @@
   transform: translate(-50%, -50%);
   padding: 1rem 3rem;
   visibility: hidden;
+  @include respond(xs-phone) {
+    width: 30rem;
+    height: 25rem;
+    padding: 1rem 2rem;
+  }
 }
 
 .contact-popup {

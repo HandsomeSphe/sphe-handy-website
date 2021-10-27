@@ -3161,6 +3161,14 @@ h1 {
   visibility: hidden;
 }
 
+@media only screen and (max-width: 20em) {
+  .contactpage {
+    width: 30rem;
+    height: 25rem;
+    padding: 1rem 2rem;
+  }
+}
+
 .contact-popup--heading {
   display: -webkit-box;
   display: -ms-flexbox;
