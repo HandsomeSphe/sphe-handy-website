@@ -1,5 +1,6 @@
 //All of my Selectors
 const burger_icon = document.querySelector(".burger__icon");
+const second_burger_icon = document.querySelector("#secondburger");
 const smallscreens_menu = document.querySelector(".menu");
 const smallScreenRemove_btn = document.querySelector(".remove");
 const website = document.querySelector(".main");
@@ -9,6 +10,7 @@ burger_icon.addEventListener("click", function () {
   smallscreens_menu.style.display = "block";
   website.style.display = "none";
 });
+
 ///---------Smooth Scroll for small screens----------------//////////
 document.querySelector(".menu__links").addEventListener("click", function (e) {
   e.preventDefault();
@@ -50,14 +52,16 @@ logo.addEventListener("click", function () {
 
 ///----------Navigation sliding in----------------//////////
 const header = document.querySelector(".header");
-const nav = document.querySelector(".nav");
+const nav = document.querySelector("#fixedbar");
 const navHeight = nav.getBoundingClientRect().height;
 const obsCallBack = function (entries) {
   const [entry] = entries;
 
   if (!entry.isIntersecting) {
+    nav.style.display = "flex";
     nav.classList.add("sticky");
   } else {
+    nav.style.display = "none";
     nav.classList.remove("sticky");
   }
 };
