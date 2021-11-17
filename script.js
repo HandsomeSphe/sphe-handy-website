@@ -28,18 +28,19 @@ smallScreenRemove_btn.addEventListener("click", function () {
   smallscreens_menu.style.display = "none";
   website.style.display = "";
 });
-
-///----------Method 2 for smooth scroll----------------//////////
-document.querySelector(".nav__links").addEventListener("click", function (e) {
+const scrollPage = function (e) {
   e.preventDefault();
-
   if (e.target.classList.contains("nav__link")) {
     const id = e.target.getAttribute("href");
     document.querySelector(id).scrollIntoView({
       behavior: "smooth",
     });
   }
-});
+};
+
+///----------Method 2 for smooth scroll----------------//////////
+document.querySelector(".nav__links").addEventListener("click", scrollPage);
+document.querySelector("#actualnav").addEventListener("click", scrollPage);
 
 ///----------Clicking on the Logo----------------//////////
 const logo = document.querySelector(".logo");

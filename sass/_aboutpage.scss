@@ -231,6 +231,7 @@
 }
 .my-location {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 8.5rem;
@@ -238,6 +239,7 @@
   font-size: 1.1rem;
   margin-bottom: 2rem;
   color: rgba(255, 255, 255, 0.7);
+
   @include respond(desktop) {
     display: flex;
     justify-content: space-between;
