@@ -10,6 +10,10 @@ burger_icon.addEventListener("click", function () {
   smallscreens_menu.style.display = "block";
   website.style.display = "none";
 });
+second_burger_icon.addEventListener("click", function () {
+  smallscreens_menu.style.display = "block";
+  website.style.display = "none";
+});
 
 ///---------Smooth Scroll for small screens----------------//////////
 document.querySelector(".menu__links").addEventListener("click", function (e) {
