@@ -308,7 +308,9 @@
     width: 32.5rem;
   }
 }
-.project__photo-second {
+
+.project__photo-second,
+#OGpic {
   order: 2;
   // @include respond(desktop) {
   //   order: 2;

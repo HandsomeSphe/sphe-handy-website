@@ -2267,14 +2267,16 @@ h1 {
   }
 }
 
-.project__photo-second {
+.project__photo-second,
+#OGpic {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
 }
 
 @media only screen and (max-width: 31em) {
-  .project__photo-second {
+  .project__photo-second,
+  #OGpic {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
@@ -2282,7 +2284,8 @@ h1 {
 }
 
 @media only screen and (max-width: 26.5625em) {
-  .project__photo-second {
+  .project__photo-second,
+  #OGpic {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
@@ -2290,7 +2293,8 @@ h1 {
 }
 
 @media only screen and (max-width: 23.4375em) {
-  .project__photo-second {
+  .project__photo-second,
+  #OGpic {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
@@ -2298,7 +2302,8 @@ h1 {
 }
 
 @media only screen and (max-width: 20em) {
-  .project__photo-second {
+  .project__photo-second,
+  #OGpic {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
