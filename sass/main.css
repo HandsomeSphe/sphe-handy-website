@@ -3281,4 +3281,11 @@ label {
   border: none;
   cursor: pointer;
 }
+
+.last-touch {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(189, 189, 189, 0.6);
+  margin: 2rem 0;
+}
 /*# sourceMappingURL=main.css.map */
