@@ -4,6 +4,7 @@ const second_burger_icon = document.querySelector("#secondburger");
 const smallscreens_menu = document.querySelector(".menu");
 const smallScreenRemove_btn = document.querySelector(".remove");
 const website = document.querySelector(".main");
+const years_of_coding = document.querySelector(".time-experience")
 
 //Showing small screen menu
 burger_icon.addEventListener("click", function () {
@@ -103,3 +104,9 @@ submit_btn.addEventListener("click", function (e) {
     message_area.value = "";
   }, 1500);
 });
+
+let now = new Date();
+let current_date = now.getFullYear()
+var time = current_date - 2018;
+
+years_of_coding.textContent = time;
