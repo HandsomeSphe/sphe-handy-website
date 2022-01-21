@@ -1,3 +1,31 @@
+@mixin respond($breakpoint) {
+
+  @if $breakpoint == phone-port {
+    @media only screen and (max-width: 35.99875em) {
+      @content;
+    }
+  }
+  @if $breakpoint == phone-land {
+    @media only screen and (max-width: 47.99875em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media only screen and (max-width: 61.99875em) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media only screen and (min-width: 74.99875em) {
+      @content;
+    }
+  }
+  @if $breakpoint == lg-desktop {
+    @media only screen and (min-width: 87.49875em) {
+      @content;
+    }
+  }
+}
 // @mixin respond($breakpoint) {
 //   @if $breakpoint == xs-phone {
 //     @media only screen and (max-width: 20em) {
@@ -50,29 +78,29 @@
   box-sizing: inherit;
 }
 
-// html {
-//   font-family: "Poppins", sans-serif;
-//   box-sizing: border-box;
-//   font-size: 62.5%;
-//   @include respond(tab-port) {
-//     font-size: 50%;
-//   }
-//   @include respond(tablet) {
-//     font-size: 50%;
-//   }
-//   @include respond(tab-land) {
-//     font-size: 56.25%;
-//   }
-//   @include respond(desktop) {
-//     font-size: 75%;
-//   }
-//   @include respond(lan-desktop) {
-//     font-size: 94%;
-//   }
-//   @include respond(big-desktop) {
-//     font-size: 99%;
-//   }
-// }
+html {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+  @include respond(tablet) {
+    font-size: 50%;
+  }
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+  @include respond(desktop) {
+    font-size: 75%;
+  }
+  @include respond(lan-desktop) {
+    font-size: 94%;
+  }
+  @include respond(big-desktop) {
+    font-size: 99%;
+  }
+}
 // body {
 //   background-color: #3a3737;
 
