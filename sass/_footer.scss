@@ -1,161 +1,161 @@
-#footer {
-  height: 40rem;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    #3b5999;
-  text-align: center;
-  padding: 4rem 0 0 0;
-  position: relative;
-  @include respond(tab-land) {
-    height: auto;
-  }
-  @include respond(tab-port) {
-    height: auto;
-  }
-  @include respond(s-phone) {
-    padding: 4rem 1.5rem 0 1.5rem;
-    height: auto;
-  }
-  @include respond(xs-phone) {
-    height: auto;
-    padding: 4rem 1.5rem 0 1.5rem;
-  }
+// #footer {
+//   height: 40rem;
+//   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+//     #3b5999;
+//   text-align: center;
+//   padding: 4rem 0 0 0;
+//   position: relative;
+//   @include respond(tab-land) {
+//     height: auto;
+//   }
+//   @include respond(tab-port) {
+//     height: auto;
+//   }
+//   @include respond(s-phone) {
+//     padding: 4rem 1.5rem 0 1.5rem;
+//     height: auto;
+//   }
+//   @include respond(xs-phone) {
+//     height: auto;
+//     padding: 4rem 1.5rem 0 1.5rem;
+//   }
 
-  &__heading {
-    font-size: 1.7rem;
-    font-weight: 400;
-    margin-bottom: 3rem;
-    color: rgb(189, 189, 189);
-    @include respond(xs-phone) {
-      font-size: 1.5rem;
-    }
-  }
-  &__btn {
-    width: 17rem;
-    height: 4rem;
-    background-color: #fff;
-    border: none;
-    border-radius: 20rem;
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #666;
-    font-family: inherit;
-    margin-bottom: 3rem;
-    cursor: pointer;
-    transition: all ease-in 0.4s;
-    @include respond(xs-phone) {
-      font-size: 1.2rem;
-    }
-    &:hover {
-      width: 19rem;
-      background-color: #666;
-      color: #fff;
-    }
-  }
-}
-#mySelfLogo {
-  margin-bottom: 6rem;
-  @include respond(xs-phone) {
-    width: 9rem;
-  }
-}
-.contactpage {
-  width: 37rem;
-  height: 30rem;
-  background-color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1rem 3rem;
-  visibility: hidden;
-  @include respond(tab-land) {
-    width: 37rem;
-    height: 30rem;
-    padding: 2rem 3rem;
-  }
-  @include respond(tab-port) {
-    width: 35rem;
-    height: 30rem;
-    padding: 1rem 2rem;
-  }
-  @include respond(s-phone) {
-    width: 32rem;
-    height: 30rem;
-    padding: 1rem 2rem;
-  }
-  @include respond(xs-phone) {
-    width: 30rem;
-    height: 30rem;
-    padding: 1rem 2rem;
-  }
-}
+//   &__heading {
+//     font-size: 1.7rem;
+//     font-weight: 400;
+//     margin-bottom: 3rem;
+//     color: rgb(189, 189, 189);
+//     @include respond(xs-phone) {
+//       font-size: 1.5rem;
+//     }
+//   }
+//   &__btn {
+//     width: 17rem;
+//     height: 4rem;
+//     background-color: #fff;
+//     border: none;
+//     border-radius: 20rem;
+//     font-size: 1.2rem;
+//     font-weight: 500;
+//     color: #666;
+//     font-family: inherit;
+//     margin-bottom: 3rem;
+//     cursor: pointer;
+//     transition: all ease-in 0.4s;
+//     @include respond(xs-phone) {
+//       font-size: 1.2rem;
+//     }
+//     &:hover {
+//       width: 19rem;
+//       background-color: #666;
+//       color: #fff;
+//     }
+//   }
+// }
+// #mySelfLogo {
+//   margin-bottom: 6rem;
+//   @include respond(xs-phone) {
+//     width: 9rem;
+//   }
+// }
+// .contactpage {
+//   width: 37rem;
+//   height: 30rem;
+//   background-color: white;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   padding: 1rem 3rem;
+//   visibility: hidden;
+//   @include respond(tab-land) {
+//     width: 37rem;
+//     height: 30rem;
+//     padding: 2rem 3rem;
+//   }
+//   @include respond(tab-port) {
+//     width: 35rem;
+//     height: 30rem;
+//     padding: 1rem 2rem;
+//   }
+//   @include respond(s-phone) {
+//     width: 32rem;
+//     height: 30rem;
+//     padding: 1rem 2rem;
+//   }
+//   @include respond(xs-phone) {
+//     width: 30rem;
+//     height: 30rem;
+//     padding: 1rem 2rem;
+//   }
+// }
 
-.contact-popup {
-  &--heading {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2rem;
-  }
-  &--title {
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: black;
-  }
-  &--remove {
-    width: 1.7rem;
-    height: 1.7rem;
+// .contact-popup {
+//   &--heading {
+//     display: flex;
+//     justify-content: space-between;
+//     margin-bottom: 2rem;
+//   }
+//   &--title {
+//     font-size: 1.5rem;
+//     font-weight: 500;
+//     color: black;
+//   }
+//   &--remove {
+//     width: 1.7rem;
+//     height: 1.7rem;
 
-    border: 1px solid red;
-    color: red;
-    background-color: transparent;
-    border-radius: 3rem;
-    text-align: center;
-    cursor: pointer;
-  }
-}
-.contact-input {
-  display: flex;
-  flex-direction: column;
-}
-label {
-  margin: 0;
-  padding: 0;
-  width: 25rem;
-}
-.username,
-.email {
-  width: 25rem;
-  height: 3rem;
-  margin-bottom: 0.5rem;
-  padding: 0 1rem;
-}
-#mssg {
-  width: 25rem;
-  height: 10rem;
-  resize: none;
-  margin-bottom: 0.5rem;
-  padding: 0.5rem 1rem;
-}
-#mssg:active,
-#mssg:focus {
-  outline: none;
-}
-.username:focus,
-.username:active,
-.email:focus,
-.email:active {
-  outline: none;
-}
-.submit {
-  background-color: rgba(173, 240, 209, 1);
-  width: 25rem;
-  height: 3rem;
-  border: none;
-  cursor: pointer;
-}
-.last-touch{
-  font-size:1.2rem;
-  font-weight:400;
-  color:rgba(189, 189, 189,.6);
-  margin:2rem 0;
-}
+//     border: 1px solid red;
+//     color: red;
+//     background-color: transparent;
+//     border-radius: 3rem;
+//     text-align: center;
+//     cursor: pointer;
+//   }
+// }
+// .contact-input {
+//   display: flex;
+//   flex-direction: column;
+// }
+// label {
+//   margin: 0;
+//   padding: 0;
+//   width: 25rem;
+// }
+// .username,
+// .email {
+//   width: 25rem;
+//   height: 3rem;
+//   margin-bottom: 0.5rem;
+//   padding: 0 1rem;
+// }
+// #mssg {
+//   width: 25rem;
+//   height: 10rem;
+//   resize: none;
+//   margin-bottom: 0.5rem;
+//   padding: 0.5rem 1rem;
+// }
+// #mssg:active,
+// #mssg:focus {
+//   outline: none;
+// }
+// .username:focus,
+// .username:active,
+// .email:focus,
+// .email:active {
+//   outline: none;
+// }
+// .submit {
+//   background-color: rgba(173, 240, 209, 1);
+//   width: 25rem;
+//   height: 3rem;
+//   border: none;
+//   cursor: pointer;
+// }
+// .last-touch{
+//   font-size:1.2rem;
+//   font-weight:400;
+//   color:rgba(189, 189, 189,.6);
+//   margin:2rem 0;
+// }

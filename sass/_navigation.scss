@@ -1,207 +1,207 @@
-///Navigation
-.logo {
-  height: 4.5rem;
-  transition: all 0.3s;
-  cursor: pointer;
+// ///Navigation
+// .logo {
+//   height: 4.5rem;
+//   transition: all 0.3s;
+//   cursor: pointer;
 
-  @include respond(desktop) {
-    width: 2.7rem;
-    height: 2.7rem;
-  }
-  @include respond(tab-land) {
-    width: 3.2rem;
-    height: 3.2rem;
-  }
-  @include respond(tablet) {
-    width: 3.3rem;
-    height: 3.3rem;
-  }
-  @include respond(tab-port) {
-    width: 3.4rem;
-    height: 3.4rem;
-  }
-  @include respond(s-phone) {
-    width: 3rem;
-    height: 3rem;
-  }
-  @include respond(xs-phone) {
-    width: 3rem;
-    height: 3rem;
-  }
-}
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 9rem;
-  width: 100%;
-  padding: 0 6rem;
-  z-index: 200;
-  // backface-visibility: hidden;
+//   @include respond(desktop) {
+//     width: 2.7rem;
+//     height: 2.7rem;
+//   }
+//   @include respond(tab-land) {
+//     width: 3.2rem;
+//     height: 3.2rem;
+//   }
+//   @include respond(tablet) {
+//     width: 3.3rem;
+//     height: 3.3rem;
+//   }
+//   @include respond(tab-port) {
+//     width: 3.4rem;
+//     height: 3.4rem;
+//   }
+//   @include respond(s-phone) {
+//     width: 3rem;
+//     height: 3rem;
+//   }
+//   @include respond(xs-phone) {
+//     width: 3rem;
+//     height: 3rem;
+//   }
+// }
+// .nav {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   height: 9rem;
+//   width: 100%;
+//   padding: 0 6rem;
+//   z-index: 200;
+//   // backface-visibility: hidden;
 
-  @include respond(desktop) {
-    max-width: 100%;
-    height: 6rem;
-    padding: 1.1rem 3rem 0 1.5rem;
-  }
-  @include respond(tab-land) {
-    height: 7rem;
-    padding: 1.4rem 3rem;
-  }
-  @include respond(tablet) {
-    height: 7.5rem;
-    padding: 1.4rem 3rem;
-  }
-  @include respond(tab-port) {
-    height: 8rem;
-    padding: 1.4rem 2rem;
-  }
-  @include respond(s-phone) {
-    height: 8.5rem;
-    padding: 1.3rem 1.5rem;
-  }
-  @include respond(xs-phone) {
-    height: 6.5rem;
-    padding: 1.3rem 1.5rem;
-    // background-color: orchid;
-  }
+//   @include respond(desktop) {
+//     max-width: 100%;
+//     height: 6rem;
+//     padding: 1.1rem 3rem 0 1.5rem;
+//   }
+//   @include respond(tab-land) {
+//     height: 7rem;
+//     padding: 1.4rem 3rem;
+//   }
+//   @include respond(tablet) {
+//     height: 7.5rem;
+//     padding: 1.4rem 3rem;
+//   }
+//   @include respond(tab-port) {
+//     height: 8rem;
+//     padding: 1.4rem 2rem;
+//   }
+//   @include respond(s-phone) {
+//     height: 8.5rem;
+//     padding: 1.3rem 1.5rem;
+//   }
+//   @include respond(xs-phone) {
+//     height: 6.5rem;
+//     padding: 1.3rem 1.5rem;
+//     // background-color: orchid;
+//   }
 
-  //Links
-  &__links {
-    display: flex;
-    align-items: center;
-    list-style: none;
+//   //Links
+//   &__links {
+//     display: flex;
+//     align-items: center;
+//     list-style: none;
 
-    @include respond(desktop) {
-      width: 50rem;
-    }
-    @include respond(tab-land) {
-      width: 56%;
-    }
-    @include respond(tablet) {
-      display: none;
-    }
-    @include respond(tab-port) {
-      display: none;
-    }
-    @include respond(s-phone) {
-      display: none;
-    }
-    @include respond(xs-phone) {
-      display: none;
-    }
-  }
-  &__item {
-    margin-left: 4rem;
-    @include respond(desktop) {
-      width: 9rem;
-    }
-  }
-  &__link {
-    font-size: 1.7rem;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    display: block;
-    transition: all 0.3s;
+//     @include respond(desktop) {
+//       width: 50rem;
+//     }
+//     @include respond(tab-land) {
+//       width: 56%;
+//     }
+//     @include respond(tablet) {
+//       display: none;
+//     }
+//     @include respond(tab-port) {
+//       display: none;
+//     }
+//     @include respond(s-phone) {
+//       display: none;
+//     }
+//     @include respond(xs-phone) {
+//       display: none;
+//     }
+//   }
+//   &__item {
+//     margin-left: 4rem;
+//     @include respond(desktop) {
+//       width: 9rem;
+//     }
+//   }
+//   &__link {
+//     font-size: 1.7rem;
+//     font-weight: 400;
+//     color: rgba(255, 255, 255, 0.8);
+//     text-decoration: none;
+//     display: block;
+//     transition: all 0.3s;
 
-    @include respond(desktop) {
-      font-size: 1.25rem;
-    }
-    @include respond(tab-land) {
-      font-size: 1.2rem;
-    }
-  }
-}
-.nav__item--btn {
-  padding: 0.4rem 2rem;
-  border-radius: 3rem;
-  background-color: #ffff;
-  color: #222;
-}
-.nav__link--btn {
-  color: #000;
-  font-size: 1.1rem;
-}
-.nav__item--btn:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-/// Burger icon
-.burger__icon {
-  width: 2.4rem;
-  height: 2.7rem;
-  cursor: pointer;
+//     @include respond(desktop) {
+//       font-size: 1.25rem;
+//     }
+//     @include respond(tab-land) {
+//       font-size: 1.2rem;
+//     }
+//   }
+// }
+// .nav__item--btn {
+//   padding: 0.4rem 2rem;
+//   border-radius: 3rem;
+//   background-color: #ffff;
+//   color: #222;
+// }
+// .nav__link--btn {
+//   color: #000;
+//   font-size: 1.1rem;
+// }
+// .nav__item--btn:hover {
+//   background-color: rgba(255, 255, 255, 0.5);
+// }
+// /// Burger icon
+// .burger__icon {
+//   width: 2.4rem;
+//   height: 2.7rem;
+//   cursor: pointer;
 
-  display: none;
-  @include respond(tablet) {
-    display: block;
-  }
+//   display: none;
+//   @include respond(tablet) {
+//     display: block;
+//   }
 
-  @include respond(tab-port) {
-    display: block;
-  }
-  @include respond(s-phone) {
-    display: block;
-  }
-  @include respond(xs-phone) {
-    display: block;
-  }
-}
+//   @include respond(tab-port) {
+//     display: block;
+//   }
+//   @include respond(s-phone) {
+//     display: block;
+//   }
+//   @include respond(xs-phone) {
+//     display: block;
+//   }
+// }
 
-.burger__icon--line {
-  width: 100%;
-  height: 0.4rem;
-  background-color: rgba(255, 255, 255, 0.6);
-}
-.burger__icon--line:not(:last-child) {
-  margin-bottom: 0.16rem;
-}
-.menu {
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(1, 31, 60, 1);
-  padding: 2rem 0;
-  position: absolute;
-  top: 0;
-  left: 0;
+// .burger__icon--line {
+//   width: 100%;
+//   height: 0.4rem;
+//   background-color: rgba(255, 255, 255, 0.6);
+// }
+// .burger__icon--line:not(:last-child) {
+//   margin-bottom: 0.16rem;
+// }
+// .menu {
+//   width: 100%;
+//   height: 100vh;
+//   background-color: rgba(1, 31, 60, 1);
+//   padding: 2rem 0;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
 
-  //Hide
-  display: none;
-  &__links {
-    width: 100%;
-    height: 65vh;
-    margin-top: 4rem;
+//   //Hide
+//   display: none;
+//   &__links {
+//     width: 100%;
+//     height: 65vh;
+//     margin-top: 4rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-  }
-  &__item {
-    width: 30%;
-    text-align: center;
-  }
-  &__link {
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.8);
-  }
-}
-.remove {
-  float: right;
-  margin: 1rem 2rem;
-  width: 2rem;
-  height: 2rem;
-  border: none;
-  border-radius: 5px;
-}
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     align-items: center;
+//     list-style-type: none;
+//   }
+//   &__item {
+//     width: 30%;
+//     text-align: center;
+//   }
+//   &__link {
+//     text-decoration: none;
+//     font-size: 1.5rem;
+//     font-weight: 500;
+//     color: rgba(255, 255, 255, 0.8);
+//   }
+// }
+// .remove {
+//   float: right;
+//   margin: 1rem 2rem;
+//   width: 2rem;
+//   height: 2rem;
+//   border: none;
+//   border-radius: 5px;
+// }
 
-.sticky {
-  display: flex;
-  background-color: rgb(1, 71, 136);
-  position: fixed;
-  top: 0;
-  z-index: 399999;
-}
+// .sticky {
+//   display: flex;
+//   background-color: rgb(1, 71, 136);
+//   position: fixed;
+//   top: 0;
+//   z-index: 399999;
+// }

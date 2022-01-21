@@ -1,46 +1,46 @@
-@mixin respond($breakpoint) {
-  @if $breakpoint == xs-phone {
-    @media only screen and (max-width: 20em) {
-      @content;
-    }
-  }
-  @if $breakpoint == s-phone {
-    @media only screen and (max-width: 23.4375em) {
-      @content;
-    }
-  }
+// @mixin respond($breakpoint) {
+//   @if $breakpoint == xs-phone {
+//     @media only screen and (max-width: 20em) {
+//       @content;
+//     }
+//   }
+//   @if $breakpoint == s-phone {
+//     @media only screen and (max-width: 23.4375em) {
+//       @content;
+//     }
+//   }
 
-  @if $breakpoint == tab-port {
-    @media only screen and (max-width: 26.5625em) {
-      @content;
-    }
-  }
-  @if $breakpoint == tablet {
-    @media only screen and (max-width: 31em) {
-      @content;
-    }
-  }
-  @if $breakpoint == tab-land {
-    @media only screen and (max-width: 48em) {
-      @content;
-    }
-  }
-  @if $breakpoint == desktop {
-    @media only screen and (min-width: 64em) {
-      @content;
-    }
-  }
-  @if $breakpoint == lan-desktop {
-    @media only screen and (min-width: 90em) {
-      @content;
-    }
-  }
-  @if $breakpoint == big-desktop {
-    @media only screen and (min-width: 160em) {
-      @content;
-    }
-  }
-}
+//   @if $breakpoint == tab-port {
+//     @media only screen and (max-width: 26.5625em) {
+//       @content;
+//     }
+//   }
+//   @if $breakpoint == tablet {
+//     @media only screen and (max-width: 31em) {
+//       @content;
+//     }
+//   }
+//   @if $breakpoint == tab-land {
+//     @media only screen and (max-width: 48em) {
+//       @content;
+//     }
+//   }
+//   @if $breakpoint == desktop {
+//     @media only screen and (min-width: 64em) {
+//       @content;
+//     }
+//   }
+//   @if $breakpoint == lan-desktop {
+//     @media only screen and (min-width: 90em) {
+//       @content;
+//     }
+//   }
+//   @if $breakpoint == big-desktop {
+//     @media only screen and (min-width: 160em) {
+//       @content;
+//     }
+//   }
+// }
 
 *,
 *::before,
@@ -50,33 +50,33 @@
   box-sizing: inherit;
 }
 
-html {
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-  font-size: 62.5%;
-  @include respond(tab-port) {
-    font-size: 50%;
-  }
-  @include respond(tablet) {
-    font-size: 50%;
-  }
-  @include respond(tab-land) {
-    font-size: 56.25%;
-  }
-  @include respond(desktop) {
-    font-size: 75%;
-  }
-  @include respond(lan-desktop) {
-    font-size: 94%;
-  }
-  @include respond(big-desktop) {
-    font-size: 99%;
-  }
-}
-body {
-  background-color: #3a3737;
+// html {
+//   font-family: "Poppins", sans-serif;
+//   box-sizing: border-box;
+//   font-size: 62.5%;
+//   @include respond(tab-port) {
+//     font-size: 50%;
+//   }
+//   @include respond(tablet) {
+//     font-size: 50%;
+//   }
+//   @include respond(tab-land) {
+//     font-size: 56.25%;
+//   }
+//   @include respond(desktop) {
+//     font-size: 75%;
+//   }
+//   @include respond(lan-desktop) {
+//     font-size: 94%;
+//   }
+//   @include respond(big-desktop) {
+//     font-size: 99%;
+//   }
+// }
+// body {
+//   background-color: #3a3737;
 
-  font-weight: 300;
-  color: #ffff;
-  line-height: 1.9;
-}
+//   font-weight: 300;
+//   color: #ffff;
+//   line-height: 1.9;
+// }
