@@ -1,18 +1,97 @@
 body{
-    background-color:#3A3737;
+    background: linear-gradient(13.22deg, rgba(0, 0, 0, 0.33) 9.37%, 
+    rgba(0, 0, 0, 0) 45.79%), 
+    linear-gradient(184.27deg, rgba(173, 240, 209, 0.43) 3.47%, rgba(173, 240, 209, 0.0645) 49.01%), 
+    rgba(1, 31, 60, 0.72);
+    height:80rem;
+    width:100%;
+
+}
+#home{
+    background: linear-gradient(13.22deg, rgba(0, 0, 0, 0.33) 9.37%, 
+    rgba(0, 0, 0, 0) 45.79%), 
+    linear-gradient(184.27deg, rgba(173, 240, 209, 0.43) 3.47%, rgba(173, 240, 209, 0.0645) 49.01%), 
+    rgba(1, 31, 60, 0.72);
+    height:50rem;
+    width:100%;
+    padding:10rem 3rem;
+    color:white;
+}
+.helloText{
+    font-size:1.1rem;
+    font-weight:500;
+    color:rgba(255,255,255,.6);
+}
+.nameText{
+    font-size:5rem;
+    font-weight:800;
+    line-height: 6.5rem;
+}
+.nameTextOptions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65rem;
+    height: 6rem;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+.options{
+    width: 27rem;
+    height:6.7rem;
+    overflow: hidden;
+}
+.options span{
+    display: block;
+    height: 100%;
+    padding-left: 0.1rem;
+    padding-top: 0.35rem;
+    font-size: 5rem;
+    font-weight: 700;
+    animation: spin_words 6s infinite;
 }
 
+@keyframes spin_words {
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    85%{
+        transform: translateY(-212%);
+    }
+    100%{
+        transform: translateY(-200);
+    }
+}
+// @keyframes spin_words {
+//   10% {
+//     transform: translateY(-112%);
+//   }
+//   25% {
+//     transform: translateY(-100%);
+//   }
+//   35% {
+//     transform: translateY(-212%);
+//   }
+//   50% {
+//     transform: translateY(-200%);
+//   }
 
-
-
-
-
-
-
-
-
-
-
+//   85% {
+//     transform: translateY(-212%);
+//   }
+//   100% {
+//     transform: translateY(-200%);
+//   }
+// }
 
 
 
